@@ -1,73 +1,91 @@
 import React from 'react'
-import { Link, useDisclosure } from '@chakra-ui/react'
+import { Link } from '@chakra-ui/react'
 import { Search2Icon } from "@chakra-ui/icons";
-import {
-    Modal,
-    ModalOverlay,
-    ModalContent,
-    ModalHeader,
-    ModalFooter,
-    ModalBody,
-    Button,
-    Text,
-    Stack,
-    Input
-} from '@chakra-ui/react'
+import { Box, HStack } from "@chakra-ui/react";
 function Navbar() {
-    const { isOpen, onOpen, onClose } = useDisclosure()
-    // const initialRef = React.useRef(null)
-    // const finalRef = React.useRef(null)
-
     return (
         <header>
-            <Link to="/"></Link>
-            <Link to="/news"> News</Link>
-            <Link to="/productivity"> Productivity </Link>
-            <Link to="/usecases">Use Cases</Link>
-            <Link to="/about">About</Link>
-            <Link to="/guestpost">Guest Post</Link>
-            <Link to="/about">About</Link>
+            <HStack
+                sx={{
+                    display: "flex",
+                    justifyContent: {
+                        base: "space-evenly",
+                        sm: "space-evenly",
+                        md: "space-evenly",
+                        lg: "space-evenly",
+                        xl: "space-evenly",
+                        "2xl": "center",
+                    },
+                    gap: "1rem"
 
-            <Link to="/search"><Search2Icon color="brand.200" />{"  "}Search</Link>
-            <Button onClick={onOpen}>Open Modal</Button>
+                }}
+            >
+                <Link to="/">
+                    <Box color="brand.300" fontSize="40px" fontWeight="700">
 
-            <Modal isOpen={isOpen}>
-                <ModalOverlay />
-                <ModalContent>
-                    <ModalHeader>Subscribe to Our Newsletter</ModalHeader>
-                    <ModalBody>
-                    Get all the latest & greatest posts delivered straight to your inbox 
-                    </ModalBody>
+                    </Box>
+                </Link>
+                <Link to="/news">
+                    <Box
+                        _hover={{ color: "brand.200" }}
+                        display={{
+                            base: "none",
+                            sm: "none",
+                            md: "none",
+                            lg: "block",
+                            xl: "block",
+                            "2xl": "block",
+                        }}
+                    >
+                        News
+                    </Box>
+                </Link>
 
-                    <ModalFooter>
-                        <Button colorScheme='blue' mr={3} onClick={onClose}>
-                            Subscribe
-                        </Button>
-                    </ModalFooter>
-                </ModalContent>
-            </Modal>
-
-
-
-
-
-
-
-
-
-
-            {/*             
-                    <Stack spacing={3}>
-                        <Input placeholder='default placeholder' />
-                        <Input
-                            placeholder='custom placeholder'
-                            _placeholder={{ opacity: 1, color: 'gray.500' }}
-                        />
-
-                    </Stack> */}
-
-
-
+                <Link>
+                    <Box
+                        _hover={{ color: "brand.200" }}
+                        display={{
+                            base: "none",
+                            sm: "none",
+                            md: "none",
+                            lg: "block",
+                            xl: "block",
+                            "2xl": "block",
+                        }}
+                    >
+                        Pricing
+                    </Box>
+                </Link>
+                <Link to="/search">
+                    <Box>
+                        <Search2Icon color="brand.200" />
+                        {"  "}Search
+                    </Box>
+                </Link>
+                <Link to="/signin">
+                    <Box bg="brand.100" padding="10px 20px" borderRadius="7px">
+                        Sign in
+                    </Box>
+                </Link>
+                <Link to="/signup">
+                    <Box
+                        bg="brand.300"
+                        color="white"
+                        padding="10px 20px"
+                        borderRadius="7px"
+                        display={{
+                            base: "none",
+                            sm: "none",
+                            md: "none",
+                            lg: "none",
+                            xl: "block",
+                            "2xl": "block",
+                        }}
+                    >
+                        Create account
+                    </Box>
+                </Link>
+            </HStack>
         </header>
     )
 }
