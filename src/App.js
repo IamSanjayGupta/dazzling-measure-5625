@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Time from './components/Time';
+import Time from './components/Time/Time';
 
 function App() {
   return (

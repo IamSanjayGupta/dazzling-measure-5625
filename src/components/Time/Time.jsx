@@ -68,7 +68,7 @@ const Time = () => {
     <Text textAlign={"left"}>Total</Text>
     <Flex mt="-2" justifyContent={"space-between"}>
         <Text fontSize={"3xl"} fontWeight="medium">{Math.abs(uptime[0])+"h"+":"+Math.abs(uptime[1])+"m" }</Text>
-        {/* <Text>...</Text> */}
+       
         <Popover isLazy>
   <PopoverTrigger>
     <Button borderRadius="50%" height="35px" width="25px" >...</Button>
