@@ -22,7 +22,7 @@ const SearchFilterButton = ({ title, type, childs }) => {
     <div>
       <Menu closeOnSelect={type == "radio"}>
         <MenuButton
-          px={2}
+          px={3}
           borderRadius="md"
           borderWidth="1px"
           _hover={{ bg: "gray.200" }}
@@ -30,8 +30,11 @@ const SearchFilterButton = ({ title, type, childs }) => {
           as={Button}
           rightIcon={<ChevronDownIcon />}
           bg="none"
+          h="2rem"
+          fontSize={"0.85rem"}
         >
-          <span style={{ color: "gray", padding: "0" }}>{title}: </span> ALL
+          <span style={{ color: "#616060" }}>{title}: </span>
+          <span style={{ color: "#353535" }}>All</span>
         </MenuButton>
         <MenuList minW="300px">
           <FormControl p="2">
