@@ -1,23 +1,23 @@
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import {
   Button,
-  Checkbox,
   FormControl,
   Input,
   Menu,
   MenuButton,
-  MenuDivider,
-  MenuItem,
   MenuItemOption,
   MenuList,
   MenuOptionGroup,
-  Text,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 const SearchFilterButton = ({ title, type, childs }) => {
   const [options, setOptions] = useState(childs);
-  const handleInput = (e) => {};
+
+  const handleInput = (e) => {
+    let newoption = childs.filter((el) => el.name.startsWith(e.target.value));
+    setOptions(newoption);
+  };
   return (
     <div>
       <Menu closeOnSelect={type == "radio"}>
