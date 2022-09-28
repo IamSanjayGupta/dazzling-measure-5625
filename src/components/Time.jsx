@@ -8,18 +8,7 @@ import {FaPlay} from "react-icons/fa"
 import {FaStop} from "react-icons/fa"
 import TimePicker from 'react-time-picker'
 
-import {
-    Popover,
-    PopoverTrigger,
-    PopoverContent,
-    PopoverHeader,
-    PopoverBody,
-    PopoverFooter,
-    PopoverArrow,
-    PopoverCloseButton,
-    PopoverAnchor,
-   
-  } from '@chakra-ui/react'
+
 
 const Time = () => {
     const[play, setPlay]=useState(0)
@@ -42,13 +31,19 @@ const Time = () => {
           {/*select Team*/}
           <Flex ml={"10px"}>
               <Text fontSize='3xl'>My Time</Text>
-              <Box h="30px" mt={"10px"} ml={"13px"} borderLeft="1px solid"></Box>
-              {/* <Menus /> */}
-            
-          </Flex>
+      <Box Box h="30px" mt={"10px"} ml={"13px"} borderLeft="1px solid"></Box>
+            </Flex>
       </Box>
       
-      
+    <Box display={"flex"} gap="10px" >
+      <Input type="date" ></Input>
+      <Text fontSize={"2xl"}>Today</Text>
+      <Flex mt="14px" gap="10px">
+      <Text as='samp'><AiOutlineLeft/></Text>
+      <Text as='samp'><TiMediaRecord/></Text>
+      <Text as='samp'><AiOutlineRight/></Text>
+      </Flex>
+  </Box>
      
     </Flex>
    
