@@ -130,68 +130,6 @@ function Navbar() {
 
             </Box>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            {/* <Button onClick={onOpen}>Open Modal</Button>
-
-            <Modal isOpen={isOpen} size={size} >
-                <ModalOverlay />
-                <ModalContent>
-                    <ModalHeader m={"auto"}>Subscribe to Our Newsletter</ModalHeader>
-                    <ModalBody m={"auto"}>
-                        Get all the latest & greatest posts delivered straight to your inbox
-                    </ModalBody>
-                    <Stack spacing={3}>
-                        <Input
-                            w={'80%'}
-                            m={"auto"}
-                            placeholder='custom placeholder'
-                            _placeholder={{ opacity: 1, color: 'gray.500' }}
-                        />
-                        <Checkbox m={"auto"}>I agree to receive your newsletters and accept the data privacy statement.</Checkbox>
-                        <Text fontSize='sm'>You may unsubscribe at any time using the link in our newsletter.</Text>
-                    </Stack>
-                    <ModalFooter>
-                        <Button colorScheme='blue' m={"auto"} onClick={onClose}>
-                            Subscribe
-                        </Button>
-                    </ModalFooter>
-                </ModalContent>
-            </Modal> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </header >
     )
 }
