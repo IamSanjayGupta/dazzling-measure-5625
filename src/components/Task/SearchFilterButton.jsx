@@ -9,7 +9,7 @@ import {
   MenuList,
   MenuOptionGroup,
 } from "@chakra-ui/react";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 
 const SearchFilterButton = ({ title, type, childs }) => {
   const [options, setOptions] = useState(childs);
@@ -20,7 +20,7 @@ const SearchFilterButton = ({ title, type, childs }) => {
   };
   return (
     <div>
-      <Menu closeOnSelect={type == "radio"}>
+      <Menu closeOnSelect={type === "radio"}>
         <MenuButton
           px={3}
           borderRadius="md"

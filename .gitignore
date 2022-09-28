@@ -24,3 +24,5 @@ yarn-error.log*
 node_modules
 
 test.html
+
+package-lock.json
