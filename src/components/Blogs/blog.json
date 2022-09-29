@@ -1,792 +1,112 @@
-{
-  "status": "success",
-  "totalResults": 20,
-  "results": [
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "The best websites to pass the time",
-      "image_url": "https://blog.tmetric.com/content/images/size/w1000/2022/06/productivity-banner-2.png",
-      "description": "30% of employees worldwide, by their own admission, spend up to two hours a day aimlessly surfing the internet. Throw the past out of your search history and try the sites that will pass your time wisely.",
-      "content": "According to Internet live statistics , the total number of sites available online is 1,928,395,907. That's a lot less than the 3.5 trillion fish in the world ocean, but it's still almost two billion, which is mind-boggling.This huge figure easily explains why our interest in web surfing never ends.By the way, in case you're curious about the number of fish, the answer is simple: you get it by aimlessly surfing, honing the skill of smart hanging out to the level of a net surfing expert.Speaking of surfing: just like ocean surfers who know in advance the best surf spots that promise uninterrupted waves, professional net surfers must know the best hobbies like a good procrastinator. Below is a definitive list of the 20 best places to hang out, in no particular order.With that said, it's time to dive in! 🏄🏿‍♀️🏄🏻‍♀️🏄🏿‍♂️🏄🏽‍♂️",
-      "pubDate": "Jul 21, 2022 • 8 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/IMG_9261--1-.jpg",
-      "name": "Kate Gondarovskaya",
-      "news": [
-        {
-          "heading": "Awesome Hobby #1:",
-          "title": "The Oatmeal",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/oatmeal-2.png",
-          "description": "Incredibox is a unique site that allows you to create your own music in the company of great beatboxers.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #2:",
-          "title": "chill the lion",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/chill-the-lion-1.png",
-          "description": "It is a pure waste of time. 100% great. Now you have your very own lion that will be happy when you air it out.Side note: if you do this long enough, the lion will eventually get angry and eat the fan.",
-          "content": "Why is it highly addictive? 😻 The site, even if only occasionally educational, is sure to make you laugh."
-        },
-        {
-          "heading": "Awesome Hobby #3:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/chill-the-lion-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #4:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/worldatlas.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #5:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/worldatlas.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #6:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/infographics.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #7:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/overthewire.png",
-          "description": "Incredibox es un sitio único que te permite crear tu propia música en compañía de geniales beatboxers.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #8:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/musicrec-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #9:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/coding-game-2.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #10:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/cymath.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #11:",
-          "title": "Instructables",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/pdf-books-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "15 Tools For Getting Things Done",
-      "image_url": "https://blog.tmetric.com/content/images/size/w1000/2021/12/untitled--16-.png",
-      "description": "Tools are the lifeblood of getting things done in a stress-free way. In this post, we will look at the top cost-effective tools that are essential for anyone who wants to practice GTD for increased productivity and improved time management.",
-      "content": "Due to the growth of new economy sectors, the post-pandemic Yet, it might be a challenge to keep up high productivity levels and maintain work life balance without applying automating tools and tech solutions, which help us get things done.Aside from checking all boxes in your to-do list, GTD implies that planning can be successfully processed into building your own productivity system. In its turn, it brings:elevating business on a budget improving focus and sharpening attention-related skills implementing ready-to-use time-saving strategies for work optimization keeping tabs on multiple projects without extra effort. ",
-      "pubDate": "Sep 20, 2022 • 9 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
-      "name": "Alla Chernets",
-      "news": [
-        {
-          "heading": "Time Management ⌚⏱️",
-          "title": "TMetric ⏳",
-          "imgUrl": "https://lh5.googleusercontent.com/ktoXhHbmBm4IqC2IfcBTw5qPG23QHTBU1INrK2DZiZ5r8SDcyqbHizowXjQ4AGmOFRxvN91XwgcX_4l97CKZrk0aRn4lZv2DLGiHldUZv7anh4eiQhGU228Z1s7MIFuvnj8sraKU=s0",
-          "description": "Striving for excellence, we cannot ignore time tracking. It brings clarity and precision in what we do with our work time. Hence, it is essential throughout all stages of work, from planning to completion. With TMetric, things can get done in an easy way. It is a time tracking app available also as TMetric Chrome extension that takes a result-oriented approach and allows users to achieve the level of impeccable projects and time management.The app functionality enables you to keep an eye on multiple projects stress-free by bringing automation to a huge number of admin tasks:project time calculation differentiating billable and non-billable hours integration of time tracking in other apps monitoring the project budget.",
-          "content": "How it assists in GTD: Using a single-purpose solution is a sure way to achieve a specific goal. In the case of TMetric, it is an achievement of best time management, which makes it a top tool for getting things done in terms of better time tracking, invoicing, and project management."
-        },
-        {
-          "heading": "Task Planning 🗓️✅",
-          "title": "Remember The Milk",
-          "imgUrl": "https://lh4.googleusercontent.com/Jbjvg2KiMmWZj6vCHOfP7Ci4sJfNsUZJn7qj51lkjyTf0WHxmWVcUSxRG8FtDAXNpUpuZ0DdxsQX_SjDKfCnasyg3ILrwdzwLqPc4lYz28cnf-3EXSLrHkksYIG1VTZ0aaG-nM10=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Remember The Milk became the synonym of efficiency in planning as it guarantees to keep you on track for any kind of task. Use it before you start feeling overwhelmed."
-        },
-        {
-          "heading": "Graphic Design 🎨🖼️",
-          "title": "Canva",
-          "imgUrl": "https://lh4.googleusercontent.com/JOBaDAp3xMgPEO02eKQY8wYFdZtd-D2vLpO8m0t8uChVe8-OLJbqnrg-Fu3KrcWcySAx_lUxXW7cOazfA42AzTEmxKXgqCzNGiqIfNtPfejc_uDWlO6Wm_DHLjDe4zSJJBmBS6jA=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Social Media Management 🥳🎊",
-          "title": "All Hashtag",
-          "imgUrl": "https://lh6.googleusercontent.com/mCttu1DW9yMGfOyeO4e7yJW8CG_eKxN9sF5t_lfeFA9_zHqMxopjPdPWWXquBsn3UcGWG307F1-qc_XDcGfuZNKxgMZfxSJcG1hN8idfmUPk1L60wnuFOmmAABr1ewvIouWmKzCI=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Sleep Management 😴🌃",
-          "title": "Pillow",
-          "imgUrl": "https://lh5.googleusercontent.com/0ZoUx-o6-DAgP_Ewh3vwx3OZq6d-__qB4kSWE0guFzv0PyQXMr7g-Z2FPjIePjd8DTQKS2vDQxb522uY6EMUJVC8aokGnhKex880Pe2iehoiH4SNjoQIex6usBSps0zkoyMF2yiP=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Finance Management 💵🪙",
-          "title": "YNAB",
-          "imgUrl": "https://lh5.googleusercontent.com/Oh-z-eDZNFthr-aDZCOuEl4qE029F_VwISgzTV-NfPSoETufzgwM-XzJ8fCkb6S8RBHI3pqKO9WwMsQzSoBQ4_Ir2j3Sit3s5ebBEJkOCrjBWrytEjECgS44f-dxDMLCFTByYf8U=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Content Idea Generator 💡💯",
-          "title": "Portent",
-          "imgUrl": "https://lh6.googleusercontent.com/bSHWoTa4ORMnCvfkDu26pGTlnmCJiDOF5XFrMz_OlJVq2tG4JddYso7_k9HhgbJZjw-VIKEQ73teyO2fYZLBNrsxWf5s07E-pPi3paOBcNzUGsx7I3Cs3Ro-dVyxQ0d0vCPH_A5K=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Graphic Design 🎨🖼️",
-          "title": "Canva",
-          "imgUrl": "https://lh4.googleusercontent.com/JOBaDAp3xMgPEO02eKQY8wYFdZtd-D2vLpO8m0t8uChVe8-OLJbqnrg-Fu3KrcWcySAx_lUxXW7cOazfA42AzTEmxKXgqCzNGiqIfNtPfejc_uDWlO6Wm_DHLjDe4zSJJBmBS6jA=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Social Media Management 🥳🎊",
-          "title": "All Hashtag",
-          "imgUrl": "https://lh6.googleusercontent.com/mCttu1DW9yMGfOyeO4e7yJW8CG_eKxN9sF5t_lfeFA9_zHqMxopjPdPWWXquBsn3UcGWG307F1-qc_XDcGfuZNKxgMZfxSJcG1hN8idfmUPk1L60wnuFOmmAABr1ewvIouWmKzCI=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Sleep Management 😴🌃",
-          "title": "Pillow",
-          "imgUrl": "https://lh5.googleusercontent.com/0ZoUx-o6-DAgP_Ewh3vwx3OZq6d-__qB4kSWE0guFzv0PyQXMr7g-Z2FPjIePjd8DTQKS2vDQxb522uY6EMUJVC8aokGnhKex880Pe2iehoiH4SNjoQIex6usBSps0zkoyMF2yiP=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "Ejemplos de timeboxing y aplicaciones para mejorar tu flujo de trabajo",
-      "image_url": "https://blog.tmetric.com/content/images/size/w2000/2022/09/kaleidico-26MJGnCM0Wc-unsplash.jpg",
-      "description": "Lee por qué el timeboxing funciona para completar las tareas difíciles más rápidamente y qué aplicaciones de seguimiento del tiempo son tu mejor opción para implementarlo.",
-      "content": "Dicen que nada hace que una persona sea más productiva que elúltimo minuto. Sin embargo, queremos cambiar la percepción de esta afirmación radical, desplazando el enfoque de la idea de presión a la idea de la importancia del minuto, o en otras palabras, del timeboxing. Creemos que es un truco para ahorrar tiempo y esfuerzo que funciona para cualquiera.En el estudio sobre los 100 trucos de productividad con respaldo científico, los tres primeros que obtuvieron la mejor puntuación fueron:la capacidad de decir nola capacidad de priorizarel arte del timeboxing como la técnica deproductividad probada númerouno.",
-      "pubDate": "Jul 21, 2022 • 8 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/IMG_9261--1-.jpg",
-      "name": "Kate Gondarovskaya",
-      "news": [
-        {
-          "heading": "Awesome Hobby:",
-          "title": "The Oatmeal",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/---------1280x720--------5-.jpeg",
-          "description": "Incredibox is a unique site that allows you to create your own music in the company of great beatboxers.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Ejemplos de timeboxing:",
-          "title": "chill the lion",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/pablo--70--1.png",
-          "description": "Los ejemplos de uso del timeboxing van desde asignar el tiempo a las tareas difíciles dentro de la gestión de un proyecto de varias fases, hasta convertir en norma el timeboxing de las tareas generales (revisiones del correo electrónico, reuniones, brainstorming), lo que ayuda a eliminar la pérdida de tiempo en trabajo no productivo.",
-          "content": "Timeboxing en el desarrollo de software Los desarrolladores de software suelen construir iteraciones sobre el tiempo estimado, ya que se incorpora bien a un enfoque ágil para realizar proyectos y cumplir plazos ajustados. El timeboxing ayuda a abordar el flujo de trabajo centrado en el proyecto y pone freno al uso excesivo de tiempo y recursos de forma eficaz."
-        },
-        {
-          "heading": "Apps de timeboxing",
-          "title": "Hay apps que utilizan esta técnica altamente efectiva y ayudan a realizar los objetivos establecidos alcanzando el máximo rendimiento en el trabajo diario.",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/timeboxingg.png",
-          "description": "Esta aplicación presenta una lista de tareas pendientes con un aspecto sencillo y minimalista, que impulsa tu trabajo con el objetivo de completar las tareas. Si tienes la intención de asignar varios periodos establecidos, puedes cambiar el temporizador Pomodoro (programado para 25 minutos de trabajo ininterrumpido) hasta 5 veces.",
-          "content": "Esta aplicación es una elección óptima para aquellos que quieran mejorar sus habilidades de gestión del tiempo dentro del enfoque ágil de la realización de proyectos. La finalización de las tareas se realizará en torno a un horario preestablecido que te resultará más fácil de seguir con Focus List."
-        },
-        {
-          "heading": "PomoDone",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/pomodone.png",
-          "description": "Una de las mayores ventajas del timeboxing es la capacidad de este método para atender los proyectos específicos y ofrecer la solución de optimización del tiempo a medida.",
-          "content": "El software da a los clientes la oportunidad de aplicar el timeboxing dentro de otros servicios y personalizar la duración del temporizador de acuerdo con las necesidades de las tareas requeridas. Al ser un producto de alta calidad, Pomodone mantiene la velocidad del flujo de trabajo en su nivel óptimo. En su paquete, el servicio ofrece tres integraciones."
-        },
-        {
-          "heading": "Awesome Hobby #5:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/pomotodo.png",
-          "description": "Con esta aplicación, será fácil dividir una tarea en varias subtareas. En caso de que tengas una lista de tareas largas y complejas, la aplicación de este software funcionará como la solución que ofrece resultados para cada tarea de forma más eficaz.Además, el volumen de la alarma es lo suficientemente cómodo como para no sobresaltar. Permite al usuario hacer un seguimiento de las tareas de la lista de tareas pendientes y cumplir los plazos. La aplicación recoge datos sobre todas las tareas que has realizado y los presenta en un informe de estadísticas.",
-          "content": "Lo que la convierte en una opción inteligente de timeboxing: Gracias a la fácil navegación y a las funciones claramente presentadas, mantendrá al usuario comprometido con el timeboxing sin problemas. La interfaz de la aplicación móvil no está sobrecargada de opciones, lo que permite centrarse en la tarea que se está realizando y ayuda a eliminar cualquier distracción."
-        },
-        {
-          "heading": "Do Now",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/donow1.png",
-          "description": "Simplificar la lista de cosas por hacer dividiendo todas las tareas en categorías (por hacer y haciendo) es la forma segura de gestionar tu tiempo de forma profesional. Dividir el trabajo y centrarte en una tarea elimina las distracciones y te permite concentrarte en el trabajo real, pasando al modo ya está hecho.Su aplicación regular seguramente ayudará a formar un hábito de asignación eficiente del tiempo y a eliminar la información irrelevante. Puedes planificar varias tareas, pero la tarea en la que inicies un temporizador será la más prioritaria con el estado activo.",
-          "content": "Lo que lo convierte en una opción inteligente de timeboxing: Al añadir una tarea, estableces la duración de la misma sin especificar cuándo o en qué fecha piensas realizarla. Como sugiere el nombre de la aplicación, los desarrolladores querían que los usuarios pudieran concentrarse en el impulso, y está diseñada para lograr este objetivo sin fallos. Una vez completada la tarea, sonará la alarma y podrás elegir entre varias opciones (ignorar, posponer, marcar como hecha y eliminar de la lista de recordatorios)."
-        },
-        {
-          "heading": "Timebox Timer",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/timeboxtimer.png",
-          "description": "Esta aplicación te permite lanzar el temporizador con un deslizamiento o activarlo con un comando de voz o programar su inicio. El diseño claro de la aplicación te ayuda a mantener el proceso bajo control y a evitar cualquier contratiempo en el rendimiento.Esta aplicación es multifuncional, ya que ofrece resultados igualmente productivos a cualquier categoría de usuarios (estudiantes, empresarios, etc.).  Está disponible en la versión gratuita. Además, puedes hacer un pago único para eliminar la publicidad.",
-          "content": "Lo que lo convierte en una opción inteligente de timeboxing: Al añadir una tarea, estableces la duración de la misma sin especificar cuándo o en qué fecha piensas realizarla. Como sugiere el nombre de la aplicación, los desarrolladores querían que los usuarios pudieran concentrarse en el impulso, y está diseñada para lograr este objetivo sin fallos. Una vez completada la tarea, sonará la alarma y podrás elegir entre varias opciones (ignorar, posponer, marcar como hecha y eliminar de la lista de recordatorios)."
-        },
-        {
-          "heading": "Marinara",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/pomodoroassst.png",
-          "description": "Esta aplicación te permite lanzar el temporizador con un deslizamiento o activarlo con un comando de voz o programar su inicio. El diseño claro de la aplicación te ayuda a mantener el proceso bajo control y a evitar cualquier contratiempo en el rendimiento.Esta aplicación es multifuncional, ya que ofrece resultados igualmente productivos a cualquier categoría de usuarios (estudiantes, empresarios, etc.).  Está disponible en la versión gratuita. Además, puedes hacer un pago único para eliminar la publicidad.",
-          "content": "Lo que lo convierte en una opción inteligente de timeboxing: Al añadir una tarea, estableces la duración de la misma sin especificar cuándo o en qué fecha piensas realizarla. Como sugiere el nombre de la aplicación, los desarrolladores querían que los usuarios pudieran concentrarse en el impulso, y está diseñada para lograr este objetivo sin fallos. Una vez completada la tarea, sonará la alarma y podrás elegir entre varias opciones (ignorar, posponer, marcar como hecha y eliminar de la lista de recordatorios)."
-        },
-        {
-          "heading": "Awesome Hobby #9:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/coding-game-2.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "7 Best Practices to Maximize Your Content Team's Productivity In Remote Work",
-      "image_url": "https://blog.tmetric.com/content/images/size/w2000/2022/07/remote-team-2.png",
-      "description": "Remote work poses many challenges to effective collaboration and team productivity. These 7 best practices can help you maximize your remote content team's productivity",
-      "content": "The Covid-19 pandemic changed the world for good, particularly people's view of work and workplaces. A Unify Square survey shows that nearly 55% of respondents who had no remote work options before the pandemic are now working remotely at least a few days a week. Indeed, remote work, which was something that very few companies encouraged prior to the pandemic, has now become the norm, especially for content teams in digital marketing.",
-      "pubDate": "Aug 16, 2022 • 9 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/IMG_9261--1-.jpg",
-      "name": "Kate Gondarovskaya",
-      "news": [
-        {
-          "heading": "Remote Work and Productivity Challenges⏱️🔔",
-          "title": "While some feel that they are more productive when working from home, others feel their productivity has dropped because of multiple distractions in remote work. Most people initially struggled with communication over digital media. Though video calls and virtual team meetings did offer some support, it was not the same as in-person interactions.According to the Remote Work Report published by Nira, communication was cited as the number one challenge of remote working, followed by opportunities for socializing. The biggest challenge with remote team productivity, however, has probably been team collaboration. While in the office you could walk over to a colleague's desk for a quick chat or have an intense brainstorming session in the boardroom, in remote work none of this is possible.The real issue was a lack of tools and platforms that could help remote workforces collaborate seamlessly.This is particularly true for areas where collaboration is key, such as content marketing. Content teams require inputs from many stakeholders, be it internally (sales teams, product teams, etc.) or externally (clients, freelancers, etc.).",
-          "imgUrl": "https://lh4.googleusercontent.com/8Xy8z_wxklFGqnD8wdaTf_ZOq3Jh59Qd8Ij0gYh5K-DJK6ErlXSdVBl2o73MOSo1gVMKkWxCI_EYBW-qRITWtYvrBkH7hJsaBP30QFlv7RuoTXxNdH6FRQAU-z6eHDPfvQvO8d7-AZbk-1NQRDVvOGk",
-          "description": "Team productivity is bound to take a dip unless you  provide:the right approach the right tools.",
-          "content": "To that end, here are some of the remote work best practices that can:boost your remote marketing team's productivity enable better team collaboration."
-        },
-        {
-          "heading": "Have documented remote working policies📝📜",
-          "title": "The first thing that your content marketing team needs is a well-laid-out policy. The primary reason for loss of productivity, or even overworking, in remote settings is often that there is no clarity on what must and must not be done.",
-          "imgUrl": "https://lh5.googleusercontent.com/XYeahaeeTQd-_HjxhLFxmUQG2yB7FqMT8ai4iAzydp4oXTo9YWUDMIC4grnQLEgL6avBUGA0e01F2jgOkkcdge73OM9K20alABYlvR9IudyTff9R-vB02MKc6UITW590y0xgsOKmHRk_2AUOe5TqNro",
-          "description": "Remote work needs structure too –  documented rules and policies help provide this structure. It is important to ensure thatbarring a few occasions, everyone follows the workplace policies without fail. That is why remote teams require proper guidelines and policies governing their work similarly to guidelines for work onsite.You should set realistic working hours that apply to everyone, have rules around virtual meetings, provide clarity around employee performance appraisal, and more.Having documented policies will ensure that no one takes advantage of the system, while others are overburdened with work. It will also set a routine for everyone, clearly stating when  and how they should:log in be available take leaves.",
-          "content": "Disclaimer  📜 It should be stated that rules related to remote work policies do not exclude a call for flexibility: by applying time tracking, it is easy to achieve."
-        },
-        {
-          "heading": "Create a system of delegating work effectively to all team members 🏄🏽🏄🏽‍♀️🏄🏽‍♂️",
-          "title": "Every team has workhorses and slackers. Since team leaders have limited visibility when working remotely, the balance in the workplace could be disturbed.The content team has several activities going on at once, from content SEO planning to content creation to distribution and promotion. If there is no system to properly and effectively delegate tasks, it is likely that workload distribution might become an issue.",
-          "imgUrl": "https://lh5.googleusercontent.com/B4yFBQP0aRMuTeRojl4iMHfgI8VfC3ODO_hPOkQyYcJQaTLT0ewckJbXc3vhI9kHXym1WSpAb1H3bqNed-ctoiDRCWRNoOi_p98kqBA-LdVGl258JiLv8EOK0O020c3n1fN6BBae5xxkT7PnyBZ05B8",
-          "description": "So it is important to have a work plan for everyone, along with expectations, deliverables, deadlines, and clear distribution of responsibilities. ",
-          "content": "It is also essential that team leaders have regular one-on-one interactions with all team members and keep track of how they're performing."
-        },
-        {
-          "heading": "Offer greater autonomy than you did in the office😍🥰",
-          "title": "Having said everything about written policies and delegating tasks, it is also important to remember that remote employees cannot be expected to show up as they used to when they worked on-site.",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/07/AUTONOMY.jpeg",
-          "description": "Working from home, or elsewhere, has its share of challenges. For some, it may be kids or an elderly parent they have to take care of. For some others, a lack of space may pose a challenge. So forcing everyone to work at the same time under the same terms can have a negative impact on productivity. What can be offered? You might have to give your remote employees a fair amount of autonomy, allowing them to work when they are most productive or giving employees extra time off when needed.",
-          "content": "Aside from the mandatory policies like the number of hours remote teams are required to work or be available for team meetings, content team leaders could consider a task-oriented approach meaning that remote workers can log out at their convenience as long as they are getting the work done."
-        },
-        {
-          "heading": "Equip them with the right content collaboration tools🧑🏽‍💻👩🏽‍💻👨🏽‍💻",
-          "title": "When we talk about remote team collaboration, we usually think of the same generic tools like Microsoft Teams or Google Meet for video conferencing, Slack for instant messaging and chats, Dropbox for file sharing, and the likes.But content teams need more tools to cater to content creation and management needs.",
-          "imgUrl": "https://lh4.googleusercontent.com/SemHVsm_99a8yVsyofPdYBLCSNWUsOjfAWEs8Th1ZMNz7JtrwGiqui4aTK_gFnMNMcW11JJAktR760DY8_-WCdQEIrnAFvjU6uRG8oExyuFrokFCn99F6IyCRadh_v6jsKTTxk5LyXX-ticps0_ef3c",
-          "description": "GoVisually: Design collaboration tool GoVisually is another very intuitive visual content collaboration platform where you can collaborate with your creatives faster even in remote working. The platform lets you create designs and share feedback visually through comments and annotations added directly to the creatives.You can upload various file types including PNG, JPG, Videos, PDF, and more. Team members receive email notifications when someone leaves a comment on a design. The tool also sends reminders to stakeholders when projects are pending for their approval.You can add private comments and attachments only for your internal team to see. Task links can be shared with team members or clients for feedback and approval. All GoVisually plans also come with Slack integration, so you can receive notifications directly on your Slack channels.Pricing: The Team plan on GoVisually is $50 per month with up to 5 users. More users can be added at an additional cost of $10 per user. There is a Solo plan for individuals too, priced at $20 per month.",
-          "content": "GoVisually: Design collaboration tool GoVisually is another very intuitive visual content collaboration platform where you can collaborate with your creatives faster even in remote working. The platform lets you create designs and share feedback visually through comments and annotations added directly to the creatives.You can upload various file types including PNG, JPG, Videos, PDF, and more. Team members receive email notifications when someone leaves a comment on a design. The tool also sends reminders to stakeholders when projects are pending for their approval.You can add private comments and attachments only for your internal team to see. Task links can be shared with team members or clients for feedback and approval. All GoVisually plans also come with Slack integration, so you can receive notifications directly on your Slack channels.Pricing: The Team plan on GoVisually is $50 per month with up to 5 users. More users can be added at an additional cost of $10 per user. There is a Solo plan for individuals too, priced at $20 per month."
-        },
-        {
-          "heading": "Give your team opportunities to socialize🙋🏽🙋🏽‍♀️🙋🏽‍♂️",
-          "title": "Not all your team meetings have to be about work. Content marketing is a creative area and you need to give your team some time off for lighthearted chats and discussions to keep their creativity flowing.",
-          "imgUrl": "https://lh4.googleusercontent.com/SMeKdHd4j9MTXT5gwysPDu0O8nhIwx1Hvn1XnfObeY5BavYCuhYEr4pabyH2gWLSYIGC9Jl1DKCsUNPYoUOv5r-uLdV1Ym6lLmIvbDlOBGxo0jcUEQAmGqwsbhWE4pLSyLfsamSYBvOR_2HCPsvG9-8",
-          "description": "Give them opportunities to socialize and catch up on matters other than work. Many organizations have implemented this in their virtual meetings, usually on Fridays.<br>These meetings need not have an agenda. You could have some virtual team activities, games, or other fun interactions that help with team building and de-stressing.",
-          "content": "Some time away from work is important for your content team to build stronger connections and have a sense of belonging to the company. These activities can boost employee engagement and drive maximum productivity."
-        },
-        {
-          "heading": "Gather feedback from your remote team and keep them in the loop📣",
-          "title": "The best way to find out what makes your remote content team more productive is by asking them. Everyone has a different way of working and you will receive some very diverse feedback on what's working and what's not. Employees also feel more involved and valued when you seek their opinions on these matters.",
-          "imgUrl": "https://lh5.googleusercontent.com/f6PXcdVQy8dI51w1QpvoA7-7raoxAcanEztZcuWqYe3RwVGZ8uBx15SgszKzoMyBW1VaCxwpSlgbE-7WbBh7-iGI_NLOpKgVker_BrDRnOdwLF-tR78HMBeWdJhXZAE1cZXMlls6q9y83rpoOj9gTRM",
-          "description": "Give them opportunities to socialize and catch up on matters other than work. Many organizations have implemented this in their virtual meetings, usually on Fridays.<br>These meetings need not have an agenda. You could have some virtual team activities, games, or other fun interactions that help with team building and de-stressing.",
-          "content": "Some time away from work is important for your content team to build stronger connections and have a sense of belonging to the company. These activities can boost employee engagement and drive maximum productivity."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "Las 10 mejores plantillas de hojas de horas",
-      "image_url": "https://blog.tmetric.com/content/images/size/w1000/2022/09/marissa-grootes-Mw9KxYkqsnk-unsplash.jpg",
-      "description": "30% of employees worldwide, by their own admission, spend up to two hours a day aimlessly surfing the internet. Throw the past out of your search history and try the sites that will pass your time wisely.",
-      "content": "According to Internet live statistics , the total number of sites available online is 1,928,395,907. That's a lot less than the 3.5 trillion fish in the world ocean, but it's still almost two billion, which is mind-boggling.This huge figure easily explains why our interest in web surfing never ends.By the way, in case you're curious about the number of fish, the answer is simple: you get it by aimlessly surfing, honing the skill of smart hanging out to the level of a net surfing expert.Speaking of surfing: just like ocean surfers who know in advance the best surf spots that promise uninterrupted waves, professional net surfers must know the best hobbies like a good procrastinator. Below is a definitive list of the 20 best places to hang out, in no particular order.With that said, it's time to dive in! 🏄🏿‍♀️🏄🏻‍♀️🏄🏿‍♂️🏄🏽‍♂️",
-      "pubDate": "Jul 21, 2022 • 8 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/IMG_9261--1-.jpg",
-      "name": "Kate Gondarovskaya",
-      "news": [
-        {
-          "heading": "Awesome Hobby #1:",
-          "title": "The Oatmeal",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/oatmeal-2.png",
-          "description": "Incredibox is a unique site that allows you to create your own music in the company of great beatboxers.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #2:",
-          "title": "chill the lion",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/chill-the-lion-1.png",
-          "description": "It is a pure waste of time. 100% great. Now you have your very own lion that will be happy when you air it out.Side note: if you do this long enough, the lion will eventually get angry and eat the fan.",
-          "content": "Why is it highly addictive? 😻 The site, even if only occasionally educational, is sure to make you laugh."
-        },
-        {
-          "heading": "Awesome Hobby #3:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/chill-the-lion-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #4:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/worldatlas.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #5:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/worldatlas.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #6:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/infographics.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #7:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/overthewire.png",
-          "description": "Incredibox es un sitio único que te permite crear tu propia música en compañía de geniales beatboxers.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #8:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/musicrec-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #9:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/coding-game-2.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #10:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/cymath.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #11:",
-          "title": "Instructables",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/pdf-books-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "6 Time Blocking Tactics to Try",
-      "image_url": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-learning-online.png",
-      "description": "Tools are the lifeblood of getting things done in a stress-free way. In this post, we will look at the top cost-effective tools that are essential for anyone who wants to practice GTD for increased productivity and improved time management.",
-      "content": "Due to the growth of new economy sectors, the post-pandemic Yet, it might be a challenge to keep up high productivity levels and maintain work life balance without applying automating tools and tech solutions, which help us get things done.Aside from checking all boxes in your to-do list, GTD implies that planning can be successfully processed into building your own productivity system. In its turn, it brings:elevating business on a budget improving focus and sharpening attention-related skills implementing ready-to-use time-saving strategies for work optimization keeping tabs on multiple projects without extra effort. ",
-      "pubDate": "Sep 20, 2022 • 9 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
-      "name": "Alla Chernets",
-      "news": [
-        {
-          "heading": "Time Management ⌚⏱️",
-          "title": "TMetric ⏳",
-          "imgUrl": "https://lh5.googleusercontent.com/ktoXhHbmBm4IqC2IfcBTw5qPG23QHTBU1INrK2DZiZ5r8SDcyqbHizowXjQ4AGmOFRxvN91XwgcX_4l97CKZrk0aRn4lZv2DLGiHldUZv7anh4eiQhGU228Z1s7MIFuvnj8sraKU=s0",
-          "description": "Striving for excellence, we cannot ignore time tracking. It brings clarity and precision in what we do with our work time. Hence, it is essential throughout all stages of work, from planning to completion. With TMetric, things can get done in an easy way. It is a time tracking app available also as TMetric Chrome extension that takes a result-oriented approach and allows users to achieve the level of impeccable projects and time management.The app functionality enables you to keep an eye on multiple projects stress-free by bringing automation to a huge number of admin tasks:project time calculation differentiating billable and non-billable hours integration of time tracking in other apps monitoring the project budget.",
-          "content": "How it assists in GTD: Using a single-purpose solution is a sure way to achieve a specific goal. In the case of TMetric, it is an achievement of best time management, which makes it a top tool for getting things done in terms of better time tracking, invoicing, and project management."
-        },
-        {
-          "heading": "Task Planning 🗓️✅",
-          "title": "Remember The Milk",
-          "imgUrl": "https://lh4.googleusercontent.com/Jbjvg2KiMmWZj6vCHOfP7Ci4sJfNsUZJn7qj51lkjyTf0WHxmWVcUSxRG8FtDAXNpUpuZ0DdxsQX_SjDKfCnasyg3ILrwdzwLqPc4lYz28cnf-3EXSLrHkksYIG1VTZ0aaG-nM10=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Remember The Milk became the synonym of efficiency in planning as it guarantees to keep you on track for any kind of task. Use it before you start feeling overwhelmed."
-        },
-        {
-          "heading": "Graphic Design 🎨🖼️",
-          "title": "Canva",
-          "imgUrl": "https://lh4.googleusercontent.com/JOBaDAp3xMgPEO02eKQY8wYFdZtd-D2vLpO8m0t8uChVe8-OLJbqnrg-Fu3KrcWcySAx_lUxXW7cOazfA42AzTEmxKXgqCzNGiqIfNtPfejc_uDWlO6Wm_DHLjDe4zSJJBmBS6jA=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Social Media Management 🥳🎊",
-          "title": "All Hashtag",
-          "imgUrl": "https://lh6.googleusercontent.com/mCttu1DW9yMGfOyeO4e7yJW8CG_eKxN9sF5t_lfeFA9_zHqMxopjPdPWWXquBsn3UcGWG307F1-qc_XDcGfuZNKxgMZfxSJcG1hN8idfmUPk1L60wnuFOmmAABr1ewvIouWmKzCI=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Sleep Management 😴🌃",
-          "title": "Pillow",
-          "imgUrl": "https://lh5.googleusercontent.com/0ZoUx-o6-DAgP_Ewh3vwx3OZq6d-__qB4kSWE0guFzv0PyQXMr7g-Z2FPjIePjd8DTQKS2vDQxb522uY6EMUJVC8aokGnhKex880Pe2iehoiH4SNjoQIex6usBSps0zkoyMF2yiP=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Finance Management 💵🪙",
-          "title": "YNAB",
-          "imgUrl": "https://lh5.googleusercontent.com/Oh-z-eDZNFthr-aDZCOuEl4qE029F_VwISgzTV-NfPSoETufzgwM-XzJ8fCkb6S8RBHI3pqKO9WwMsQzSoBQ4_Ir2j3Sit3s5ebBEJkOCrjBWrytEjECgS44f-dxDMLCFTByYf8U=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Content Idea Generator 💡💯",
-          "title": "Portent",
-          "imgUrl": "https://lh6.googleusercontent.com/bSHWoTa4ORMnCvfkDu26pGTlnmCJiDOF5XFrMz_OlJVq2tG4JddYso7_k9HhgbJZjw-VIKEQ73teyO2fYZLBNrsxWf5s07E-pPi3paOBcNzUGsx7I3Cs3Ro-dVyxQ0d0vCPH_A5K=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Graphic Design 🎨🖼️",
-          "title": "Canva",
-          "imgUrl": "https://lh4.googleusercontent.com/JOBaDAp3xMgPEO02eKQY8wYFdZtd-D2vLpO8m0t8uChVe8-OLJbqnrg-Fu3KrcWcySAx_lUxXW7cOazfA42AzTEmxKXgqCzNGiqIfNtPfejc_uDWlO6Wm_DHLjDe4zSJJBmBS6jA=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Social Media Management 🥳🎊",
-          "title": "All Hashtag",
-          "imgUrl": "https://lh6.googleusercontent.com/mCttu1DW9yMGfOyeO4e7yJW8CG_eKxN9sF5t_lfeFA9_zHqMxopjPdPWWXquBsn3UcGWG307F1-qc_XDcGfuZNKxgMZfxSJcG1hN8idfmUPk1L60wnuFOmmAABr1ewvIouWmKzCI=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Sleep Management 😴🌃",
-          "title": "Pillow",
-          "imgUrl": "https://lh5.googleusercontent.com/0ZoUx-o6-DAgP_Ewh3vwx3OZq6d-__qB4kSWE0guFzv0PyQXMr7g-Z2FPjIePjd8DTQKS2vDQxb522uY6EMUJVC8aokGnhKex880Pe2iehoiH4SNjoQIex6usBSps0zkoyMF2yiP=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "The Ultimate List of Best Employee Time Tracking and Productivity Apps",
-      "image_url": "https://images.unsplash.com/photo-1573496799175-606e47a7d4f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDU5fHxzb2Z0d2FyZSUyMHxlbnwwfHx8fDE2NTg4MzU1OTg&ixlib=rb-1.2.1&q=80&w=1000",
-      "description": "These are the best employee time tracking and productivity apps to help you track and manage your time. Time management is a skill in itself that can be improved with practice and application. The apps listed here are a",
-      "content": "Dicen que nada hace que una persona sea más productiva que elúltimo minuto. Sin embargo, queremos cambiar la percepción de esta afirmación radical, desplazando el enfoque de la idea de presión a la idea de la importancia del minuto, o en otras palabras, del timeboxing. Creemos que es un truco para ahorrar tiempo y esfuerzo que funciona para cualquiera.En el estudio sobre los 100 trucos de productividad con respaldo científico, los tres primeros que obtuvieron la mejor puntuación fueron:la capacidad de decir nola capacidad de priorizarel arte del timeboxing como la técnica deproductividad probada númerouno.",
-      "pubDate": "Jul 21, 2022 • 8 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/IMG_9261--1-.jpg",
-      "name": "Kate Gondarovskaya",
-      "news": [
-        {
-          "heading": "Awesome Hobby:",
-          "title": "The Oatmeal",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/---------1280x720--------5-.jpeg",
-          "description": "Incredibox is a unique site that allows you to create your own music in the company of great beatboxers.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Ejemplos de timeboxing:",
-          "title": "chill the lion",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/pablo--70--1.png",
-          "description": "Los ejemplos de uso del timeboxing van desde asignar el tiempo a las tareas difíciles dentro de la gestión de un proyecto de varias fases, hasta convertir en norma el timeboxing de las tareas generales (revisiones del correo electrónico, reuniones, brainstorming), lo que ayuda a eliminar la pérdida de tiempo en trabajo no productivo.",
-          "content": "Timeboxing en el desarrollo de software Los desarrolladores de software suelen construir iteraciones sobre el tiempo estimado, ya que se incorpora bien a un enfoque ágil para realizar proyectos y cumplir plazos ajustados. El timeboxing ayuda a abordar el flujo de trabajo centrado en el proyecto y pone freno al uso excesivo de tiempo y recursos de forma eficaz."
-        },
-        {
-          "heading": "Apps de timeboxing",
-          "title": "Hay apps que utilizan esta técnica altamente efectiva y ayudan a realizar los objetivos establecidos alcanzando el máximo rendimiento en el trabajo diario.",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/timeboxingg.png",
-          "description": "Esta aplicación presenta una lista de tareas pendientes con un aspecto sencillo y minimalista, que impulsa tu trabajo con el objetivo de completar las tareas. Si tienes la intención de asignar varios periodos establecidos, puedes cambiar el temporizador Pomodoro (programado para 25 minutos de trabajo ininterrumpido) hasta 5 veces.",
-          "content": "Esta aplicación es una elección óptima para aquellos que quieran mejorar sus habilidades de gestión del tiempo dentro del enfoque ágil de la realización de proyectos. La finalización de las tareas se realizará en torno a un horario preestablecido que te resultará más fácil de seguir con Focus List."
-        },
-        {
-          "heading": "PomoDone",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/pomodone.png",
-          "description": "Una de las mayores ventajas del timeboxing es la capacidad de este método para atender los proyectos específicos y ofrecer la solución de optimización del tiempo a medida.",
-          "content": "El software da a los clientes la oportunidad de aplicar el timeboxing dentro de otros servicios y personalizar la duración del temporizador de acuerdo con las necesidades de las tareas requeridas. Al ser un producto de alta calidad, Pomodone mantiene la velocidad del flujo de trabajo en su nivel óptimo. En su paquete, el servicio ofrece tres integraciones."
-        },
-        {
-          "heading": "Awesome Hobby #5:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/pomotodo.png",
-          "description": "Con esta aplicación, será fácil dividir una tarea en varias subtareas. En caso de que tengas una lista de tareas largas y complejas, la aplicación de este software funcionará como la solución que ofrece resultados para cada tarea de forma más eficaz.Además, el volumen de la alarma es lo suficientemente cómodo como para no sobresaltar. Permite al usuario hacer un seguimiento de las tareas de la lista de tareas pendientes y cumplir los plazos. La aplicación recoge datos sobre todas las tareas que has realizado y los presenta en un informe de estadísticas.",
-          "content": "Lo que la convierte en una opción inteligente de timeboxing: Gracias a la fácil navegación y a las funciones claramente presentadas, mantendrá al usuario comprometido con el timeboxing sin problemas. La interfaz de la aplicación móvil no está sobrecargada de opciones, lo que permite centrarse en la tarea que se está realizando y ayuda a eliminar cualquier distracción."
-        },
-        {
-          "heading": "Do Now",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/donow1.png",
-          "description": "Simplificar la lista de cosas por hacer dividiendo todas las tareas en categorías (por hacer y haciendo) es la forma segura de gestionar tu tiempo de forma profesional. Dividir el trabajo y centrarte en una tarea elimina las distracciones y te permite concentrarte en el trabajo real, pasando al modo ya está hecho.Su aplicación regular seguramente ayudará a formar un hábito de asignación eficiente del tiempo y a eliminar la información irrelevante. Puedes planificar varias tareas, pero la tarea en la que inicies un temporizador será la más prioritaria con el estado activo.",
-          "content": "Lo que lo convierte en una opción inteligente de timeboxing: Al añadir una tarea, estableces la duración de la misma sin especificar cuándo o en qué fecha piensas realizarla. Como sugiere el nombre de la aplicación, los desarrolladores querían que los usuarios pudieran concentrarse en el impulso, y está diseñada para lograr este objetivo sin fallos. Una vez completada la tarea, sonará la alarma y podrás elegir entre varias opciones (ignorar, posponer, marcar como hecha y eliminar de la lista de recordatorios)."
-        },
-        {
-          "heading": "Timebox Timer",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/timeboxtimer.png",
-          "description": "Esta aplicación te permite lanzar el temporizador con un deslizamiento o activarlo con un comando de voz o programar su inicio. El diseño claro de la aplicación te ayuda a mantener el proceso bajo control y a evitar cualquier contratiempo en el rendimiento.Esta aplicación es multifuncional, ya que ofrece resultados igualmente productivos a cualquier categoría de usuarios (estudiantes, empresarios, etc.).  Está disponible en la versión gratuita. Además, puedes hacer un pago único para eliminar la publicidad.",
-          "content": "Lo que lo convierte en una opción inteligente de timeboxing: Al añadir una tarea, estableces la duración de la misma sin especificar cuándo o en qué fecha piensas realizarla. Como sugiere el nombre de la aplicación, los desarrolladores querían que los usuarios pudieran concentrarse en el impulso, y está diseñada para lograr este objetivo sin fallos. Una vez completada la tarea, sonará la alarma y podrás elegir entre varias opciones (ignorar, posponer, marcar como hecha y eliminar de la lista de recordatorios)."
-        },
-        {
-          "heading": "Marinara",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/pomodoroassst.png",
-          "description": "Esta aplicación te permite lanzar el temporizador con un deslizamiento o activarlo con un comando de voz o programar su inicio. El diseño claro de la aplicación te ayuda a mantener el proceso bajo control y a evitar cualquier contratiempo en el rendimiento.Esta aplicación es multifuncional, ya que ofrece resultados igualmente productivos a cualquier categoría de usuarios (estudiantes, empresarios, etc.).  Está disponible en la versión gratuita. Además, puedes hacer un pago único para eliminar la publicidad.",
-          "content": "Lo que lo convierte en una opción inteligente de timeboxing: Al añadir una tarea, estableces la duración de la misma sin especificar cuándo o en qué fecha piensas realizarla. Como sugiere el nombre de la aplicación, los desarrolladores querían que los usuarios pudieran concentrarse en el impulso, y está diseñada para lograr este objetivo sin fallos. Una vez completada la tarea, sonará la alarma y podrás elegir entre varias opciones (ignorar, posponer, marcar como hecha y eliminar de la lista de recordatorios)."
-        },
-        {
-          "heading": "Awesome Hobby #9:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/coding-game-2.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "New Personal Dashboard to monitor your work",
-      "image_url": "https://blog.tmetric.com/content/images/size/w1000/2022/08/Personal-dashboard-banner.jpg",
-      "description": "The latest release of TMetric offers a new Personal Dashboard, which will help you implement the best use of your time every day. Now, you can plan your daily work with ease using the set of available widgets.",
-      "content": "The Covid-19 pandemic changed the world for good, particularly people's view of work and workplaces. A Unify Square survey shows that nearly 55% of respondents who had no remote work options before the pandemic are now working remotely at least a few days a week. Indeed, remote work, which was something that very few companies encouraged prior to the pandemic, has now become the norm, especially for content teams in digital marketing.",
-      "pubDate": "Aug 16, 2022 • 9 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/IMG_9261--1-.jpg",
-      "name": "Kate Gondarovskaya",
-      "news": [
-        {
-          "heading": "Remote Work and Productivity Challenges⏱️🔔",
-          "title": "While some feel that they are more productive when working from home, others feel their productivity has dropped because of multiple distractions in remote work. Most people initially struggled with communication over digital media. Though video calls and virtual team meetings did offer some support, it was not the same as in-person interactions.According to the Remote Work Report published by Nira, communication was cited as the number one challenge of remote working, followed by opportunities for socializing. The biggest challenge with remote team productivity, however, has probably been team collaboration. While in the office you could walk over to a colleague's desk for a quick chat or have an intense brainstorming session in the boardroom, in remote work none of this is possible.The real issue was a lack of tools and platforms that could help remote workforces collaborate seamlessly.This is particularly true for areas where collaboration is key, such as content marketing. Content teams require inputs from many stakeholders, be it internally (sales teams, product teams, etc.) or externally (clients, freelancers, etc.).",
-          "imgUrl": "https://lh4.googleusercontent.com/8Xy8z_wxklFGqnD8wdaTf_ZOq3Jh59Qd8Ij0gYh5K-DJK6ErlXSdVBl2o73MOSo1gVMKkWxCI_EYBW-qRITWtYvrBkH7hJsaBP30QFlv7RuoTXxNdH6FRQAU-z6eHDPfvQvO8d7-AZbk-1NQRDVvOGk",
-          "description": "Team productivity is bound to take a dip unless you  provide:the right approach the right tools.",
-          "content": "To that end, here are some of the remote work best practices that can:boost your remote marketing team's productivity enable better team collaboration."
-        },
-        {
-          "heading": "Have documented remote working policies📝📜",
-          "title": "The first thing that your content marketing team needs is a well-laid-out policy. The primary reason for loss of productivity, or even overworking, in remote settings is often that there is no clarity on what must and must not be done.",
-          "imgUrl": "https://lh5.googleusercontent.com/XYeahaeeTQd-_HjxhLFxmUQG2yB7FqMT8ai4iAzydp4oXTo9YWUDMIC4grnQLEgL6avBUGA0e01F2jgOkkcdge73OM9K20alABYlvR9IudyTff9R-vB02MKc6UITW590y0xgsOKmHRk_2AUOe5TqNro",
-          "description": "Remote work needs structure too –  documented rules and policies help provide this structure. It is important to ensure thatbarring a few occasions, everyone follows the workplace policies without fail. That is why remote teams require proper guidelines and policies governing their work similarly to guidelines for work onsite.You should set realistic working hours that apply to everyone, have rules around virtual meetings, provide clarity around employee performance appraisal, and more.Having documented policies will ensure that no one takes advantage of the system, while others are overburdened with work. It will also set a routine for everyone, clearly stating when  and how they should:log in be available take leaves.",
-          "content": "Disclaimer  📜 It should be stated that rules related to remote work policies do not exclude a call for flexibility: by applying time tracking, it is easy to achieve."
-        },
-        {
-          "heading": "Create a system of delegating work effectively to all team members 🏄🏽🏄🏽‍♀️🏄🏽‍♂️",
-          "title": "Every team has workhorses and slackers. Since team leaders have limited visibility when working remotely, the balance in the workplace could be disturbed.The content team has several activities going on at once, from content SEO planning to content creation to distribution and promotion. If there is no system to properly and effectively delegate tasks, it is likely that workload distribution might become an issue.",
-          "imgUrl": "https://lh5.googleusercontent.com/B4yFBQP0aRMuTeRojl4iMHfgI8VfC3ODO_hPOkQyYcJQaTLT0ewckJbXc3vhI9kHXym1WSpAb1H3bqNed-ctoiDRCWRNoOi_p98kqBA-LdVGl258JiLv8EOK0O020c3n1fN6BBae5xxkT7PnyBZ05B8",
-          "description": "So it is important to have a work plan for everyone, along with expectations, deliverables, deadlines, and clear distribution of responsibilities. ",
-          "content": "It is also essential that team leaders have regular one-on-one interactions with all team members and keep track of how they're performing."
-        },
-        {
-          "heading": "Offer greater autonomy than you did in the office😍🥰",
-          "title": "Having said everything about written policies and delegating tasks, it is also important to remember that remote employees cannot be expected to show up as they used to when they worked on-site.",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/07/AUTONOMY.jpeg",
-          "description": "Working from home, or elsewhere, has its share of challenges. For some, it may be kids or an elderly parent they have to take care of. For some others, a lack of space may pose a challenge. So forcing everyone to work at the same time under the same terms can have a negative impact on productivity. What can be offered? You might have to give your remote employees a fair amount of autonomy, allowing them to work when they are most productive or giving employees extra time off when needed.",
-          "content": "Aside from the mandatory policies like the number of hours remote teams are required to work or be available for team meetings, content team leaders could consider a task-oriented approach meaning that remote workers can log out at their convenience as long as they are getting the work done."
-        },
-        {
-          "heading": "Equip them with the right content collaboration tools🧑🏽‍💻👩🏽‍💻👨🏽‍💻",
-          "title": "When we talk about remote team collaboration, we usually think of the same generic tools like Microsoft Teams or Google Meet for video conferencing, Slack for instant messaging and chats, Dropbox for file sharing, and the likes.But content teams need more tools to cater to content creation and management needs.",
-          "imgUrl": "https://lh4.googleusercontent.com/SemHVsm_99a8yVsyofPdYBLCSNWUsOjfAWEs8Th1ZMNz7JtrwGiqui4aTK_gFnMNMcW11JJAktR760DY8_-WCdQEIrnAFvjU6uRG8oExyuFrokFCn99F6IyCRadh_v6jsKTTxk5LyXX-ticps0_ef3c",
-          "description": "GoVisually: Design collaboration tool GoVisually is another very intuitive visual content collaboration platform where you can collaborate with your creatives faster even in remote working. The platform lets you create designs and share feedback visually through comments and annotations added directly to the creatives.You can upload various file types including PNG, JPG, Videos, PDF, and more. Team members receive email notifications when someone leaves a comment on a design. The tool also sends reminders to stakeholders when projects are pending for their approval.You can add private comments and attachments only for your internal team to see. Task links can be shared with team members or clients for feedback and approval. All GoVisually plans also come with Slack integration, so you can receive notifications directly on your Slack channels.Pricing: The Team plan on GoVisually is $50 per month with up to 5 users. More users can be added at an additional cost of $10 per user. There is a Solo plan for individuals too, priced at $20 per month.",
-          "content": "GoVisually: Design collaboration tool GoVisually is another very intuitive visual content collaboration platform where you can collaborate with your creatives faster even in remote working. The platform lets you create designs and share feedback visually through comments and annotations added directly to the creatives.You can upload various file types including PNG, JPG, Videos, PDF, and more. Team members receive email notifications when someone leaves a comment on a design. The tool also sends reminders to stakeholders when projects are pending for their approval.You can add private comments and attachments only for your internal team to see. Task links can be shared with team members or clients for feedback and approval. All GoVisually plans also come with Slack integration, so you can receive notifications directly on your Slack channels.Pricing: The Team plan on GoVisually is $50 per month with up to 5 users. More users can be added at an additional cost of $10 per user. There is a Solo plan for individuals too, priced at $20 per month."
-        },
-        {
-          "heading": "Give your team opportunities to socialize🙋🏽🙋🏽‍♀️🙋🏽‍♂️",
-          "title": "Not all your team meetings have to be about work. Content marketing is a creative area and you need to give your team some time off for lighthearted chats and discussions to keep their creativity flowing.",
-          "imgUrl": "https://lh4.googleusercontent.com/SMeKdHd4j9MTXT5gwysPDu0O8nhIwx1Hvn1XnfObeY5BavYCuhYEr4pabyH2gWLSYIGC9Jl1DKCsUNPYoUOv5r-uLdV1Ym6lLmIvbDlOBGxo0jcUEQAmGqwsbhWE4pLSyLfsamSYBvOR_2HCPsvG9-8",
-          "description": "Give them opportunities to socialize and catch up on matters other than work. Many organizations have implemented this in their virtual meetings, usually on Fridays.<br>These meetings need not have an agenda. You could have some virtual team activities, games, or other fun interactions that help with team building and de-stressing.",
-          "content": "Some time away from work is important for your content team to build stronger connections and have a sense of belonging to the company. These activities can boost employee engagement and drive maximum productivity."
-        },
-        {
-          "heading": "Gather feedback from your remote team and keep them in the loop📣",
-          "title": "The best way to find out what makes your remote content team more productive is by asking them. Everyone has a different way of working and you will receive some very diverse feedback on what's working and what's not. Employees also feel more involved and valued when you seek their opinions on these matters.",
-          "imgUrl": "https://lh5.googleusercontent.com/f6PXcdVQy8dI51w1QpvoA7-7raoxAcanEztZcuWqYe3RwVGZ8uBx15SgszKzoMyBW1VaCxwpSlgbE-7WbBh7-iGI_NLOpKgVker_BrDRnOdwLF-tR78HMBeWdJhXZAE1cZXMlls6q9y83rpoOj9gTRM",
-          "description": "Give them opportunities to socialize and catch up on matters other than work. Many organizations have implemented this in their virtual meetings, usually on Fridays.<br>These meetings need not have an agenda. You could have some virtual team activities, games, or other fun interactions that help with team building and de-stressing.",
-          "content": "Some time away from work is important for your content team to build stronger connections and have a sense of belonging to the company. These activities can boost employee engagement and drive maximum productivity."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "How Businesses Can Encourage Productivity In Remote First World",
-      "image_url": "https://blog.tmetric.com/content/images/size/w1000/2022/08/TMetric-business-short.png",
-      "description": "Productivity in the remote-first world is easier said than done even when distractions of open space are out of sight. How can businesses encourage productivity in a remote workforce then?",
-      "content": "According to Internet live statistics , the total number of sites available online is 1,928,395,907. That's a lot less than the 3.5 trillion fish in the world ocean, but it's still almost two billion, which is mind-boggling.This huge figure easily explains why our interest in web surfing never ends.By the way, in case you're curious about the number of fish, the answer is simple: you get it by aimlessly surfing, honing the skill of smart hanging out to the level of a net surfing expert.Speaking of surfing: just like ocean surfers who know in advance the best surf spots that promise uninterrupted waves, professional net surfers must know the best hobbies like a good procrastinator. Below is a definitive list of the 20 best places to hang out, in no particular order.With that said, it's time to dive in! 🏄🏿‍♀️🏄🏻‍♀️🏄🏿‍♂️🏄🏽‍♂️",
-      "pubDate": "Jul 21, 2022 • 8 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/IMG_9261--1-.jpg",
-      "name": "Kate Gondarovskaya",
-      "news": [
-        {
-          "heading": "Awesome Hobby #1:",
-          "title": "The Oatmeal",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/oatmeal-2.png",
-          "description": "Incredibox is a unique site that allows you to create your own music in the company of great beatboxers.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #2:",
-          "title": "chill the lion",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/chill-the-lion-1.png",
-          "description": "It is a pure waste of time. 100% great. Now you have your very own lion that will be happy when you air it out.Side note: if you do this long enough, the lion will eventually get angry and eat the fan.",
-          "content": "Why is it highly addictive? 😻 The site, even if only occasionally educational, is sure to make you laugh."
-        },
-        {
-          "heading": "Awesome Hobby #3:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/chill-the-lion-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #4:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/worldatlas.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #5:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/worldatlas.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #6:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/infographics.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #7:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/overthewire.png",
-          "description": "Incredibox es un sitio único que te permite crear tu propia música en compañía de geniales beatboxers.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #8:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/musicrec-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #9:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/coding-game-2.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #10:",
-          "title": "Incredibox",
-          "imgUrl": "https://blog.tmetric.com/content/images/2022/09/cymath.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        },
-        {
-          "heading": "Awesome Hobby #11:",
-          "title": "Instructables",
-          "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/09/pdf-books-1.png",
-          "description": "Are we alone in this vast universe? Frankly, I have no idea. But I do know that this site is a gateway for those who believe that astronomy is important.",
-          "content": "Why is it highly addictive? 😻 Because music is the universal language of humanity and, with the rhythm and melodies that Incredibox offers, you will surely know how to speak it."
-        }
-      ]
-    },
-    {
-      "category": "PRODUCTIVITY HACKS",
-      "title": "Slack Time Tracking with TMetric",
-      "image_url": "https://blog.tmetric.com/content/images/size/w1000/2022/08/banner_slack_integration.jpg",
-      "description": "Today, we are happy to present you with a new integration - TMetric and Slack. With TMetric, you can easily track time spent on communicating and organizing your teamwork in Slack.",
-      "content": "Due to the growth of new economy sectors, the post-pandemic Yet, it might be a challenge to keep up high productivity levels and maintain work life balance without applying automating tools and tech solutions, which help us get things done.Aside from checking all boxes in your to-do list, GTD implies that planning can be successfully processed into building your own productivity system. In its turn, it brings:elevating business on a budget improving focus and sharpening attention-related skills implementing ready-to-use time-saving strategies for work optimization keeping tabs on multiple projects without extra effort. ",
-      "pubDate": "Sep 20, 2022 • 9 min read",
-      "profileImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
-      "name": "Alla Chernets",
-      "news": [
-        {
-          "heading": "Time Management ⌚⏱️",
-          "title": "TMetric ⏳",
-          "imgUrl": "https://lh5.googleusercontent.com/ktoXhHbmBm4IqC2IfcBTw5qPG23QHTBU1INrK2DZiZ5r8SDcyqbHizowXjQ4AGmOFRxvN91XwgcX_4l97CKZrk0aRn4lZv2DLGiHldUZv7anh4eiQhGU228Z1s7MIFuvnj8sraKU=s0",
-          "description": "Striving for excellence, we cannot ignore time tracking. It brings clarity and precision in what we do with our work time. Hence, it is essential throughout all stages of work, from planning to completion. With TMetric, things can get done in an easy way. It is a time tracking app available also as TMetric Chrome extension that takes a result-oriented approach and allows users to achieve the level of impeccable projects and time management.The app functionality enables you to keep an eye on multiple projects stress-free by bringing automation to a huge number of admin tasks:project time calculation differentiating billable and non-billable hours integration of time tracking in other apps monitoring the project budget.",
-          "content": "How it assists in GTD: Using a single-purpose solution is a sure way to achieve a specific goal. In the case of TMetric, it is an achievement of best time management, which makes it a top tool for getting things done in terms of better time tracking, invoicing, and project management."
-        },
-        {
-          "heading": "Task Planning 🗓️✅",
-          "title": "Remember The Milk",
-          "imgUrl": "https://lh4.googleusercontent.com/Jbjvg2KiMmWZj6vCHOfP7Ci4sJfNsUZJn7qj51lkjyTf0WHxmWVcUSxRG8FtDAXNpUpuZ0DdxsQX_SjDKfCnasyg3ILrwdzwLqPc4lYz28cnf-3EXSLrHkksYIG1VTZ0aaG-nM10=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Remember The Milk became the synonym of efficiency in planning as it guarantees to keep you on track for any kind of task. Use it before you start feeling overwhelmed."
-        },
-        {
-          "heading": "Graphic Design 🎨🖼️",
-          "title": "Canva",
-          "imgUrl": "https://lh4.googleusercontent.com/JOBaDAp3xMgPEO02eKQY8wYFdZtd-D2vLpO8m0t8uChVe8-OLJbqnrg-Fu3KrcWcySAx_lUxXW7cOazfA42AzTEmxKXgqCzNGiqIfNtPfejc_uDWlO6Wm_DHLjDe4zSJJBmBS6jA=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Social Media Management 🥳🎊",
-          "title": "All Hashtag",
-          "imgUrl": "https://lh6.googleusercontent.com/mCttu1DW9yMGfOyeO4e7yJW8CG_eKxN9sF5t_lfeFA9_zHqMxopjPdPWWXquBsn3UcGWG307F1-qc_XDcGfuZNKxgMZfxSJcG1hN8idfmUPk1L60wnuFOmmAABr1ewvIouWmKzCI=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Sleep Management 😴🌃",
-          "title": "Pillow",
-          "imgUrl": "https://lh5.googleusercontent.com/0ZoUx-o6-DAgP_Ewh3vwx3OZq6d-__qB4kSWE0guFzv0PyQXMr7g-Z2FPjIePjd8DTQKS2vDQxb522uY6EMUJVC8aokGnhKex880Pe2iehoiH4SNjoQIex6usBSps0zkoyMF2yiP=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Finance Management 💵🪙",
-          "title": "YNAB",
-          "imgUrl": "https://lh5.googleusercontent.com/Oh-z-eDZNFthr-aDZCOuEl4qE029F_VwISgzTV-NfPSoETufzgwM-XzJ8fCkb6S8RBHI3pqKO9WwMsQzSoBQ4_Ir2j3Sit3s5ebBEJkOCrjBWrytEjECgS44f-dxDMLCFTByYf8U=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Content Idea Generator 💡💯",
-          "title": "Portent",
-          "imgUrl": "https://lh6.googleusercontent.com/bSHWoTa4ORMnCvfkDu26pGTlnmCJiDOF5XFrMz_OlJVq2tG4JddYso7_k9HhgbJZjw-VIKEQ73teyO2fYZLBNrsxWf5s07E-pPi3paOBcNzUGsx7I3Cs3Ro-dVyxQ0d0vCPH_A5K=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        },
-        {
-          "heading": "Graphic Design 🎨🖼️",
-          "title": "Canva",
-          "imgUrl": "https://lh4.googleusercontent.com/JOBaDAp3xMgPEO02eKQY8wYFdZtd-D2vLpO8m0t8uChVe8-OLJbqnrg-Fu3KrcWcySAx_lUxXW7cOazfA42AzTEmxKXgqCzNGiqIfNtPfejc_uDWlO6Wm_DHLjDe4zSJJBmBS6jA=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Social Media Management 🥳🎊",
-          "title": "All Hashtag",
-          "imgUrl": "https://lh6.googleusercontent.com/mCttu1DW9yMGfOyeO4e7yJW8CG_eKxN9sF5t_lfeFA9_zHqMxopjPdPWWXquBsn3UcGWG307F1-qc_XDcGfuZNKxgMZfxSJcG1hN8idfmUPk1L60wnuFOmmAABr1ewvIouWmKzCI=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD:It is a leader in the market of graphic editors that makes the workflow of any complexity more productive and smooth."
-        },
-        {
-          "heading": "Sleep Management 😴🌃",
-          "title": "Pillow",
-          "imgUrl": "https://lh5.googleusercontent.com/0ZoUx-o6-DAgP_Ewh3vwx3OZq6d-__qB4kSWE0guFzv0PyQXMr7g-Z2FPjIePjd8DTQKS2vDQxb522uY6EMUJVC8aokGnhKex880Pe2iehoiH4SNjoQIex6usBSps0zkoyMF2yiP=s0",
-          "description": "Knowledge workers operate online where they are exposed to constant distractions urging them to check numerous notifications, which creates extra challenges for getting things done. The solution is simple: just navigate a day with a task planner. Remember the Milk is one of the time-tested planner apps for improved time management. It will: create a clear road map for the coming day be compatible with mobile, computerGmail, Outlook, and others sync all your devices send reminders unobtrusivelyenable you to share tasks with team members.",
-          "content": "How it assists in GTD: Since sleep deprivation makes us feel like every task is a fire drill, including a reliable sleep management app like Pillow in the list of digital helpers can help us feel energized and focus on what matters."
-        }
-      ]
-    }
-  ],
-  "nextPage": 1
-}
+[
+  {
+    "id": 1,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable wisdom about productivity and time management. Luckily, we've done the hard work for you, and have compiled the best quotes into one handy list.",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  },
+  {
+    "id": 2,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2022/09/bethany-legg-75nbwHfDsnY-unsplash.jpg",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "Los mejores sitios web para pasar el tiempo",
+    "description": "El 30 % de los empleados de todo el mundo, según confesión propia, pasan hasta dos horas al día navegando sin rumbo por internet. Descarta el pasado de tu historial de búsqueda y prueba los sitios que te harán pasar el tiempo de forma inteligente.",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/IMG_9261--1-.jpg",
+    "author": "Kate Gondarovskaya",
+    "date": "Sep 23, 2022",
+    "read": "7"
+  },
+  {
+    "id": 3,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable windom about productivity and time...",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  },
+  {
+    "id": 4,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable windom about productivity and time...",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  },
+  {
+    "id": 5,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable windom about productivity and time...",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  },
+  {
+    "id": 6,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable windom about productivity and time...",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  },
+  {
+    "id": 7,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable windom about productivity and time...",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  },
+  {
+    "id": 8,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable windom about productivity and time...",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  },
+  {
+    "id": 9,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable windom about productivity and time...",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  },
+  {
+    "id": 10,
+    "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/08/person-looking-at-dashboard.png",
+    "head-tag": "PRODUCTIVITY HACKS",
+    "heading": "The Hands-Down Best Quotes About Productivity",
+    "description": "It can be difficult to find the time to read through all of the books full of quotable windom about productivity and time...",
+    "authorImg": "https://blog.tmetric.com/content/images/size/w100/2021/11/-----1.png",
+    "author": "Alla Chernets",
+    "date": "Sep 27, 2022",
+    "read": "5"
+  }
+]
