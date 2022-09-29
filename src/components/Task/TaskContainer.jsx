@@ -9,22 +9,27 @@ import {
   Button,
   Divider,
   HStack,
-  Icon,
   IconButton,
   Input,
   InputGroup,
   InputLeftElement,
-  InputRightElement,
   Tooltip,
+  useDisclosure,
+  VStack,
 } from "@chakra-ui/react";
-import { AddIcon, PhoneIcon, SearchIcon } from "@chakra-ui/icons";
+import { AddIcon, CheckIcon, SearchIcon } from "@chakra-ui/icons";
 import { FiPlay } from "react-icons/fi";
-import { BsCheckCircle } from "react-icons/bs";
+import { FaPlay } from "react-icons/fa";
+import { RiDeleteBin6Line } from "react-icons/ri";
+import { TbArrowBarToRight } from "react-icons/tb";
+import { BsCheckCircle, BsShare } from "react-icons/bs";
 import React from "react";
 import SearchFilterButton from "./SearchFilterButton";
 import { filterBtn } from "../../utils/filterBtn";
+import NewTask from "./NewTask";
 
 const TaskContainer = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure(true);
   return (
     <Box width="100%" border="1px solid #C1C1C1" rounded="md" p="4">
       <HStack justifyContent="space-between">
@@ -40,50 +45,54 @@ const TaskContainer = () => {
         </InputGroup>
       </HStack>
       <Divider my="4" />
-      <Accordion allowToggle w="50%">
-        <AccordionItem>
-          <AccordionButton>
-            <AccordionIcon />
-            <Box ml="2">Section 1</Box>
-          </AccordionButton>
-          <AccordionPanel p="0">
-            <HStack
-              size="md"
-              gap="2"
-              px="3"
-              _hover={{ bg: "gray.100" }}
-              _active={{ bg: "gray.100" }}
-            >
-              <IconButton
-                colorScheme="gray"
-                variant="outline"
-                rounded="xl"
-                border="none"
-                icon={<BsCheckCircle />}
-              />
-              <Input
-                type="text"
-                value="Learn React"
-                border="none"
-                size="sm"
-                _focus={{ bgColor: "white" }}
-              />
-              <HStack>
-                <Tooltip label="Sanjay" aria-label="A tooltip">
-                  <Avatar size="xs" name="Sanjay" src="https://bit.ly/dan-abramov" />
-                </Tooltip>
+      <HStack alignItems="flex-start">
+        <Accordion allowToggle w="100%">
+          <AccordionItem>
+            <AccordionButton>
+              <AccordionIcon />
+              <Box ml="2">Section 1</Box>
+            </AccordionButton>
+            <AccordionPanel p="0">
+              <HStack
+                size="md"
+                gap="2"
+                px="3"
+                _hover={{ bg: "gray.100" }}
+                _active={{ bg: "gray.100" }}
+                onClick={onOpen}
+              >
                 <IconButton
                   colorScheme="gray"
                   variant="outline"
                   rounded="xl"
                   border="none"
-                  icon={<FiPlay />}
+                  icon={<BsCheckCircle />}
                 />
+                <Input
+                  type="text"
+                  defaultValue="Learn React"
+                  border="none"
+                  size="sm"
+                  _focus={{ bgColor: "white" }}
+                />
+                <HStack>
+                  <Tooltip label="Sanjay" aria-label="A tooltip">
+                    <Avatar size="xs" name="Sanjay" src="https://bit.ly/dan-abramov" />
+                  </Tooltip>
+                  <IconButton
+                    colorScheme="gray"
+                    variant="outline"
+                    rounded="xl"
+                    border="none"
+                    icon={<FiPlay />}
+                  />
+                </HStack>
               </HStack>
-            </HStack>
-          </AccordionPanel>
-        </AccordionItem>
-      </Accordion>
+            </AccordionPanel>
+          </AccordionItem>
+        </Accordion>
+        {isOpen ? <NewTask onClose={onClose} /> : ""}
+      </HStack>
     </Box>
   );
 };
