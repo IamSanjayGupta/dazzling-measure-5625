@@ -1,0 +1,45 @@
+.signup{
+    width: 50%;
+}
+.mainimg{
+    width: 50%;
+}
+.login{
+    width: 30%;
+    margin: auto;
+}
+.main{
+    width: 100%;
+}
+.login{
+    width: 50%;
+}
+
+@media all and (min-width:425px) and (max-width:900px){
+    .mainimg{
+        display: none;
+    }
+    .signup{
+        width: 100%;
+    }
+    .main{
+        width:70%
+    }
+    .login{
+        width: 60%;
+    }
+}
+@media all and (min-width:220px) and (max-width:424px){
+    .mainimg{
+        display: none;
+    }
+    .signup{
+        width: 100%;
+    }
+    .main{
+        width:95%
+    }
+    .login{
+        width: 100%;
+    }
+}
