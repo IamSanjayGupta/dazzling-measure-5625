@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     
       
-        <Flex alignItems={"center"} bg='#fff0b8' w='100%' p={15} color='white' height={"40px"}>
+        <Flex alignItems={"center"} bg='#fff0b8'  p={15} color='white' height={40}>
 
             <HStack spacing='24px'>
                 <Box cursor={"pointer"}>
@@ -20,14 +20,14 @@ const Navbar = () => {
                  src="https://tmetric.com/images/tmetric_logo_with_text.svg" alt="logo1" />
                 </Box>
 
-                <Button color="black" colorScheme='teal' size='sm' cursor={"pointer"} w='70px' bg='#fff0b8' 
-                    h='40px' border={"1px solid grey"} borderRadius={"10px"} fontSize={"17px"}><BsGlobe2 />
+                <Button color="black" size='sm' cursor={"pointer"} w='70px' bg='#fff0b8' 
+                    h='40px' border={"1px solid grey"} borderRadius={10} fontSize={17}><BsGlobe2 />
               EN
             </Button>
             </HStack>
 
             
-          <HStack ml={"200px"} gap={"20px"}>
+          <HStack ml={200} gap={20}>
             <Box as='button' bg='#fff0b8' color='black' px={6} h={"50px"} fontSize={"17px"} border="none" cursor={"pointer"}>
                Why TMetric <BiChevronDown />
             </Box>
