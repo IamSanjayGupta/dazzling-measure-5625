@@ -79,7 +79,7 @@ const NewTask = ({ onClose }) => {
       <Divider />
       <InputGroup>
         <IconButton variant="none" icon={<RiPagesLine fill="gray.400" />} border="none" />
-        <Textarea placeholder="Here is a placeholder" border="none" rows="2" />
+        <Textarea placeholder="Enter Task Description" border="none" rows="2" />
         <InputRightElement children={<BsFillPencilFill color="green.500" />} />
       </InputGroup>
       <Divider />
