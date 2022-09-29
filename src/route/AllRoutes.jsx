@@ -1,5 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Login from "../components/Auth/Login";
+import Signup from "../components/Auth/Signup";
 import About from "../components/Blogs/BlogHome/About";
 import GuestPost from "../components/Blogs/BlogHome/GuestPost";
 // import Home from "../components/Blogs/BlogHome/Home";
@@ -18,8 +20,8 @@ function AllRoutes() {
         <Route path="/price" element={<h1>Price</h1>} />
         <Route path="/support" element={<h1>Support</h1>} />
         <Route path="/blog" element={<h1>Blog</h1>} />
-        <Route path="/login" element={<h1>Login</h1>} />
-        <Route path="/signup" element={<h1>Signup</h1>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<Signup/>} />
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/news" element={<News />} />
         <Route path="/productivity" element={<Productivity />} />
