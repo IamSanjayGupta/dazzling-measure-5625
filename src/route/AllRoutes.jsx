@@ -33,5 +33,5 @@ function AllRoutes() {
     </div>
   );
 }
+export default AllRoutes
 
-export default AllRoutes;
