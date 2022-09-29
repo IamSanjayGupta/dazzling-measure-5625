@@ -1,12 +1,14 @@
 import { Center, Divider, Heading, HStack, VStack } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import SearchFilterButton from "./SearchFilterButton";
-
 import { filterBtn } from "../../utils/filterBtn";
-
 import TaskContainer from "./TaskContainer";
 
 const Task = () => {
+  useEffect(() => {
+    document.title = "Task";
+  }, []);
+
   return (
     <VStack alignItems={"flex-start"} p="5">
       <HStack>
