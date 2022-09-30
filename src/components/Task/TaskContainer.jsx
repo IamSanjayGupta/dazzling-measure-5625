@@ -9,13 +9,13 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { AddIcon, SearchIcon } from "@chakra-ui/icons";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SearchFilterButton from "./SearchFilterButton";
 import { filterBtn } from "../../utils/filterBtn";
 import NewTask from "./NewTask";
 import TaskList from "./TaskList";
-import { useDispatch } from "react-redux";
-import { addTaskAPI } from "../../redux/TASK/task.action";
+import { useDispatch, useSelector } from "react-redux";
+import { addTaskAPI, getTasksAPI } from "../../redux/TASK/task.action";
 const initTask = {
   id: "",
   title: "",
@@ -39,9 +39,26 @@ const initTask = {
 
 const TaskContainer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure(true);
-  const [task, setTask] = useState(initTask);
+  const { tasks } = useSelector((state) => state.task);
+  const [taskList, setTaskList] = useState();
+  const [sortBy, setSortBy] = useState("project");
   const dispatch = useDispatch();
-  const addTask = () => dispatch(addTaskAPI(task));
+  useEffect(() => {
+    dispatch(getTasksAPI());
+  }, []);
+
+  useEffect(() => {
+    let newTaskList = {};
+
+    tasks?.forEach((el) => {
+      !newTaskList[el.project]
+        ? (newTaskList[el.project] = [el])
+        : (newTaskList[el.project] = [...newTaskList[el.project], el]);
+    });
+    setTaskList(Object.entries(newTaskList));
+  }, [tasks]);
+
+  const addTask = () => dispatch(addTaskAPI(initTask));
 
   return (
     <Box width="100%" border="1px solid #C1C1C1" rounded="md" p="4">
@@ -66,7 +83,7 @@ const TaskContainer = () => {
       </HStack>
       <Divider my="4" />
       <HStack alignItems="flex-start">
-        <TaskList onOpen={onOpen} />
+        <TaskList onOpen={onOpen} taskList={taskList} />
         {isOpen ? <NewTask onClose={onClose} task={task} /> : ""}
       </HStack>
     </Box>

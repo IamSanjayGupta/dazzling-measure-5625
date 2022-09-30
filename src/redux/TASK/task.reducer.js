@@ -4,7 +4,7 @@ const initState = {
   error: false,
   tasks: [],
 };
-export const task = (state = initState, { type, payload }) => {
+export const taskReducer = (state = initState, { type, payload }) => {
   switch (type) {
     case action.TASK_LOADING:
       return { loading: true, error: false };
@@ -14,6 +14,8 @@ export const task = (state = initState, { type, payload }) => {
       return { loading: false, error: false, tasks: [...state.tasks, payload] };
     case action.TASK_UPDATE:
       return { loading: false, error: false };
+    case action.TASK_GET_TASK:
+      return { loading: false, error: false, tasks: payload };
 
     default:
       return state;
