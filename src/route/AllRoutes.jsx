@@ -4,13 +4,13 @@ import Login from "../components/Auth/Login";
 import Signup from "../components/Auth/Signup";
 import About from "../components/Blogs/BlogHome/About";
 import GuestPost from "../components/Blogs/BlogHome/GuestPost";
-import Home from "../components/Blogs/BlogHome/BlogHome";
 import News from "../components/Blogs/BlogHome/News";
 import Productivity from "../components/Blogs/BlogHome/Productivity";
 import Search from "../components/Blogs/BlogHome/Search";
 import SinglePage from "../components/Blogs/BlogHome/SinglePage";
 import UseCases from "../components/Blogs/BlogHome/UseCases";
 import HomePage from "../components/Home/HomePage";
+import BlogHome from "../components/Blogs/BlogHome/BlogHome";
 
 function AllRoutes() {
   return (

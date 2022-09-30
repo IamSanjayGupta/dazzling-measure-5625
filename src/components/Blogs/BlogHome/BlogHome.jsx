@@ -1,16 +1,48 @@
 import { Box } from '@chakra-ui/react'
 import React from 'react'
-import { GridItem, Grid, Image, Stack, Text, Heading } from '@chakra-ui/react'
+import { Image, Stack, Text, } from '@chakra-ui/react'
 import Navbar from '../BlogNavbar/Navbar'
 import logoPic from '../blogImage/logo_and_text.svg'
-import avatar1 from '../blogImage/avtar1.png'
 import Footer from '../BlogNavbar/Footer'
 import './Home.css'
 import { Link } from "react-router-dom";
 import content from '../blog.json'
+import './arrowUp.css'
+import { useState } from 'react';
+import { FaAngleUp } from 'react-icons/fa';
 function BlogHome() {
-  const Data = () => (
+  const ArrowUp = () => (
+    <div style={{ display: visible ? 'inline' : 'none' }}>
+      <div className='arrow-up'
 
+      >
+        <FaAngleUp onClick={scrollToTop} size={20}
+          color={'white'}
+          cursor={'pointer'}
+        />
+      </div>
+    </div>
+  )
+  const [visible, setVisible] = useState(false)
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 100) {
+      setVisible(true)
+    }
+    else if (scrolled <= 100) {
+      setVisible(false)
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  window.addEventListener('scroll', toggleVisible);
+  const Data = () => (
     <div className="blog-content-container">
       {content.map((el) => (
         <Link to={`/blog/${el.id}`} style={{ textDecoration: "none" }}>
@@ -106,6 +138,7 @@ function BlogHome() {
         </Box>
       </Box>
       <Footer />
+      <ArrowUp />
     </div>
   )
 }
