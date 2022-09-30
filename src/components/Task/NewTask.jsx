@@ -22,10 +22,14 @@ const NewTask = ({ task, onClose }) => {
   console.log(newTask);
   const handleInput = (e) => {
     let { type, name, value } = e.target;
-    console.log(type, name, value, "ene");
+
     if (name === "startTaskBtn") {
       let newStatus = newTask.status === "Running" ? "Mark Completed" : "Running";
-      setNewTask({ ...newTask, status: newStatus });
+      setNewTask({
+        ...newTask,
+        status: newStatus,
+        start_date: newTask.start_date ? newTask.start_date : Date.now(),
+      });
     } else if (name === "markBtn") {
       let newStatus = newTask.status === "Completed" ? "Mark Completed" : "Completed";
       setNewTask({ ...newTask, status: newStatus });
@@ -108,7 +112,7 @@ const NewTask = ({ task, onClose }) => {
           <Select
             placeholder="Select option"
             name="project"
-            Value={newTask.project}
+            value={newTask.project}
             border="none"
             size="sm"
             rounded="md"

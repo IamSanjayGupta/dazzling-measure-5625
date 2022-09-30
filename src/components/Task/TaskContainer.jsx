@@ -21,7 +21,7 @@ const initTask = {
   status: "InComplete",
   project: "",
   assignee: "option2",
-  start_date: Date.now(),
+  start_date: "",
   due_date: "",
   description: "",
   estimate: "",
