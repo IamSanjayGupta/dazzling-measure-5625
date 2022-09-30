@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { CheckIcon } from "@chakra-ui/icons";
-import { FaPlay } from "react-icons/fa";
+import { FaPause, FaPlay } from "react-icons/fa";
 import { RiDeleteBin6Line, RiPagesLine } from "react-icons/ri";
 import { TbArrowBarToRight } from "react-icons/tb";
 import { BsFillPencilFill, BsShare } from "react-icons/bs";
 import { BiBarChart } from "react-icons/bi";
-import { Divider, Heading, HStack, Text, VStack } from "@chakra-ui/layout";
+import { Divider, Heading, HStack, Link, Text, VStack } from "@chakra-ui/layout";
 import {
   Button,
   IconButton,
@@ -23,14 +23,13 @@ const NewTask = ({ task, onClose }) => {
   const handleInput = (e) => {
     let { type, name, value } = e.target;
     console.log(type, name, value, "ene");
-
-    if (
-      name === "project" ||
-      name === "assignee" ||
-      name === "due_date" ||
-      name === "tag" ||
-      name === "estimate"
-    ) {
+    if (name === "startTaskBtn") {
+      let newStatus = newTask.status === "Running" ? "Mark Completed" : "Running";
+      setNewTask({ ...newTask, status: newStatus });
+    } else if (name === "markBtn") {
+      let newStatus = newTask.status === "Completed" ? "Mark Completed" : "Completed";
+      setNewTask({ ...newTask, status: newStatus });
+    } else if (name === "project" || name === "assignee" || name === "due_date" || name === "tag") {
       setNewTask({
         ...newTask,
         [name]: value,
@@ -66,11 +65,18 @@ const NewTask = ({ task, onClose }) => {
               variant="outline"
               rounded="full"
               icon={
-                newTask.status === "Running" ? <FaPlay fill="#17c22e" /> : <FaPlay fill="#C1C1C1" />
+                newTask.status === "Running" ? <FaPause fill="red" /> : <FaPlay fill="#17c22e" />
               }
+              name="startTaskBtn"
               onClick={handleInput}
             />
-            <Button colorScheme="gray" leftIcon={<CheckIcon />} size="sm" onClick={handleInput}>
+            <Button
+              colorScheme={newTask.status === "Completed" ? "whatsapp" : "gray"}
+              leftIcon={<CheckIcon />}
+              name="markBtn"
+              size="sm"
+              onClick={handleInput}
+            >
               {newTask.status === "Completed" ? "Completed" : "Mark Complete"}
             </Button>
           </HStack>
@@ -108,9 +114,9 @@ const NewTask = ({ task, onClose }) => {
             rounded="md"
             onChange={handleInput}
           >
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="Project Z">Project Z</option>
+            <option value="Project X">Project X</option>
+            <option value="Project Y">Project Y</option>
           </Select>
         </HStack>
         <HStack w="250px" transition="all 0.4s" _focusWithin={{ width: "100%" }}>
@@ -126,9 +132,10 @@ const NewTask = ({ task, onClose }) => {
             rounded="md"
             onChange={handleInput}
           >
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="Sanjay">Sanjay</option>
+            <option value="Vaibhav">Vaibhav</option>
+            <option value="Summaiya">Summaiya</option>
+            <option value="Venketesh">Venketesh</option>
           </Select>
         </HStack>
         <InputGroup w="250px">
@@ -189,9 +196,9 @@ const NewTask = ({ task, onClose }) => {
             rounded="md"
             onChange={handleInput}
           >
-            <option value="option1">Designe</option>
-            <option value="option2">Development</option>
-            <option value="option3">Testing</option>
+            <option value="Design">Design</option>
+            <option value="Development">Development</option>
+            <option value="Testing">Testing</option>
           </Select>
         </HStack>
         <InputGroup>
@@ -200,14 +207,17 @@ const NewTask = ({ task, onClose }) => {
             Activity
           </Text>
         </InputGroup>
-        <VStack pl="8">
-          {newTask.activity.map((act) => {
-            return (
-              <Text fontSize="sm" key={act.id}>
-                {act.by} {act.message} - {act.date_time}
-              </Text>
-            );
-          })}
+        <VStack pl="8" alignItems="flex-start">
+          {newTask.activity
+            .sort((a, b) => b.id - a.id)
+            ?.map((act) => {
+              return (
+                <Text fontSize="sm" key={act.id}>
+                  {act.by} {act.message} -{" "}
+                  <span style={{ fontSize: "0.8rem" }}>{act.date_time}</span>
+                </Text>
+              );
+            })}
         </VStack>
       </VStack>
     </form>
