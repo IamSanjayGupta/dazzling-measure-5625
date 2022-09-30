@@ -16,7 +16,7 @@ export const authInitalState = {
   export const authReducer = (state = authInitalState, { type, payload }) => {
     switch (type) {
       case AUTH_LOG_IN_SUCCESS: {
-        console.log(payload)
+        console.log("logged in successfully")
         return {
           ...state,
           loading: false,
@@ -35,6 +35,7 @@ export const authInitalState = {
         };
       }
       case AUTH_LOG_OUT: {
+        console.log("logging out")
         return {
           ...state,
           data: {

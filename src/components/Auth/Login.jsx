@@ -13,14 +13,13 @@ import { Link as ReachLink } from "react-router-dom"
 import styles from "./signup.module.css";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { loginAPI } from "../../redux/authentication/auth.action";
 
 function Login() {
   const [loginCreds, setLoginCreds] = useState({});
   const isAuthenticated = useSelector((store) => store.auth.data.token);
   const navigate = useNavigate();
-  const { state } = useLocation();
   const dispatch = useDispatch();
   console.log(isAuthenticated);
   useEffect(() => {
