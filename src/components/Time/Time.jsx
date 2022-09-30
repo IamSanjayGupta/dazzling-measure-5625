@@ -17,6 +17,7 @@ import { FaPlay } from "react-icons/fa";
 import { FaStop } from "react-icons/fa";
 import TimePicker from "react-time-picker";
 import { CheckIcon } from "@chakra-ui/icons";
+import ProjectList from "./ProjectList";
 
 import {
   Popover,
@@ -63,7 +64,7 @@ const Time = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
- 
+
     setForm({
       ...form,
       [name]: value,
@@ -157,7 +158,7 @@ const Time = () => {
             <Text fontSize={"3xl"} fontWeight="medium">
               {Math.abs(uptime[0]) + "h" + ":" + Math.abs(uptime[1]) + "m"}
             </Text>
-       
+
             <Popover isLazy>
               <PopoverTrigger>
                 <Button borderRadius="50%" height="35px" width="25px">
@@ -188,10 +189,7 @@ const Time = () => {
             </Popover>
           </Flex>
 
-      <Box>
-        {/* <Slider/> */}
-      </Box>
-
+          <Box>{/* <Slider/> */}</Box>
         </Box>
       </Box>
 
@@ -204,7 +202,18 @@ const Time = () => {
             <Button onClick={onOpen}>Add Time Entry</Button>
           </Flex>
 
-       
+          {data.map((e) => {
+            // console.log(e)
+            return (
+              <ProjectList
+                props={e}
+                key={e.id}
+                setPlay={setPlay}
+                play={play}
+                DeleteProject={DeleteProject}
+              />
+            );
+          })}
 
           {/* Add Time entey */}
           <form action="">
