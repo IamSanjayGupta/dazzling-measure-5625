@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CheckIcon } from "@chakra-ui/icons";
 import { FaPause, FaPlay } from "react-icons/fa";
 import { RiDeleteBin6Line, RiPagesLine } from "react-icons/ri";
@@ -16,10 +16,15 @@ import {
   Textarea,
 } from "@chakra-ui/react";
 import { getActivity } from "../../utils/getActivity";
+import { useSelector } from "react-redux";
 
-const NewTask = ({ task, onClose }) => {
-  const [newTask, setNewTask] = useState(task);
-  console.log(newTask);
+const NewTask = ({ onClose }) => {
+  const { selectTask } = useSelector((state) => state.task);
+  const [newTask, setNewTask] = useState(selectTask);
+  useEffect(() => {
+    setNewTask({ ...selectTask });
+  }, [selectTask]);
+
   const handleInput = (e) => {
     let { type, name, value } = e.target;
 

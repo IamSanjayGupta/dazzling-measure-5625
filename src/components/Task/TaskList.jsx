@@ -14,8 +14,15 @@ import {
 } from "@chakra-ui/react";
 import { FiPlay } from "react-icons/fi";
 import { BsCheckCircle } from "react-icons/bs";
+import { useDispatch } from "react-redux";
+import { TASK_SET_SELECTED_TASK } from "../../redux/TASK/task.types";
 const TaskList = ({ onOpen, taskList }) => {
+  const dispatch = useDispatch();
   console.log(taskList);
+  const handleTaskClick = (task) => {
+    dispatch({ type: TASK_SET_SELECTED_TASK, payload: task });
+    onOpen();
+  };
   return (
     <Accordion allowToggle w="100%">
       {taskList?.map((el) => {
@@ -35,7 +42,7 @@ const TaskList = ({ onOpen, taskList }) => {
                     px="3"
                     _hover={{ bg: "gray.100" }}
                     _active={{ bg: "gray.100" }}
-                    onClick={onOpen}
+                    onClick={() => handleTaskClick(t)}
                   >
                     <IconButton
                       colorScheme="gray"
@@ -46,7 +53,7 @@ const TaskList = ({ onOpen, taskList }) => {
                     />
                     <Input
                       type="text"
-                      value={t.title}
+                      defaultValue={t?.title}
                       border="none"
                       size="sm"
                       _focus={{ bgColor: "white" }}

@@ -84,7 +84,7 @@ const TaskContainer = () => {
       <Divider my="4" />
       <HStack alignItems="flex-start">
         <TaskList onOpen={onOpen} taskList={taskList} />
-        {isOpen ? <NewTask onClose={onClose} task={task} /> : ""}
+        {isOpen ? <NewTask onClose={onClose} /> : ""}
       </HStack>
     </Box>
   );
