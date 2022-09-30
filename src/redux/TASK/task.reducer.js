@@ -14,7 +14,8 @@ export const taskReducer = (state = initState, { type, payload }) => {
     case action.TASK_ADD:
       return { ...state, loading: false, error: false, tasks: [...state.tasks, payload] };
     case action.TASK_UPDATE:
-      return { ...state, loading: false, error: false };
+      let newData = tasks.map((el) => (el.id === payload.id ? payload.data : el));
+      return { ...state, loading: false, error: false, tasks: newData };
     case action.TASK_GET_TASK:
       return { ...state, loading: false, error: false, tasks: payload };
     case action.TASK_SET_SELECTED_TASK:

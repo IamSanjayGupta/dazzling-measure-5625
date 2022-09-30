@@ -16,11 +16,15 @@ import {
   Textarea,
 } from "@chakra-ui/react";
 import { getActivity } from "../../utils/getActivity";
-import { useSelector } from "react-redux";
-
+import { useDispatch, useSelector } from "react-redux";
+import { updateTaskAPI } from "../../redux/TASK/task.action";
+import { cleanup } from "@testing-library/react";
+let timerid = 0;
 const NewTask = ({ onClose }) => {
   const { selectTask } = useSelector((state) => state.task);
+  const dispatch = useDispatch();
   const [newTask, setNewTask] = useState(selectTask);
+
   useEffect(() => {
     setNewTask({ ...selectTask });
   }, [selectTask]);
@@ -56,6 +60,14 @@ const NewTask = ({ onClose }) => {
       setNewTask({ ...newTask, [name]: value });
     }
   };
+
+  useEffect(() => {
+    timerid && clearTimeout(timerid);
+    timerid = setTimeout(() => {
+      console.log("in timout");
+      dispatch(updateTaskAPI(newTask.id, newTask));
+    }, 1000);
+  }, [newTask]);
 
   return (
     <form style={{ width: "100%" }}>
