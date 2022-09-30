@@ -9,18 +9,19 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { AddIcon, SearchIcon } from "@chakra-ui/icons";
-
 import React, { useState } from "react";
 import SearchFilterButton from "./SearchFilterButton";
 import { filterBtn } from "../../utils/filterBtn";
 import NewTask from "./NewTask";
 import TaskList from "./TaskList";
+import { useDispatch } from "react-redux";
+import { addTaskAPI } from "../../redux/TASK/task.action";
 const initTask = {
   id: "",
   title: "",
   status: "InComplete",
   project: "",
-  assignee: "option2",
+  assignee: "",
   start_date: "",
   due_date: "",
   description: "",
@@ -39,11 +40,21 @@ const initTask = {
 const TaskContainer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure(true);
   const [task, setTask] = useState(initTask);
+  const dispatch = useDispatch();
+  const addTask = () => dispatch(addTaskAPI(task));
+
   return (
     <Box width="100%" border="1px solid #C1C1C1" rounded="md" p="4">
       <HStack justifyContent="space-between">
         <HStack>
-          <Button leftIcon={<AddIcon />} size="sm" colorScheme="blue" variant="solid" px="4">
+          <Button
+            leftIcon={<AddIcon />}
+            size="sm"
+            colorScheme="blue"
+            variant="solid"
+            px="4"
+            onClick={addTask}
+          >
             New Task
           </Button>
           <SearchFilterButton {...filterBtn[5]} title={"Sort"} />

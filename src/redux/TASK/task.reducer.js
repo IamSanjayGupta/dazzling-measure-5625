@@ -4,7 +4,6 @@ const initState = {
   error: false,
   tasks: [],
 };
-
 export const task = (state = initState, { type, payload }) => {
   switch (type) {
     case action.TASK_LOADING:
