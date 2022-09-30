@@ -6,8 +6,8 @@ import Navbar from "./components/Blogs/BlogNavbar/Navbar";
 function App() {
   return (
     <div className="App">
-      {/* <AllRoutes /> */}
-      <Task />
+      <AllRoutes />
+      {/* <Task /> */}
       {/* <Navbar /> */}
     </div>
   );
