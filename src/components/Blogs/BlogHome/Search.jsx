@@ -14,31 +14,34 @@ function Search() {
   return (
     <div>
       <Navbar />
-      <Box 
-      border={'1px solid blue'} 
-      p={'8rem 10rem 10rem 10rem '} textAlign={'center'}>
+      <Box
+        border={'1px solid blue'}
+        p={'8rem 10rem 10rem 10rem '} textAlign={'center'}>
 
-        <Box border={'1px solid blue'} >
+        <Box border={'1px solid red'} h={'300px'} >
           <Box>
             <Heading>Search TMetric Blog - Time Tracking Tips and Productivity Hacks
             </Heading>
           </Box>
+          <br /><br /><br />
+          <Box>
 
-          <Box display={'flex'} margin={'auto'} >
-            <Input
-              value={value}
-              onChange={handleChange}
-              placeholder='Enter the search term'
-              // size='20'
-              w={500}
-            />
-            <Button bg='#3070F0' color={'white'} variant='solid'>
-              Button
-            </Button>
+            <Box display={'flex'} margin={'auto'} width="80%" m='auto'>
+              <Input
+                value={value}
+                onChange={handleChange}
+                placeholder='Enter the search term'
+                // size='20'
+                w={500}
+              />
+              <Button bg='#3070F0' color={'white'} variant='solid'>
+                Button
+              </Button>
+            </Box>
           </Box>
+
+
         </Box>
-
-
       </Box>
       <Footer />
     </div>
