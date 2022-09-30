@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Accordion,
   AccordionButton,
@@ -14,11 +14,25 @@ import {
 } from "@chakra-ui/react";
 import { FiPlay } from "react-icons/fi";
 import { BsCheckCircle } from "react-icons/bs";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { TASK_SET_SELECTED_TASK } from "../../redux/TASK/task.types";
-const TaskList = ({ onOpen, taskList }) => {
+import { getTasksAPI } from "../../redux/TASK/task.action";
+const TaskList = ({ onOpen }) => {
   const dispatch = useDispatch();
-  console.log(taskList);
+  const { tasks } = useSelector((state) => state.task);
+  const [taskList, setTaskList] = useState();
+
+  useEffect(() => {
+    dispatch(getTasksAPI());
+    let newTaskList = {};
+    tasks?.forEach((el) => {
+      !newTaskList[el.project]
+        ? (newTaskList[el.project] = [el])
+        : (newTaskList[el.project] = [...newTaskList[el.project], el]);
+    });
+    setTaskList(Object.entries(newTaskList));
+  }, [tasks]);
+
   const handleTaskClick = (task) => {
     dispatch({ type: TASK_SET_SELECTED_TASK, payload: task });
     onOpen();

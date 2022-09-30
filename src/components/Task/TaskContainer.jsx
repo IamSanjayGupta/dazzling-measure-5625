@@ -39,24 +39,9 @@ const initTask = {
 
 const TaskContainer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure(true);
-  const { tasks } = useSelector((state) => state.task);
-  const [taskList, setTaskList] = useState();
+
   const [sortBy, setSortBy] = useState("project");
   const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getTasksAPI());
-  }, []);
-
-  useEffect(() => {
-    let newTaskList = {};
-
-    tasks?.forEach((el) => {
-      !newTaskList[el.project]
-        ? (newTaskList[el.project] = [el])
-        : (newTaskList[el.project] = [...newTaskList[el.project], el]);
-    });
-    setTaskList(Object.entries(newTaskList));
-  }, [tasks]);
 
   const addTask = () => dispatch(addTaskAPI(initTask));
 
@@ -83,7 +68,7 @@ const TaskContainer = () => {
       </HStack>
       <Divider my="4" />
       <HStack alignItems="flex-start">
-        <TaskList onOpen={onOpen} taskList={taskList} />
+        <TaskList onOpen={onOpen} />
         {isOpen ? <NewTask onClose={onClose} /> : ""}
       </HStack>
     </Box>
