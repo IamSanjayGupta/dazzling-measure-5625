@@ -1,7 +1,6 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid red; */
     padding: 0.5rem 4rem 0.5rem 2rem;
     gap: 8px;
     align-content: space-between;
@@ -21,7 +20,6 @@
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    /* border: 1px solid green; */
     align-items: center;
     padding: 0.2rem 1rem 0.2rem 1rem;
     height: auto;
@@ -32,4 +30,32 @@
 .nav-bg {
     font-weight: 500;
     color: rgb(65, 65, 65);
+}
+
+.navbar-lg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-content: space-between;
+}
+
+@media only screen and (min-width: 1001px) {
+    .navbar-lg {
+        display: inherit;
+    }
+
+    .navbar-md {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1001px) {
+    .navbar-lg {
+        display: none;
+    }
+
+    .navbar-md {
+        display: inherit;
+    }
 }

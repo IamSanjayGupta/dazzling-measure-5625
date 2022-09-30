@@ -1,8 +1,8 @@
 import { Box, Heading } from '@chakra-ui/layout'
 import { Button, Input } from '@chakra-ui/react'
 import React, { useState } from 'react'
+import BlogSearchNav from '../BlogNavbar/BlogSearchNav'
 import Footer from '../BlogNavbar/Footer'
-import Navbar from '../BlogNavbar/Navbar'
 
 function Search() {
   const [value, setValue] = useState()
@@ -13,7 +13,7 @@ function Search() {
   }
   return (
     <div>
-      <Navbar />
+    <BlogSearchNav/>
       <Box
         border={'1px solid blue'}
         p={'8rem 10rem 10rem 10rem '} textAlign={'center'}>

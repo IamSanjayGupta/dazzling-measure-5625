@@ -16,7 +16,7 @@ function SinglePage() {
       case "3":
         return <Page3 />;
       default:
-        return <h3>No page has been created associated with this ID</h3>;
+        return <Page3 />;
     }
   }
   const el = content.find((el) => (el.id = id));

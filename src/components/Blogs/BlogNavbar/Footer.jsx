@@ -1,4 +1,4 @@
-import { Image, Box } from '@chakra-ui/react'
+import { Image, Box, Button } from '@chakra-ui/react'
 import React from 'react'
 import logo from '../blogImage/tmetric-blog-logo.svg'
 // experiment
@@ -11,9 +11,9 @@ import {
   VisuallyHidden,
 } from '@chakra-ui/react';
 import { FaTwitter, FaFacebook } from 'react-icons/fa';
-import { ReactNode } from 'react';
 
-const SocialButton = ({ children, label, href, }: { children: ReactNode; label: string; href: string; }) => {
+
+const SocialButton = ({ children, label, href, }) => {
   return (
     <chakra.button
       // bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
@@ -37,38 +37,37 @@ const SocialButton = ({ children, label, href, }: { children: ReactNode; label: 
   );
 };
 function Footer() {
+
+  
   return (
     <Box
+    // border={'1px solid red'}
       background={'#EBEDF0'}
-      // border={'1px solid blue'}
       padding={'0.5rem 3rem 3rem 3rem'}
+      mb={-10}
       color={useColorModeValue('gray.700', 'gray.200')}>
       <Container
-        // border={'1px solid orange'}
         as={Stack}
         maxW={'7xl'}
-        padding={'1rem 1rem 1rem 1rem'}
+        padding={'1rem 2.5rem 0rem 1rem'}
         direction={{ base: 'column', md: 'row' }}
         spacing={4}
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
         <Stack direction={'row'} spacing={4} textAlign={'center'} alignItems={'center'}>
           <Image
-            // border={'1px solid orange'} 
             width={100}
             src={logo}
+            alt='logoimage'
           />
           <Text
-            //  border={'1px solid orange'} 
             textColor={'black'}
             fontWeight={500}
             fontSize={14}
             margin={'auto'}
           > Try TMetric for free © 2022 </Text>
         </Stack>
-
         <Stack
-          // border={'1px solid orange'} 
           direction={'row'}
           spacing={4}
           padding={'1rem 1rem 1rem 1rem'}
@@ -81,6 +80,7 @@ function Footer() {
           </SocialButton>
         </Stack>
       </Container>
+
     </Box>
   );
 }
