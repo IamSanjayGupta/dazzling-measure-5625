@@ -16,6 +16,7 @@ import {
     Input,
     FormControl,
 } from '@chakra-ui/react';
+import HamBurger from './HamBurger';
 
 
 function Navbar() {
@@ -89,11 +90,11 @@ function Navbar() {
                         size={size}
                     > {overlay}
                         <ModalOverlay />
-                        <ModalContent w={"50%"}  >
+                        <ModalContent w={"50%"} h={'80vh'}  >
 
                             <Box
                                 width="80%"
-                                height={32}
+                                height={25}
                                 m={"auto"}
                             >
                                 <ModalHeader fontSize='2xl'>Subscribe to Our Newsletter</ModalHeader>
@@ -122,7 +123,7 @@ function Navbar() {
                 </Box>
             </div>
             <div className="navbar-md">
-                <h3>hamburger</h3>
+                <HamBurger />
             </div>
 
 
