@@ -8,7 +8,7 @@ import Footer from '../BlogNavbar/Footer'
 import './Home.css'
 import { Link } from "react-router-dom";
 import content from '../blog.json'
-function Home() {
+function BlogHome() {
   const Data = () => (
 
     <div className="blog-content-container">
@@ -102,7 +102,7 @@ function Home() {
           // border={"3px solid black"}
           height={'auto'}
         >
-          <Data/>
+          <Data />
         </Box>
       </Box>
       <Footer />
@@ -110,4 +110,4 @@ function Home() {
   )
 }
 
-export default Home
+export default BlogHome
