@@ -30,7 +30,7 @@ import {
   PopoverCloseButton,
   PopoverAnchor,
 } from "@chakra-ui/react";
-//import Slider from "./Slider";
+import Projects from "./ProjectList";
 
 const Time = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -38,16 +38,16 @@ const Time = () => {
   const [uptime, setUptime] = useState([0, 0]);
   let [value, onChange] = useState("8:00");
   let [value1, onChange1] = useState("9:00");
-  const [shour, setshour] = useState([]);
-  const [ehour, setehour] = useState([]);
+  const [starthour, setstarthour] = useState([]);
+  const [endhour, setendhour] = useState([]);
 
   const [data, setData] = useState([]);
   const [form, setForm] = useState({
     id: "",
     description: "",
     project: "",
-    start: shour,
-    end: ehour,
+    start: starthour,
+    end: endhour,
   });
 
   const DeleteProject = (id) => {
@@ -56,8 +56,8 @@ const Time = () => {
     rset();
   };
   const rset = () => {
-    let h = ehour[0] - shour[0];
-    let m = ehour[1] - shour[1];
+    let h = endhour[0] - starthour[0];
+    let m = endhour[1] - starthour[1];
     let temp = [...uptime];
     setUptime([temp[0] - h, temp[1] - m]);
   };
@@ -72,8 +72,8 @@ const Time = () => {
     });
   };
   const set = () => {
-    let h = ehour[0] - shour[0];
-    let m = ehour[1] - shour[1];
+    let h = endhour[0] - starthour[0];
+    let m = endhour[1] - starthour[1];
     let temp = [...uptime];
     setUptime([temp[0] + h, temp[1] + m]);
   };
@@ -88,18 +88,19 @@ const Time = () => {
   const start = () => {};
 
   useEffect(() => {
-    setshour(value.trim().split(":").map(Number));
-    setForm({ ...form, start: shour.join(":") });
+    setstarthour(value.trim().split(":").map(Number));
+    setForm({ ...form, start: starthour.join(":") });
   }, [value]);
   useEffect(() => {
-    setehour(value1.trim().split(":").map(Number));
-    setForm({ ...form, end: ehour.join(":") });
+    setendhour(value1.trim().split(":").map(Number));
+    setForm({ ...form, end: endhour.join(":") });
   }, [value1]);
 
   return (
-    <Box w="80%" p="0.5rem">
+    <Box w="100%" p="0.5rem">
       {/*-------------------------------------------------------- Upper------------------------------------------- */}
 
+      {/* { console.log(value)} */}
       <Flex justifyContent="space-between">
         {/*left section Time*/}
         <Box display={"flex"} gap="10px" border={""}>
@@ -109,18 +110,21 @@ const Time = () => {
               bg="#17c22e"
               disabled={play > 0}
               colorScheme="#17c22e"
-              borderRadius="49%"
+              borderRadius="50%"
               onClick={start}
+              height="50px"
             >
               <FaPlay color="white" />
             </Button>
             <Button
-              bg="red"
+              bg="white"
               disabled={play <= 0}
               colorScheme="red"
-              borderRadius="49%"
+              borderRadius="50%"
+              height="50px"
+              border="1px solid gray"
             >
-              <FaStop color="white" />
+              <FaStop color="gray" />
             </Button>
           </Flex>
 
@@ -149,14 +153,14 @@ const Time = () => {
         </Box>
       </Flex>
 
-      {/*------------------------------------------------Middle part-------------------------------------*/}
+      {/*------------------------------------------------Middle-----------------------------------------*/}
 
       <Box border={"1px solid #d0d6db"} mt="0.5rem" p={"1rem"}>
         <Box>
           <Text textAlign={"left"}>Total</Text>
           <Flex mt="-2" justifyContent={"space-between"}>
             <Text fontSize={"3xl"} fontWeight="medium">
-              {Math.abs(uptime[0]) + "h" + ":" + Math.abs(uptime[1]) + "m"}
+              {Math.abs(uptime[0]) + "h" + " " + Math.abs(uptime[1]) + "m"}
             </Text>
 
             <Popover isLazy>
@@ -165,7 +169,7 @@ const Time = () => {
                   ...
                 </Button>
               </PopoverTrigger>
-              <PopoverContent marginRight="150px" width="border-box">
+              <PopoverContent marginRight="10px" width="border-box">
                 <PopoverHeader fontWeight="semibold">
                   {" "}
                   <CheckIcon /> Billable Time
@@ -193,7 +197,7 @@ const Time = () => {
         </Box>
       </Box>
 
-      {/*-----------------------------------------------down part---------------------------------------------*/}
+      {/*-----------------------------------------------down--------------------------------------------------*/}
 
       <Box border={"1px solid #d0d6db"} mt="0.5rem" borderRadius="6px">
         <Box>
@@ -201,6 +205,7 @@ const Time = () => {
             <Checkbox isDisabled></Checkbox>
             <Button onClick={onOpen}>Add Time Entry</Button>
           </Flex>
+          {/* <Break/> */}
 
           {data.map((e) => {
             // console.log(e)
@@ -211,6 +216,8 @@ const Time = () => {
                 setPlay={setPlay}
                 play={play}
                 DeleteProject={DeleteProject}
+                value={value}
+                value1={value1}
               />
             );
           })}
@@ -237,7 +244,7 @@ const Time = () => {
                       h="30px"
                       name="description"
                       onChange={(e) => handleChange(e)}
-                      placeholder="Description"
+                      placeholder="Describe your task"
                     ></Input>
                   </Box>
                   <Box>
@@ -253,7 +260,8 @@ const Time = () => {
                   <Box w="12%">
                     <Text textAlign={"left"}>Duration</Text>
                     <Text border="1px solid" borderRadius={"3px"}>
-                      {ehour[0] - shour[0]}h : {ehour[1] - shour[1]}m
+                      {endhour[0] - starthour[0]}h : {endhour[1] - starthour[1]}
+                      m
                     </Text>
                   </Box>
                 </Flex>
@@ -265,12 +273,12 @@ const Time = () => {
                     <Input
                       name="project"
                       onChange={(e) => handleChange(e)}
-                      placeholder="Add project"
+                      placeholder="Add  your project"
                     />
                   </Box>
                   <Box w="40%">
                     <Text textAlign={"left"}>Add Tags</Text>
-                    <Input placeholder="Add Tags" />
+                    <Input placeholder="No tags" />
                   </Box>
                 </Flex>
 

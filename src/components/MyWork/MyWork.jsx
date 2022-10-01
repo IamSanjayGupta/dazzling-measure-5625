@@ -5,7 +5,7 @@ import { TimeIcon, CalendarIcon } from "@chakra-ui/icons";
 
 const MyWork = () => {
   return (
-    <Box bg="white" w="80%" p="0.5rem" color="white">
+    <Box bg="white" w="100%" p="0.5rem" color="white">
       <Flex>
         <Text fontSize="3xl" color="black">
           My Work
@@ -19,9 +19,14 @@ const MyWork = () => {
 
       {/* *********** */}
 
-      <Flex gap="5px" justifyContent="space-between" mt="15px">
+      <Flex
+        gap="5px"
+        justifyContent="space-between"
+        mt="15px"
+        direction={["column", "column", "row"]}
+      >
         <Box
-          w="38%"
+          w={[370, 450, 580]}
           bg="white"
           border="1px solid gray"
           height="150px"
@@ -53,7 +58,7 @@ const MyWork = () => {
         </Box>
 
         <Box
-          w="60%"
+          w={[370, 520, 900]}
           h="40px"
           bg="white"
           height="150px"
@@ -133,9 +138,14 @@ const MyWork = () => {
 
       {/* ************* */}
 
-      <Flex gap="5px" justifyContent="space-between" mt="15px">
+      <Flex
+        gap="5px"
+        justifyContent="space-between"
+        mt="15px"
+        direction={["column", "column", "row"]}
+      >
         <Box
-          w="49%"
+          w={[370, 450, 870]}
           bg="white"
           border="1px solid gray"
           height="250px"
@@ -166,7 +176,7 @@ const MyWork = () => {
         </Box>
 
         <Box
-          w="49%"
+          w={[370, 520, 610]}
           h="40px"
           bg="white"
           height="250px"
