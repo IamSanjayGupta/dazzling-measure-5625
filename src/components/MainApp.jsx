@@ -1,7 +1,8 @@
 import { HStack } from "@chakra-ui/layout";
-import { IconButton, useDisclosure } from "@chakra-ui/react";
+import { IconButton, Image, useDisclosure } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { BsChevronLeft, BsTextIndentLeft } from "react-icons/bs";
+import PageNotFound from "./PageNotFound";
 import SideMenu from "./SideMenu/SideMenu";
 import Task from "./Task/Task";
 
@@ -24,7 +25,7 @@ const MainApp = () => {
 
       <HStack alignItems="flex-start" justifyContent="center">
         {isOpen ? <SideMenu setOption={setOption} /> : ""}
-        {option === "Task" ? <Task /> : ""}
+        {option === "Task" ? <Task /> : <PageNotFound />}
       </HStack>
     </>
   );
