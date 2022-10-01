@@ -123,7 +123,7 @@ function Navbar() {
                 </Box>
             </div>
             <div className="navbar-md">
-                <HamBurger />
+                <HamBurger color={color} />
             </div>
 
 

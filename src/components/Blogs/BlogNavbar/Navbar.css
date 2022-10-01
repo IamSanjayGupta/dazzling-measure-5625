@@ -46,8 +46,8 @@
     }
 
     .navbar-md {
-        display: none;
-    }
+        display: none; 
+     }
 }
 
 @media only screen and (max-width: 1001px) {
@@ -57,5 +57,6 @@
 
     .navbar-md {
         display: inherit;
+        height: 2rem;
     }
 }
