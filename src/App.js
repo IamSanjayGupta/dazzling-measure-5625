@@ -4,12 +4,14 @@ import Task from "./components/Task/Task";
 import Navbar from "./components/Blogs/BlogNavbar/Navbar";
 import Userprofile from "./components/Auth/Userprofile";
 import Profile from "./components/Auth/Profile";
+import SideMenu from "./components/SideMenu/SideMenu";
 
 function App() {
   return (
     <div className="App">
-      <AllRoutes />
-      {/* <Task /> */}
+      {/* <AllRoutes /> */}
+      <SideMenu />
+      <Task />
       {/* <Navbar /> */}
     </div>
   );
