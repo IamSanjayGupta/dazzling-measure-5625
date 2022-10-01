@@ -41,21 +41,22 @@
 }
 
 @media only screen and (min-width: 1001px) {
-    /* .navbar-lg {
+    .navbar-lg {
         display: inherit;
     }
 
     .navbar-md {
-        display: none; */
-    /* } */
+        display: none; 
+     }
 }
 
 @media only screen and (max-width: 1001px) {
-    /* .navbar-lg {
+    .navbar-lg {
         display: none;
     }
 
     .navbar-md {
         display: inherit;
-    } */
+        height: 2rem;
+    }
 }

@@ -122,9 +122,9 @@ function Navbar() {
                     </Modal>
                 </Box>
             </div>
-            {/* <div className="navbar-md">
-                <HamBurger />
-            </div> */}
+            <div className="navbar-md">
+                <HamBurger color={color} />
+            </div>
 
 
         </header >

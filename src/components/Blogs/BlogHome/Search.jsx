@@ -1,19 +1,69 @@
-import { Box, Heading } from '@chakra-ui/layout'
+import { Box, Heading, Text } from '@chakra-ui/layout'
 import { Button, Input } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import BlogSearchNav from '../BlogNavbar/BlogSearchNav'
 import Footer from '../BlogNavbar/Footer'
 import ArrowUp from './ArrowUp'
+import newsData from "../new.json"
+import { v4 as uuid } from "uuid"
 function Search() {
-  const [value, setValue] = useState()
-  const handleChange = () => {
+  const { articles } = newsData
+  // console.log(articles)
+  const [text, setText] = useState("")
+  const [data, setData] = useState([]);
+  const [visibility, setVisibility] = useState(false)
+  const handleSearch = () => {
+    let updatedData = [];
+    let updatedText = text.toLowerCase().trim();
+    for (let element of articles) {
+      if (updatedText !== "" &&
+        (
+          (element.author && element.author.toLowerCase().includes(updatedText)) ||
+          (element.source.name &&
+            element.source.name.toLowerCase().includes(updatedText)) ||
+          (element.title && element.title.toLowerCase().includes(updatedText)) ||
+          (element.description &&
+            element.description.toLowerCase().includes(updatedText)) ||
+          (element.content && element.content.toLowerCase().includes(updatedText))
+        )
+      ) {
+        updatedData = [...updatedData, element];
+      }
+    }
+    setData(updatedData);
+    setVisibility(true)
+  };
+  const SearchResult = () => {
+    console.log(data);
+    if (data.length !== 0) {
 
+      return (
+        <Box>
+          <Heading>Results</Heading>
+          <Box>{data?.map((news) => {
+
+            return (
+              <Box key={uuid()}>
+                <Heading>{news.title}</Heading>
+                <Text>{news.description}</Text>
+              </Box>
+            )
+          })}</Box>
+        </Box>
+
+      )
+    } else {
+      return (
+        <Box>
+          <Heading>Result</Heading>
+          <Box>
+            No Result Found
+          </Box>
+        </Box>
+      )
+
+    }
   }
-  const handleClick = () => {
-
-  }
-
-
   return (
     <div>
       <BlogSearchNav />
@@ -45,21 +95,24 @@ function Search() {
               m='auto'
               justifyContent={'center'}
             >
-              <Input
-                value={value}
-                onChange={handleChange}
+              <input
+                value={text}
+                onChange={(e) => setText(e.target.value)}
                 placeholder='Enter the search term'
-                w={500}
+                style={{width:'500px',border:'1px solid grey',borderRadius:'0.5rem', padding:'0 2rem',fontSize:'20px'}}
                 // m={'auto'}
                 position={'relative'}
               />
-              <Button
-                onClick={handleClick}
-
-                bg='#3070F0' color={'white'} padding={'1rem 1.5rem 1rem 1.5rem'}
-                variant='solid'>
-                Button
-              </Button>
+              <button
+                onClick={handleSearch}
+                style={{background:'#3070F0',  color:'white',borderRadius:'0.5rem', padding:'0.3rem 1.5rem 0.3rem 1.5rem' ,fontSize:'22px' }}>
+                Search
+              </button>
+            </Box>
+            <Box>
+              {
+                visibility && <SearchResult />
+              }
             </Box>
           </Box>
         </Box>
