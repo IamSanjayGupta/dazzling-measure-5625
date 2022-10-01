@@ -1,0 +1,112 @@
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    left: calc(100% - 50px);
+    top: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.hamburger:hover {
+    /* gap: 7px;
+     */
+    transform: scale(1.2);
+}
+
+.hamburger>div {
+    width: 2rem;
+    height: 1px;
+    background-color: black;
+}
+
+.ham-cross {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    z-index: 1;
+    transition: transform 0.5s ease;
+}
+
+.ham-cross:hover {
+    transform: scale(1.2);
+}
+
+.ham-cross>div {
+    width: 1.5rem;
+    height: 1px;
+    background-color: black;
+}
+
+.ham-cross>div:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.ham-cross>div:nth-child(2) {
+    transform: rotate(-45deg);
+    transform-origin: 2px -5px;
+}
+
+.ham-content {
+    position: fixed;
+    background-color: white;
+    color: #555;
+    /* width: 100vw; */
+    /* max-width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}
+
+.ham-content>div:nth-child(1) {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0rem 0 5rem 0;
+    align-items: center;
+}
+
+.ham-content>div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -10%;
+    gap: 2rem;
+}
+
+.ham-content>div:nth-child(2)>button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid #aaa;
+    font-weight: 600;
+}
+
+.ham-content>div:nth-child(2)>button:nth-child(1) {
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.ham-content>div:nth-child(2)>button:nth-child(1):hover {
+    color: #3070f0;
+}
+
+.ham-content>div:nth-child(2)>button:nth-child(2) {
+    color: white;
+
+    background-color: #3070f0;
+}
+
+.ham-content>div:nth-child(2)>button:nth-child(2):hover {
+    background-color: #0053a6;
+}
