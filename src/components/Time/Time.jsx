@@ -5,6 +5,7 @@ import {
   Divider,
   Fade,
   Flex,
+  Heading,
   Input,
   Text,
   useDisclosure,
@@ -97,7 +98,7 @@ const Time = () => {
   }, [value1]);
 
   return (
-    <Box w="100%" p="0.5rem">
+    <Box w="95%" justifyContent="center" p="4">
       {/*-------------------------------------------------------- Upper------------------------------------------- */}
 
       {/* { console.log(value)} */}
@@ -130,7 +131,7 @@ const Time = () => {
 
           {/*select Team*/}
           <Flex ml={"10px"}>
-            <Text fontSize="3xl">My Time</Text>
+            <Heading>My Time</Heading>
             <Box h="30px" mt={"10px"} ml={"13px"} borderLeft="1px solid"></Box>
             {/* <Menus /> */}
           </Flex>
@@ -226,14 +227,7 @@ const Time = () => {
           <form action="">
             <Fade in={isOpen}>
               <Divider />
-              <Box
-                color="black"
-                w="100%"
-                rounded="md"
-                boxShadow="xs"
-                p={"1rem"}
-                pt="3rem"
-              >
+              <Box color="black" w="100%" rounded="md" boxShadow="xs" p={"1rem"} pt="3rem">
                 {/* First Flex*/}
 
                 <Flex mt={"-3%"} justifyContent="space-between">
@@ -260,8 +254,7 @@ const Time = () => {
                   <Box w="12%">
                     <Text textAlign={"left"}>Duration</Text>
                     <Text border="1px solid" borderRadius={"3px"}>
-                      {endhour[0] - starthour[0]}h : {endhour[1] - starthour[1]}
-                      m
+                      {endhour[0] - starthour[0]}h : {endhour[1] - starthour[1]}m
                     </Text>
                   </Box>
                 </Flex>
@@ -284,12 +277,7 @@ const Time = () => {
 
                 {/* Form End */}
                 <Flex gap="20px" textAlign={"left"} mt="20px">
-                  <Button
-                    bg="blue"
-                    type="submit"
-                    onClick={Addproject}
-                    colorScheme="facebook"
-                  >
+                  <Button bg="blue" type="submit" onClick={Addproject} colorScheme="facebook">
                     Save
                   </Button>
                   <Button onClick={onClose} color="black">

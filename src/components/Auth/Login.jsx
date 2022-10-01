@@ -9,7 +9,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import { Link as ReachLink } from "react-router-dom"
+import { Link as ReachLink } from "react-router-dom";
 import styles from "./signup.module.css";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -25,7 +25,7 @@ function Login() {
   useEffect(() => {
     if (isAuthenticated) {
       console.log(isAuthenticated);
-      navigate("/");
+      navigate("/app");
     }
   }, [isAuthenticated]);
   const hanldeChange = (e) => {
@@ -42,16 +42,8 @@ function Login() {
   return (
     <Container className={styles.main}>
       <Box className={styles.login}>
-        <Image
-          margin={"auto"}
-          src="https://id.tmetric.com/images/tmetric_logo_and_text.svg"
-        />
-        <Heading
-          textAlign={"center"}
-          mt={3}
-          mb={5}
-          size={["xs", "sm", "sm", "md"]}
-        >
+        <Image margin={"auto"} src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" />
+        <Heading textAlign={"center"} mt={3} mb={5} size={["xs", "sm", "sm", "md"]}>
           Log into TMetric
         </Heading>
         <Stack spacing={4} textAlign={"left"}>
@@ -99,9 +91,7 @@ function Login() {
                   objectFit="cover"
                   src="https://id.tmetric.com/images/google_logo.svg"
                 />
-                <Text fontSize={["11px", "13px", "15px", "17px"]}>
-                  Login with Google
-                </Text>
+                <Text fontSize={["11px", "13px", "15px", "17px"]}>Login with Google</Text>
               </Stack>
             </Button>
             <Button mt={3} variant="outline" width={"100%"}>
@@ -111,9 +101,7 @@ function Login() {
                   objectFit="cover"
                   src="https://id.tmetric.com/images/microsoft_logo.svg"
                 />
-                <Text fontSize={["11px", "13px", "15px", "17px"]}>
-                  Login with Microsoft
-                </Text>
+                <Text fontSize={["11px", "13px", "15px", "17px"]}>Login with Microsoft</Text>
               </Stack>
             </Button>
             <Button mt={3} variant="outline" width={"100%"}>
@@ -123,9 +111,7 @@ function Login() {
                   objectFit="cover"
                   src="https://id.tmetric.com/images/apple_logo.svg"
                 />
-                <Text fontSize={["11px", "13px", "15px", "17px"]}>
-                  Login with Apple
-                </Text>
+                <Text fontSize={["11px", "13px", "15px", "17px"]}>Login with Apple</Text>
               </Stack>
             </Button>
           </Box>
@@ -144,7 +130,9 @@ function Login() {
         >
           <Text>Can't Log In?</Text>{" "}
           <Text>
-            <Link as={ReachLink} to="/signup">Sign Up</Link>
+            <Link as={ReachLink} to="/signup">
+              Sign Up
+            </Link>
           </Text>
         </Box>
       </Box>

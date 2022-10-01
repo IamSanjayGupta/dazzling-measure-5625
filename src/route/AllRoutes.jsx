@@ -11,6 +11,8 @@ import SinglePage from "../components/Blogs/BlogHome/SinglePage";
 import UseCases from "../components/Blogs/BlogHome/UseCases";
 import HomePage from "../components/Home/HomePage";
 import BlogHome from "../components/Blogs/BlogHome/BlogHome";
+import PageNotFound from "../components/PageNotFound";
+import MainApp from "../components/MainApp";
 
 function AllRoutes() {
   return (
@@ -29,9 +31,10 @@ function AllRoutes() {
         <Route path="/about" element={<About />} />
         <Route path="/guestpost" element={<GuestPost />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/app" element={<MainApp />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </div>
   );
 }
-export default AllRoutes
-
+export default AllRoutes;

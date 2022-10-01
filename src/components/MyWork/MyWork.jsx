@@ -1,18 +1,17 @@
 import React from "react";
-import { Box, Spacer, Flex, Text, Button } from "@chakra-ui/react";
+import { Box, Spacer, Flex, Text, Button, Heading } from "@chakra-ui/react";
 import { FaPlay, FaStop } from "react-icons/fa";
 import { TimeIcon, CalendarIcon } from "@chakra-ui/icons";
 
 const MyWork = () => {
   return (
-    <Box bg="white" w="100%" p="0.5rem" color="white">
+    <Box bg="white" w="100%" p="4" color="white">
       <Flex>
-        <Text fontSize="3xl" color="black">
+        <Heading fontSize="3xl" color="black">
           My Work
-        </Text>
-
+        </Heading>
         <Spacer />
-        <Button colorScheme="gray" color="black" size="md">
+        <Button colorScheme="gray" color="black" size="sm" mr="2">
           Manage Widgets
         </Button>
       </Flex>
@@ -26,7 +25,7 @@ const MyWork = () => {
         direction={["column", "column", "row"]}
       >
         <Box
-          w={[370, 450, 580]}
+          w={{ base: "95%", md: "40%" }}
           bg="white"
           border="1px solid gray"
           height="150px"
@@ -39,13 +38,7 @@ const MyWork = () => {
               </Text>
 
               <Spacer />
-              <Button
-                bg="#17c22e"
-                colorScheme="red"
-                borderRadius="49%"
-                size="xs"
-                mt="2px"
-              >
+              <Button bg="#17c22e" colorScheme="red" borderRadius="49%" size="xs" mt="2px">
                 <FaPlay color="white" />
               </Button>
             </Flex>
@@ -58,7 +51,7 @@ const MyWork = () => {
         </Box>
 
         <Box
-          w={[370, 520, 900]}
+          w={{ base: "95%", md: "60%" }}
           h="40px"
           bg="white"
           height="150px"
@@ -75,16 +68,9 @@ const MyWork = () => {
               <TimeIcon color="black" />
             </Flex>
             <Box>
-              <Text color="gray">
-                We analyzed the data based on your tracked time.
-              </Text>
+              <Text color="gray">We analyzed the data based on your tracked time.</Text>
               <Flex justifyContent="space-between">
-                <Box
-                  width="24%"
-                  height="60px"
-                  border="1px solid gray"
-                  borderRadius="10px"
-                >
+                <Box width="24%" height="60px" border="1px solid gray" borderRadius="10px">
                   <Box padding="5px">
                     <Text color="gray" size="xs" fontWeight="light">
                       {" "}
@@ -92,12 +78,7 @@ const MyWork = () => {
                     </Text>
                   </Box>
                 </Box>
-                <Box
-                  width="24%"
-                  height="60px"
-                  border="1px solid gray"
-                  borderRadius="10px"
-                >
+                <Box width="24%" height="60px" border="1px solid gray" borderRadius="10px">
                   <Box padding="5px">
                     <Text color="gray" size="xs" fontWeight="light">
                       {" "}
@@ -105,12 +86,7 @@ const MyWork = () => {
                     </Text>
                   </Box>
                 </Box>
-                <Box
-                  width="24%"
-                  height="60px"
-                  border="1px solid gray"
-                  borderRadius="10px"
-                >
+                <Box width="24%" height="60px" border="1px solid gray" borderRadius="10px">
                   <Box padding="5px">
                     <Text color="gray" size="xs" fontWeight="light">
                       {" "}
@@ -118,12 +94,7 @@ const MyWork = () => {
                     </Text>
                   </Box>
                 </Box>
-                <Box
-                  width="24%"
-                  height="60px"
-                  border="1px solid gray"
-                  borderRadius="10px"
-                >
+                <Box width="24%" height="60px" border="1px solid gray" borderRadius="10px">
                   <Box padding="5px">
                     <Text color="gray" size="xs" fontWeight="light">
                       Monthly Balance
@@ -145,7 +116,7 @@ const MyWork = () => {
         direction={["column", "column", "row"]}
       >
         <Box
-          w={[370, 450, 870]}
+          w={{ base: "95%", md: "60%" }}
           bg="white"
           border="1px solid gray"
           height="250px"
@@ -176,7 +147,7 @@ const MyWork = () => {
         </Box>
 
         <Box
-          w={[370, 520, 610]}
+          w={{ base: "95%", md: "40%" }}
           h="40px"
           bg="white"
           height="250px"
@@ -190,13 +161,7 @@ const MyWork = () => {
               </Text>
 
               <Spacer />
-              <Button
-                bg="white"
-                colorScheme="red"
-                borderRadius="49%"
-                size="xs"
-                mt="2px"
-              >
+              <Button bg="white" colorScheme="red" borderRadius="49%" size="xs" mt="2px">
                 <CalendarIcon color="black" />
               </Button>
             </Flex>
