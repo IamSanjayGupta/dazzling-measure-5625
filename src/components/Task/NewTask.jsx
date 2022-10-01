@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { getActivity } from "../../utils/getActivity";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteTaskAPI, updateTaskAPI } from "../../redux/task/task.action";
+import { deleteTaskAPI, updateTaskAPI } from "../../redux/TASK/task.action";
 import { cleanup } from "@testing-library/react";
 let timerid = 0;
 const NewTask = ({ onClose }) => {
