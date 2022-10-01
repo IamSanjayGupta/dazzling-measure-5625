@@ -13,7 +13,19 @@ export const updateTaskAPI = (id, data) => async (dispatch) => {
   dispatch({ type: action.TASK_LOADING });
   return axios
     .patch(`${process.env.REACT_APP_TMETRIC_APP_API}/tmetricTask/${id}`, data)
-    .then((res) => dispatch({ type: action.TASK_UPDATE, payload: { id, data } }))
+    .then((res) => {
+      dispatch({ type: action.TASK_UPDATE, payload: { id, data } });
+    })
+    .catch((err) => {
+      dispatch({ type: action.TASK_ERROR });
+    });
+};
+
+export const deleteTaskAPI = (id) => async (dispatch) => {
+  dispatch({ type: action.TASK_LOADING });
+  return axios
+    .delete(`${process.env.REACT_APP_TMETRIC_APP_API}/tmetricTask/${id}`)
+    .then((res) => dispatch({ type: action.TASK_DELETE, payload: id }))
     .catch((err) => dispatch({ type: action.TASK_ERROR }));
 };
 

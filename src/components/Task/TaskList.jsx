@@ -15,8 +15,8 @@ import {
 import { FiPlay } from "react-icons/fi";
 import { BsCheckCircle } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
-import { TASK_SET_SELECTED_TASK } from "../../redux/TASK/task.types";
-import { getTasksAPI } from "../../redux/TASK/task.action";
+import { TASK_SET_SELECTED_TASK } from "../../redux/task/task.types";
+import { getTasksAPI } from "../../redux/task/task.action";
 const TaskList = ({ onOpen }) => {
   const dispatch = useDispatch();
   const { tasks } = useSelector((state) => state.task);
@@ -24,6 +24,11 @@ const TaskList = ({ onOpen }) => {
 
   useEffect(() => {
     dispatch(getTasksAPI());
+  }, []);
+
+  useEffect(() => {
+    if (!tasks.length) return;
+    console.log("tasklist useeffect");
     let newTaskList = {};
     tasks?.forEach((el) => {
       !newTaskList[el.project]
@@ -66,8 +71,9 @@ const TaskList = ({ onOpen }) => {
                       icon={<BsCheckCircle />}
                     />
                     <Input
+                      readOnly
                       type="text"
-                      defaultValue={t?.title}
+                      value={t?.title}
                       border="none"
                       size="sm"
                       _focus={{ bgColor: "white" }}

@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { getActivity } from "../../utils/getActivity";
 import { useDispatch, useSelector } from "react-redux";
-import { updateTaskAPI } from "../../redux/TASK/task.action";
+import { deleteTaskAPI, updateTaskAPI } from "../../redux/task/task.action";
 import { cleanup } from "@testing-library/react";
 let timerid = 0;
 const NewTask = ({ onClose }) => {
@@ -59,6 +59,11 @@ const NewTask = ({ onClose }) => {
     } else {
       setNewTask({ ...newTask, [name]: value });
     }
+  };
+
+  const handleDelete = () => {
+    dispatch(deleteTaskAPI(newTask.id));
+    onClose();
   };
 
   useEffect(() => {
@@ -103,7 +108,12 @@ const NewTask = ({ onClose }) => {
           </HStack>
           <HStack>
             <IconButton variant="ghost" rounded="full" icon={<BsShare />} />
-            <IconButton variant="ghost" rounded="full" icon={<RiDeleteBin6Line />} />
+            <IconButton
+              variant="ghost"
+              rounded="full"
+              icon={<RiDeleteBin6Line />}
+              onClick={handleDelete}
+            />
             <IconButton
               variant="ghost"
               rounded="full"

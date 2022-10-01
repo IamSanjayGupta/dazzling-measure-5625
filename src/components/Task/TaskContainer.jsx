@@ -9,13 +9,13 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { AddIcon, SearchIcon } from "@chakra-ui/icons";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SearchFilterButton from "./SearchFilterButton";
 import { filterBtn } from "../../utils/filterBtn";
 import NewTask from "./NewTask";
 import TaskList from "./TaskList";
-import { useDispatch, useSelector } from "react-redux";
-import { addTaskAPI, getTasksAPI } from "../../redux/TASK/task.action";
+import { useDispatch } from "react-redux";
+import { addTaskAPI } from "../../redux/task/task.action";
 const initTask = {
   id: "",
   title: "",
