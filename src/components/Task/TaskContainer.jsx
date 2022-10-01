@@ -9,13 +9,13 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { AddIcon, SearchIcon } from "@chakra-ui/icons";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SearchFilterButton from "./SearchFilterButton";
 import { filterBtn } from "../../utils/filterBtn";
 import NewTask from "./NewTask";
 import TaskList from "./TaskList";
-import { useDispatch, useSelector } from "react-redux";
-import { addTaskAPI, getTasksAPI } from "../../redux/TASK/task.action";
+import { useDispatch } from "react-redux";
+import { addTaskAPI } from "../../redux/task/task.action";
 const initTask = {
   id: "",
   title: "",
@@ -46,7 +46,7 @@ const TaskContainer = () => {
   const addTask = () => dispatch(addTaskAPI(initTask));
 
   return (
-    <Box width="100%" border="1px solid #C1C1C1" rounded="md" p="4">
+    <Box width="100%" height="78vh" border="1px solid #C1C1C1" rounded="md" p="4">
       <HStack justifyContent="space-between">
         <HStack>
           <Button
