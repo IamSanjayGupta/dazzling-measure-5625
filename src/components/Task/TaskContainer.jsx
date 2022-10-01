@@ -15,7 +15,7 @@ import { filterBtn } from "../../utils/filterBtn";
 import NewTask from "./NewTask";
 import TaskList from "./TaskList";
 import { useDispatch } from "react-redux";
-import { addTaskAPI } from "../../redux/TASK/task.action";
+import { addTaskAPI } from "../../redux/task/task.action";
 const initTask = {
   id: "",
   title: "",
