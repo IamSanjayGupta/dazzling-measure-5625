@@ -12,7 +12,8 @@ import {
 import { useState } from "react";
 import styles from "./signup.module.css";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { Link as ReachLink } from "react-router-dom"
 
 
 
@@ -49,7 +50,7 @@ function Signup() {
   };
   console.log(signupdata);
   return (
-    <Container m={"auto"} display={"flex"} maxW={["95%", "85%", "75%", "70%"]}>
+    <Container m={"auto"} mt={5} display={"flex"} maxW={["95%", "85%", "75%", "70%"]}>
       <Box className={styles.signup}>
         <Image
           margin={"auto"}
@@ -154,7 +155,7 @@ function Signup() {
           mt={5}
           textAlign={"center"}
         >
-          Already have an account? <a href="">Log In</a>
+          Already have an account? <Link as={ReachLink} to="/login">Login</Link>
         </Text>
       </Box>
       <Box className={styles.mainimg}>
