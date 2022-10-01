@@ -1,14 +1,32 @@
 import { HStack } from "@chakra-ui/layout";
+import { IconButton, useDisclosure } from "@chakra-ui/react";
 import React from "react";
+import { BsChevronLeft, BsTextIndentLeft } from "react-icons/bs";
 import SideMenu from "./SideMenu/SideMenu";
 import Task from "./Task/Task";
 
 const MainApp = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure({ defaultIsOpen: true });
+
   return (
-    <HStack alignItems="flex-start">
-      <SideMenu />
-      <Task />
-    </HStack>
+    <>
+      <IconButton
+        variant="outline"
+        shadow="lg"
+        size="sm"
+        icon={isOpen ? <BsChevronLeft /> : <BsTextIndentLeft />}
+        pos="absolute"
+        top="4"
+        left="2"
+        fontSize="20"
+        onClick={isOpen ? onClose : onOpen}
+      />
+
+      <HStack alignItems="flex-start" justifyContent="center">
+        {isOpen ? <SideMenu /> : ""}
+        <Task />
+      </HStack>
+    </>
   );
 };
 
