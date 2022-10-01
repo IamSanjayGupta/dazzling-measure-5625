@@ -1,13 +1,13 @@
 import { HStack } from "@chakra-ui/layout";
 import { IconButton, useDisclosure } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import { BsChevronLeft, BsTextIndentLeft } from "react-icons/bs";
 import SideMenu from "./SideMenu/SideMenu";
 import Task from "./Task/Task";
 
 const MainApp = () => {
   const { isOpen, onOpen, onClose } = useDisclosure({ defaultIsOpen: true });
-
+  const [option, setOption] = useState("Task");
   return (
     <>
       <IconButton
@@ -23,8 +23,8 @@ const MainApp = () => {
       />
 
       <HStack alignItems="flex-start" justifyContent="center">
-        {isOpen ? <SideMenu /> : ""}
-        <Task />
+        {isOpen ? <SideMenu setOption={setOption} /> : ""}
+        {option === "Task" ? <Task /> : ""}
       </HStack>
     </>
   );
