@@ -10,9 +10,10 @@
 }
 .main{
     width: 100%;
+    margin-top: 25px;
 }
 .login{
-    width: 50%;
+    width: 70%;
 }
 
 @media all and (min-width:425px) and (max-width:900px){
