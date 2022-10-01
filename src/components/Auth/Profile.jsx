@@ -1,25 +1,22 @@
 import { Box, Container, Heading, Stack, Text } from "@chakra-ui/layout";
-import {
-  Avatar,
-  AvatarGroup,
-  Image,
-  Input,
-  Select,
-  Switch,
-  useMediaQuery,
-} from "@chakra-ui/react";
+import { Avatar, AvatarGroup, Image, Input, Select, Switch, useMediaQuery } from "@chakra-ui/react";
 import { useSelector } from "react-redux";
 
 function Profile() {
-  const [isLargerThan425] = useMediaQuery('(min-width: 426px)')
+  const [isLargerThan425] = useMediaQuery("(min-width: 426px)");
   const token = useSelector((store) => store.auth.data.token);
   let [token1, name, email, password] = token?.trim().split(":");
   return (
     <>
       <Container
-        m={"auto"}
-        border={"2px solid grey"}
-        maxW={["95%", "85%", "70%", "60%"]}
+        width="100%"
+        height="98vh"
+        border="1px solid #C1C1C1"
+        rounded="md"
+        p="4"
+        my="2"
+        overflowY="auto"
+        maxW={"95%"}
       >
         <Heading mb={3}>General</Heading>
         <Box>
@@ -32,9 +29,7 @@ function Profile() {
             </Box>
             <Stack spacing={0}>
               <Text fontSize={"12px"}>Change profile picture</Text>
-              <Text fontSize={"12px"}>
-                Upload your photo to help colleagues recognize you.
-              </Text>
+              <Text fontSize={"12px"}>Upload your photo to help colleagues recognize you.</Text>
             </Stack>
           </Stack>
         </Box>
@@ -65,15 +60,11 @@ function Profile() {
             <Stack
               display={"flex"}
               justifyContent={"space-between"}
-              direction={isLargerThan425 ? "row": "column"}
+              direction={isLargerThan425 ? "row" : "column"}
             >
               <Box>
                 <Text>Date format</Text>
-                <Input
-                  placeholder="Select Date and Time"
-                  size="md"
-                  type="datetime-local"
-                />
+                <Input placeholder="Select Date and Time" size="md" type="datetime-local" />
               </Box>
               <Box>
                 <Text>Time format for tracking</Text>

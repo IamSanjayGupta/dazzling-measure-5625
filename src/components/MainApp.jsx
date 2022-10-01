@@ -2,6 +2,7 @@ import { HStack } from "@chakra-ui/layout";
 import { IconButton, Image, useDisclosure } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { BsChevronLeft, BsTextIndentLeft } from "react-icons/bs";
+import Profile from "./Auth/Profile";
 import MyWork from "./MyWork/MyWork";
 import PageNotFound from "./PageNotFound";
 import SideMenu from "./SideMenu/SideMenu";
@@ -33,6 +34,8 @@ const MainApp = () => {
           <Time />
         ) : option === "My Work" ? (
           <MyWork />
+        ) : option === "Profile" ? (
+          <Profile />
         ) : (
           <PageNotFound />
         )}

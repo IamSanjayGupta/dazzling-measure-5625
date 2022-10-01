@@ -67,7 +67,7 @@ const SideMenu = ({ setOption }) => {
         </Accordion>
       </VStack>
       <Box>
-        <Userprofile />
+        <Userprofile setOption={setOption} />
       </Box>
     </VStack>
   );
