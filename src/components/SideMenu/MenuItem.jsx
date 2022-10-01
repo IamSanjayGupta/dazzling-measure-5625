@@ -2,11 +2,13 @@ import { HStack, Text } from "@chakra-ui/layout";
 import { Icon } from "@chakra-ui/react";
 import React from "react";
 
-const MenuItem = ({ text, icon }) => {
+const MenuItem = ({ name, icon }) => {
   return (
-    <HStack border="1px solid red" w="100%" p="1" pl="4" gap="1" color="gray.600">
-      <Icon as={icon} w={6} h={6} />
-      <Text>{text}</Text>
+    <HStack w="100%" p="1" pl="6" gap="1" color="gray.600" _hover={{ bg: "gray.200" }}>
+      <Icon as={icon} w={5} h={6} />
+      <Text fontSize={"0.95rem"} color="gray.800">
+        {name}
+      </Text>
     </HStack>
   );
 };
