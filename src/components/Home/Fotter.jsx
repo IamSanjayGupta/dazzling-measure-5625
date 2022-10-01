@@ -1,8 +1,8 @@
 import { Box, Flex, HStack, List, ListItem, Text, Wrap, WrapItem } from '@chakra-ui/layout'
 import { Avatar, Image } from '@chakra-ui/react'
 import React from 'react'
-import { AiOutlineDesktop } from 'react-icons/ai'
-
+import { AiOutlineDesktop, AiFillApple, AiFillAndroid, AiFillChrome, AiFillFacebook, AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
+import { FaFirefox, FaOpera, FaEdgeLegacy, FaSafari } from 'react-icons/fa'
 function Fotter() {
   return (
     <div>
@@ -21,11 +21,11 @@ function Fotter() {
                 <Text fontSize={18}>Desktop</Text>
                 </Flex>
                 <Flex gap={5} mt={2} alignItems={"center"} >
-                <AiOutlineDesktop size={25}/>
+                <AiFillApple size={25}/>
                 <Text fontSize={18}>iOS</Text>
                 </Flex>
                 <Flex gap={5} mt={2} alignItems={"center"} >
-                <AiOutlineDesktop size={25}/>
+                <AiFillAndroid size={25}/>
                 <Text fontSize={18}>Android</Text>
                 </Flex>
             </Box>
@@ -33,23 +33,23 @@ function Fotter() {
             <Box w='250px' >
                 <Text><b>Browser Extensions</b></Text>
                 <Flex gap={5} mt={5} alignItems={"center"} >
-                    <AiOutlineDesktop size={25}/>
+                    <AiFillChrome size={25}/>
                     <Text fontSize={18}>Chrome</Text>
                     </Flex>
                     <Flex gap={5} mt={2} alignItems={"center"} >
-                    <AiOutlineDesktop size={25}/>
+                    <FaFirefox size={25}/>
                     <Text fontSize={18}>Firefox</Text>
                     </Flex>
                     <Flex gap={5} mt={2} alignItems={"center"} >
-                    <AiOutlineDesktop size={25}/>
+                    <FaOpera size={25}/>
                     <Text fontSize={18}>Opera</Text>
                     </Flex>
                     <Flex gap={5} mt={2} alignItems={"center"} >
-                    <AiOutlineDesktop size={25}/>
+                    <FaEdgeLegacy size={25}/>
                     <Text fontSize={18}>Edge</Text>
                     </Flex>
                     <Flex gap={5} mt={2} alignItems={"center"} >
-                    <AiOutlineDesktop size={25}/>
+                    <FaSafari size={25}/>
                     <Text fontSize={18}>Safari</Text>
                     </Flex>
                 </Box>
@@ -73,15 +73,18 @@ function Fotter() {
             {/* </HStack> */}
         </Box>
 
+        
+
         <Box p={5} bg={"#E2E7EB"}>
             
             <Flex gap={50}>
             <Text ml={50}>Copyright © Devart 2022</Text>
                 <Box ml={400}>
-                    <AiOutlineDesktop size={25}/>
+                    <AiFillFacebook size={25}/>
                 </Box>
-                    <AiOutlineDesktop size={25}/>
-                    <AiOutlineDesktop size={25}/>
+                    <AiFillTwitterCircle size={25}/>
+                    <AiFillLinkedin size={25}/>
+                    <AiFillYoutube size={25}/>
             </Flex>
         </Box>
 

@@ -1,12 +1,14 @@
 import { Box, Button, Flex, Grid, GridItem, HStack, Image, Input, InputGroup, InputLeftAddon, ListItem, Stack, Text, UnorderedList } from '@chakra-ui/react'
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
 import { CgMail } from 'react-icons/cg'
 import {FaEnvelope}  from "react-icons/fa"
 import Fotter from './Fotter'
+import { Showhide } from './Showhide'
 
 function HomePage() {
+    const [img,setimg]=useState('https://tmetric.com/media/e5enfaae/img-advantages.png');
   return (
     <div>
         <Navbar />
@@ -26,13 +28,14 @@ function HomePage() {
                         </Stack>
                         <Box >
                         <Flex justifyContent={"center"} alignItems={"center"} gap={30} mt={15} >
-                        <Button  w={150} fontSize={18} bg={"blue"} color='white' borderRadius={5} border={"1px solid #e2e7eb"} ml={-250} >Get Started</Button>
+                        <Button  w={150} fontSize={18} bg={"blue"} color='white' borderRadius={5} border={"1px solid #e2e7eb"} ml={-250} _hover={{color: "skyblue"}} >Get Started</Button>
                         <Text>Fully Functional 30-Day Trial</Text>
                         </Flex>
                         </Box>
                     </Box>
                     <Box w="45%" height={"400px"} >
                         <img src="https://tmetric.com/media/w53hmkzd/img-video-cover.png" alt="" />
+                        
                     </Box>
                 </Flex>
             </Box>
@@ -57,9 +60,26 @@ function HomePage() {
                 <Image boxSize='120px' src='https://tmetric.com/media/0mxfl3xw/icon-customer-choice.png' alt='Dan Abramov' />
                 <Image boxSize='120px' src='https://tmetric.com/media/jfxavlps/getapp-logotype.svg' alt='Dan Abramov' />
             </Stack>
+            <hr />
+{/* -------------------------------------------------------------------------------------------------------- */}
+            <Box bg='#E2E7E' w='100%' p={10}>
+            <Box w={600} textAlign={"center"} ml={340} mb={10}>
+                <Text fontSize={36}><b>What makes TMetric your best business companion</b></Text>
+            </Box>
+                <Flex  padding='15px' justifyContent='center'>
+                    <Box width={"65%"}  >
+                        <img src={img} width={"90%"} alt="" srcset="" />
+                    </Box>
+                    <Box width={"30%"}>
+                        <Showhide si={1} setimg={setimg} title="Time Tracking" icon="https://tmetric.com/media/2p4n4oyc/icon-timer-blue.svg" value="Capture every task you work on. Take control over time intervals by simple time tracking"/><br/>
+                        <Showhide si={2} setimg={setimg} title="Project Management" icon ="https://tmetric.com/media/1niddz51/icon-project-blue.svg" value="Create projects, set rates and budgets. Keep tracking of hours spent on tasks and see the project progress at a glance, collaborate easily, keep deadlines and prevent over budgeting"/><br/>
+                        <Showhide si={3} setimg={setimg} title="Team Management" icon="https://tmetric.com/media/2gxihhdu/icon-team-blue.svg" value="Measure productivity and activity level of your team, assign tasks in a click, monitor workflow and distribute the workload. Syncs your teams’ work and improves efficiency." /><br/>
+                        <Showhide si={4} setimg={setimg} title="Billing & Invoicing" icon="https://tmetric.com/media/s4koycnp/icon-invoice-blue.svg" value="With the accurate billing system, set billable rates and easily create an invoice based on tracked time and expenses, and get paid promptly."/><br/>
+                        <Showhide si={5} setimg={setimg} title="Reporting" icon ="https://tmetric.com/media/yoblhiut/icon-reports-blue.svg" value="With a flexible reporting system, you have a choice to get insights into your projects and team productivity, analyze incomes and keep costs under control"/><br/>
+                        <Showhide si={6} setimg={setimg}title="Time Off" icon="https://tmetric.com/media/cajpa4uy/icon-time-off-blue.svg" value="Add a PTO policy for your organization, simply ask for days off, control missed workdays, manage balances and teams attendance hassle-free"/><br/>
+                    </Box>
 
-            <Box bg='tomato' w='100%' h={500}>
-
+                </Flex>
             </Box>
 
             <Box bg='#f6f7f8' w='100%' p={10}>
@@ -207,9 +227,57 @@ function HomePage() {
                 </HStack>
                 </Box>
             </Box>
-
-            <Box height={500} bg={"pink"}>
-
+            <hr />
+{/* ---------------------------------------------------------------------------------------------- */}
+            <Box  p={"50px"}>
+                <Box  textAlign={"center"} mb={25}>
+                    <Text fontSize={48}><b>Why track time with TMetric</b></Text>
+                </Box>
+                
+                <HStack spacing='24px' display={"flex"} alignItems={"center"} justifyContent={"center"}>
+                    <Box w='700px' h='350' >
+                        <Text fontSize={20}>
+                        We ultimately went with TMetric because it checked a lot of items on our want list. 
+                        It’s both a desktop and web app, and has an API that we were able to integrate with our business management software. 
+                        While that was the biggest selling point, we also really like the user interface, the Chrome extension, 
+                        and built-in integration with Jira.
+                        </Text>
+                        <HStack spacing='350px' mt={70}>
+                            <Box w='200px' h='50px' >
+                                <Text>BizStream team</Text>
+                                <Image src='https://tmetric.com/media/j2klt5pd/img-rating-5.svg' alt='Dan Abramov' />
+                            </Box>
+                            <Box w='150px' h='50px' >
+                            <Text color={"blue"}>Read Full Story </Text>
+                            </Box>
+                            
+                        </HStack>
+                    </Box>
+                    <Box w='300px' h='350' >
+                    <Image src='https://tmetric.com/media/hznb1sgs/photo-software-developers.png' alt='Dan Abramov' />
+                    </Box>
+                    
+                </HStack>
+                <Stack direction='row' spacing={"10px"}  mt={"20px"} display={"flex"} alignItems={"center"} justifyContent={"center"}>
+                    <Button  variant='ghost' fontSize={20}>
+                    Software developers
+                    </Button>
+                    <Button  variant='ghost' fontSize={20}>
+                    Marketers
+                    </Button>
+                    <Button  variant='ghost' fontSize={20}>
+                    Designers
+                    </Button>
+                    <Button  variant='ghost' fontSize={20}>
+                    Contractors
+                    </Button>
+                    <Button  variant='ghost' fontSize={20}>
+                    Consultants
+                    </Button>
+                    <Button  variant='ghost'fontSize={20} >
+                    Freelancers
+                    </Button>
+                </Stack>
             </Box>
 
             <Box p={10} bg={"#fff2cc"} textAlign={"center"} mt={0}>
@@ -276,6 +344,8 @@ function HomePage() {
                 </HStack>
 
             </Box>
+
+            
 
 
             <Box p={10} bg={"#41338f"} textAlign={"center"} mt={0}>
