@@ -38,8 +38,6 @@ const SideMenu = () => {
               })}
             </AccordionPanel>
           </AccordionItem>
-        </Accordion>
-        <Accordion allowToggle w="100%">
           <AccordionItem border="none">
             <AccordionButton justifyContent="space-between">
               <Text fontSize="xs" pl="3">
@@ -53,8 +51,6 @@ const SideMenu = () => {
               })}
             </AccordionPanel>
           </AccordionItem>
-        </Accordion>
-        <Accordion allowToggle w="100%">
           <AccordionItem border="none">
             <AccordionButton justifyContent="space-between">
               <Text fontSize="xs" pl="3">

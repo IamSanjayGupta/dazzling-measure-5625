@@ -10,7 +10,7 @@ const Task = () => {
   }, []);
 
   return (
-    <VStack alignItems={"flex-start"} p="5">
+    <VStack alignItems={"flex-start"} p="3" w="100%" height="100vh" overflow="hidden">
       <HStack>
         <Heading>My Task</Heading>
         <Center height="50px">

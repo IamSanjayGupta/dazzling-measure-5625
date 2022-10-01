@@ -24,15 +24,15 @@ export const analyseMenu = [
 export const manageMenu = [
   { id: 21, name: "Projects", icon: BsFillFolderFill },
   { id: 22, name: "Clients", icon: RiHotelFill },
-  { id: 22, name: "Invoices", icon: RiPagesLine },
-  { id: 22, name: "Time Off", icon: TbBeach },
+  { id: 23, name: "Invoices", icon: RiPagesLine },
+  { id: 24, name: "Time Off", icon: TbBeach },
 ];
 
 export const workspaceMenu = [
   { id: 31, name: "Settings", icon: AiFillSetting },
   { id: 32, name: "Members", icon: HiUserCircle },
-  { id: 32, name: "Teams", icon: TiGroup },
-  { id: 32, name: "Tags", icon: AiFillTags },
-  { id: 32, name: "Integrations", icon: BiGitMerge },
-  { id: 32, name: "Subscription", icon: MdSubscriptions },
+  { id: 33, name: "Teams", icon: TiGroup },
+  { id: 34, name: "Tags", icon: AiFillTags },
+  { id: 35, name: "Integrations", icon: BiGitMerge },
+  { id: 36, name: "Subscription", icon: MdSubscriptions },
 ];

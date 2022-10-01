@@ -72,9 +72,9 @@ const NewTask = ({ onClose }) => {
   return (
     <form style={{ width: "100%" }}>
       <VStack
-        height={"370px"}
+        height={"60vh"}
         w="100%"
-        overflowY="scroll"
+        overflowY="auto"
         border="1px solid #C1C1C1"
         rounded="md"
         p="3"
