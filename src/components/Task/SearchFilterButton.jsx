@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 
-const SearchFilterButton = ({ title, type, childs }) => {
+const SearchFilterButton = ({ title, type, childs, handleChange }) => {
   const [options, setOptions] = useState(childs);
 
   const handleInput = (e) => {
@@ -40,7 +40,7 @@ const SearchFilterButton = ({ title, type, childs }) => {
           <FormControl p="2">
             <Input type="search" size="sm" rounded="md" onChange={handleInput} />
           </FormControl>
-          <MenuOptionGroup title="Active" type={type} onChange={(e) => console.log(e)}>
+          <MenuOptionGroup title="Active" type={type} onChange={(e) => handleChange(e)}>
             {options.map((item) => {
               return (
                 <MenuItemOption key={item.key} value={item.key}>
