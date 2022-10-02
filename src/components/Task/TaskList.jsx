@@ -20,13 +20,13 @@ import { TASK_SET_SELECTED_TASK } from "../../redux/task/task.types";
 const TaskList = ({ onOpen, list }) => {
   const dispatch = useDispatch();
   const handleTaskClick = (task) => {
+    if (!task.id) return;
     dispatch({ type: TASK_SET_SELECTED_TASK, payload: task });
     onOpen();
   };
   return (
     <Accordion allowToggle w="100%">
       {list?.map((el) => {
-        console.log(el);
         return (
           <AccordionItem key={el[0]}>
             <AccordionButton>

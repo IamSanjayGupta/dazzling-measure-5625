@@ -88,7 +88,7 @@ const TaskContainer = () => {
 
   const handleChange = (e) => setSortBy(e);
 
-  const addTask = () => dispatch(addTaskAPI(initTask));
+  const addTask = () => dispatch(addTaskAPI({ ...initTask, id: Date.now() }));
 
   return (
     <Box width="100%" height="78vh" border="1px solid #C1C1C1" rounded="md" p="4">

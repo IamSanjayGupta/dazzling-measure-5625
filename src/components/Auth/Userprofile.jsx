@@ -28,7 +28,7 @@ function Userprofile({ setOption }) {
   let [token1, name, email, password] = token?.trim().split(":");
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  console.log(name);
+
   const handlelogout = () => {
     dispatch(logoutAPI());
     navigate("/");
