@@ -13,14 +13,15 @@ import HomePage from "../components/Home/HomePage";
 import BlogHome from "../components/Blogs/BlogHome/BlogHome";
 import PageNotFound from "../components/PageNotFound";
 import MainApp from "../components/MainApp";
+import PrivateRoute from "../components/PrivateRoute";
 
 function AllRoutes() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/price" element={<h1>Price</h1>} />
-        <Route path="/support" element={<h1>Support</h1>} />
+        {/* <Route path="/price" element={<h1>Price</h1>} />
+        <Route path="/support" element={<h1>Support</h1>} /> */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/blog" element={<BlogHome />} />
@@ -31,7 +32,14 @@ function AllRoutes() {
         <Route path="/about" element={<About />} />
         <Route path="/guestpost" element={<GuestPost />} />
         <Route path="/search" element={<Search />} />
-        <Route path="/app" element={<MainApp />} />
+        <Route
+          path="/app"
+          element={
+            <PrivateRoute>
+              <MainApp />
+            </PrivateRoute>
+          }
+        />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </div>
