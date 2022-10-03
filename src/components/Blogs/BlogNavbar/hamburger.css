@@ -10,8 +10,6 @@
 }
 
 .hamburger:hover {
-    /* gap: 7px;
-     */
     transform: scale(1.2);
 }
 

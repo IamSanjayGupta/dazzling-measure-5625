@@ -95,32 +95,30 @@ function BlogSearchNav() {
                     size={size}
                 > {overlay}
                     <ModalOverlay />
-                    <ModalContent w={"50%"}  >
-
-                        <Box
-                            width="80%"
-                            height={32}
-                            m={"auto"}
-                        >
-                            <ModalHeader fontSize='2xl'>Subscribe to Our Newsletter</ModalHeader>
+                    <ModalContent w={"50%"} h={'90vh'}
+                        margin={'auto'}
+                        textAlign={'center'}
+                        pb={40}
+                    >
+                        <Box width="90%" marginTop={70} >
+                            <ModalHeader fontSize='3xl' fontWeight={'bold'}>Subscribe to Our Newsletter</ModalHeader>
                             <Text fontSize='lg'> Get all the latest & greatest posts delivered straight to your inbox</Text>
                         </Box>
                         <Box>
-                            <ModalBody pb={6}>
-                                <FormControl>
-                                    {/* <FormLabel>First name</FormLabel> */}
+                            <ModalBody >
+                                <FormControl >
                                     <Input
                                         placeholder='youremail@example.com'
                                         _placeholder={{ opacity: 1, color: 'gray.450' }}
                                     />
-                                    <Checkbox m={"auto"}>I agree to receive your newsletters and accept the data privacy statement.</Checkbox>
-                                    <Text fontSize='sm'>You may unsubscribe at any time using the link in our newsletter.</Text>
+                                    <Checkbox mt={8} textAlign={'start'}>I agree to receive your newsletters and accept the data privacy statement.</Checkbox>
+                                    <Text fontSize='sm' marginTop={'10px'} textAlign={'start'}>You may unsubscribe at any time using the link in our newsletter.</Text>
                                 </FormControl>
                             </ModalBody>
                         </Box>
-                        <Box>
+                        <Box >
                             <ModalFooter>
-                                <Button onClick={onClose} colorScheme='blue' m={'auto'}>Subscribe</Button>
+                                <Button onClick={onClose} colorScheme='blue' m={'auto'} px={'1rem'}>Subscribe</Button>
                             </ModalFooter>
                         </Box>
                     </ModalContent>
