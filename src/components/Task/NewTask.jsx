@@ -69,7 +69,6 @@ const NewTask = ({ onClose }) => {
   useEffect(() => {
     timerid && clearTimeout(timerid);
     timerid = setTimeout(() => {
-      console.log("in timout");
       dispatch(updateTaskAPI(newTask.id, newTask));
     }, 1000);
   }, [newTask]);
