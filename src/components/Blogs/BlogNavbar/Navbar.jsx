@@ -80,7 +80,7 @@ function Navbar() {
                         textAlign={'center'}
                         margin={'auto'}
                         padding={"1rem 1rem 1rem 1rem"}>
-                        <Link to='subscribe'>Subscribe</Link>
+                       Subscribe
                     </Button>
                     <Modal
                         initialFocusRef={initialRef}
