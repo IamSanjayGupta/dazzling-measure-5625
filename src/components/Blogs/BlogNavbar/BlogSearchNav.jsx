@@ -100,11 +100,7 @@ function BlogSearchNav() {
                         textAlign={'center'}
                         pb={40}
                     >
-
-                        <Box
-                            width="90%"
-                            marginTop={70}
-                        >
+                        <Box width="90%" marginTop={70} >
                             <ModalHeader fontSize='3xl' fontWeight={'bold'}>Subscribe to Our Newsletter</ModalHeader>
                             <Text fontSize='lg'> Get all the latest & greatest posts delivered straight to your inbox</Text>
                         </Box>
