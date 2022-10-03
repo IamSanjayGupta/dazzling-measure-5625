@@ -25,7 +25,7 @@ function BlogHome() {
             <div className="text-wrap-content">
               <p className="text-blue text-sm text-bold-md">{el["head-tag"]}</p>
               <p className="text-lg text-bold">{el.heading}</p>
-              <p className="text-md text-clamp text-gray" id='description-text'>{el.description}</p>
+              <p className="text-md text-clamp text-gray">{el.description}</p>
               <div className="blog-content-bottom">
                 <div className="image-author-wrap">
                   <img src={el.authorImg} alt="authorImg" />
