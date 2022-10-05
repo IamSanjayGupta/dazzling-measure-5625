@@ -43,6 +43,7 @@ const Navbar = () => {
       w="100%"
       px="5"
       justifyContent="space-around"
+      display={{ base: "none", md: "flex" }}
     >
       <HStack w="20%" justifyContent={"space-around"}>
         <Image
