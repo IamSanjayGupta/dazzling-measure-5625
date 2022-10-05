@@ -36,25 +36,39 @@ const Navbar2 = () => {
         <MenuList mt={-2}>
           <MenuGroup>
             <MenuItem>
-              <Link to="/">Why Tmetric?</Link>
+              <Link style={{ width: "100%" }} to="/">
+                Why Tmetric?
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/">Apps & Integrations</Link>
+              <Link style={{ width: "100%" }} to="/">
+                Apps & Integrations
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/">Price</Link>
+              <Link style={{ width: "100%" }} to="/">
+                Price
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/">Support</Link>
+              <Link style={{ width: "100%" }} to="/">
+                Support
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/blog">Blog</Link>
+              <Link style={{ width: "100%" }} to="/blog">
+                Blog
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/login">Login</Link>
+              <Link style={{ width: "100%" }} to="/login">
+                Login
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/signup">Signup</Link>
+              <Link style={{ width: "100%" }} to="/signup">
+                Signup
+              </Link>
             </MenuItem>
             <MenuDivider />
           </MenuGroup>
