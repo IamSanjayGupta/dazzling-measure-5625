@@ -31,7 +31,7 @@ function HomePage() {
     <div>
       <Navbar />
 
-      <Box w="100%" bg="#fff0b8" height={"fit-content"} mt={"80px"}>
+      <Box w="100%" bg="#fff0b8" height={"fit-content"} mt={"50px"}>
         <Flex
           direction={{ base: "column-reverse", md: "row" }}
           justifyContent={"space-around"}

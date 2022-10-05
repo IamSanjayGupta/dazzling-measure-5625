@@ -11,12 +11,9 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-//import {ChevronDownIcon} from "react-icons"
 import { BiChevronDown } from "react-icons/bi";
-//import { BsGlobe2 } from 'react-icons/bs'
 import { Link } from "react-router-dom";
 import { FaGlobe } from "react-icons/fa";
-//import { useNavigate } from 'react-router-dom'
 import Droplist from "./DropList1";
 import Droplist2 from "./DropList2";
 
@@ -36,7 +33,6 @@ const Navbar = () => {
 
   return (
     <Flex
-      justifyContent="space-around"
       alignItems={"center"}
       bg="#fff0b8"
       color="white"
@@ -44,38 +40,33 @@ const Navbar = () => {
       zIndex={10}
       top={0}
       className={color ? "navbar navbar-bg" : "navbar"}
+      w="100%"
+      px="5"
+      justifyContent="space-around"
     >
-      <HStack>
-        <Box cursor={"pointer"} p={0}>
-          <Image
-            w="500px"
-            height={75}
-            src="https://tmetric.com/images/tmetric_logo_with_text.svg"
-            alt="logo1"
-          />
-        </Box>
+      <HStack w="20%" justifyContent={"space-around"}>
+        <Image
+          width={"60%"}
+          src="https://tmetric.com/images/tmetric_logo_with_text.svg"
+          alt="logo1"
+        />
 
         <Button
+          px="4"
           color="black"
           bg="#fff0b8"
           cursor={"pointer"}
-          w="130px"
           border={"1px solid grey"}
-          borderRadius={10}
-          fontSize={17}
+          borderRadius="lg"
           leftIcon={<FaGlobe />}
         >
           EN
         </Button>
       </HStack>
 
-      <HStack>
-        {/* <Box  as='button'  color='black' px={0}  w={150} fontSize={"17px"} border="none" cursor={"pointer"} display={"flex"} alignItems={"center"}>
-               Why TMetric <BiChevronDown />
-            </Box> */}
-
-        <Box cursor={"pointer"} w={"200px"}>
-          <Text color={"black"} w={"200px"}>
+      <HStack w="50%" justifyContent={"space-around"}>
+        <Box cursor={"pointer"}>
+          <Text color={"black"}>
             <Popover trigger={"hover"} placement={"bottom-start"}>
               <PopoverTrigger>
                 <Flex alignItems={"center"} justifyContent={"center"}>
@@ -93,7 +84,7 @@ const Navbar = () => {
               </PopoverTrigger>
               <PopoverContent
                 border={0}
-                w={1520}
+                w={"100vw"}
                 padding="50px"
                 TextShadow={"xl"}
                 bg={popoverContentBgColor}
@@ -106,11 +97,7 @@ const Navbar = () => {
           </Text>
         </Box>
 
-        {/* <Box as='button'  color='black' px={0} w={200} h={"50px"} fontSize={"17px"}  border="none" cursor={"pointer"} display={"flex"} alignItems={"center"}>
-              Apps & Integrations <BiChevronDown />
-            </Box> */}
-
-        <Text color={"black"} w={200}>
+        <Text color={"black"}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <PopoverTrigger>
               <Flex alignItems={"center"} justifyContent={"center"}>
@@ -128,7 +115,7 @@ const Navbar = () => {
             </PopoverTrigger>
             <PopoverContent
               border={0}
-              w={1520}
+              w={"100vw"}
               padding="50px"
               TextShadow={"xl"}
               bg={popoverContentBgColor}
@@ -144,8 +131,6 @@ const Navbar = () => {
           <Box
             as="button"
             color="black"
-            px={6}
-            h={"50px"}
             fontSize={"17px"}
             border="none"
             cursor={"pointer"}
@@ -158,8 +143,6 @@ const Navbar = () => {
           <Box
             as="button"
             color="black"
-            px={6}
-            h={"50px"}
             fontSize={"17px"}
             border="none"
             cursor={"pointer"}
@@ -172,8 +155,6 @@ const Navbar = () => {
           <Box
             as="button"
             color="black"
-            px={6}
-            h={"50px"}
             fontSize={"17px"}
             border="none"
             cursor={"pointer"}
@@ -184,13 +165,11 @@ const Navbar = () => {
         </Link>
       </HStack>
 
-      <HStack>
+      <HStack w="20%" justifyContent={"center"} gap="5">
         <Link to="/login">
           <Box
             as="button"
             color="black"
-            w={100}
-            h={"50px"}
             fontSize={"17px"}
             border="none"
             cursor={"pointer"}
@@ -200,21 +179,16 @@ const Navbar = () => {
           </Box>
         </Link>
         <Link to="/signup">
-          <Box
-            as="button"
-            w="110px"
-            color="blue"
-            mr={10}
-            px={0}
-            h={"50px"}
+          <Button
             fontSize={"17px"}
+            bg={"blue"}
             border={"1px solid blue"}
-            borderRadius={"5px"}
+            borderRadius={"md"}
             cursor={"pointer"}
             _hover={{ bg: "blue", color: " white" }}
           >
             Sign Up
-          </Box>
+          </Button>
         </Link>
       </HStack>
     </Flex>
