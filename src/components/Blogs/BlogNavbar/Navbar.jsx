@@ -90,34 +90,32 @@ function Navbar() {
                         size={size}
                     > {overlay}
                         <ModalOverlay />
-                        <ModalContent w={"50%"} h={'90vh'} 
-                           margin={'auto'}
-                           textAlign={'center'}
-                           pb={40}
-                         >
+                        <ModalContent w={"50%"} h={'80vh'}  >
 
                             <Box
-                                width="90%"
-                                marginTop={70}
+                                width="80%"
+                                height={25}
+                                m={"auto"}
                             >
-                                <ModalHeader fontSize='3xl'fontWeight={'bold'}>Subscribe to Our Newsletter</ModalHeader>
+                                <ModalHeader fontSize='2xl'>Subscribe to Our Newsletter</ModalHeader>
                                 <Text fontSize='lg'> Get all the latest & greatest posts delivered straight to your inbox</Text>
                             </Box>
                             <Box>
-                                <ModalBody >
-                                    <FormControl >
+                                <ModalBody pb={6}>
+                                    <FormControl>
+                                        {/* <FormLabel>First name</FormLabel> */}
                                         <Input
                                             placeholder='youremail@example.com'
                                             _placeholder={{ opacity: 1, color: 'gray.450' }}
                                         />
-                                        <Checkbox mt={8} textAlign={'start'}>I agree to receive your newsletters and accept the data privacy statement.</Checkbox>
-                                        <Text fontSize='sm' marginTop={'10px'} textAlign={'start'}>You may unsubscribe at any time using the link in our newsletter.</Text>
+                                        <Checkbox m={"auto"}>I agree to receive your newsletters and accept the data privacy statement.</Checkbox>
+                                        <Text fontSize='sm'>You may unsubscribe at any time using the link in our newsletter.</Text>
                                     </FormControl>
                                 </ModalBody>
                             </Box>
-                            <Box >
+                            <Box>
                                 <ModalFooter>
-                                    <Button onClick={onClose} colorScheme='blue' m={'auto'} px={'1rem'}>Subscribe</Button>
+                                    <Button onClick={onClose} colorScheme='blue' m={'auto'}>Subscribe</Button>
                                 </ModalFooter>
                             </Box>
                         </ModalContent>

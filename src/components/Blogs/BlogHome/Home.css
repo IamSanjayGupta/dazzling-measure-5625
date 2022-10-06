@@ -64,7 +64,7 @@
 @media only screen and (max-width: 1000px) {
   .blog-content-container {
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 2.5rem;
+    margin-top:2.5rem;
   }
 
   .blog-content-container>a:first-child {
@@ -104,11 +104,10 @@
 
 .text-blue {
   color: #3b78f1;
-
 }
 
 .text-gray {
-  color: rgb(90, 88, 88); 
+  color: rgb(90, 88, 88);
 }
 
 .text-sm {
@@ -157,7 +156,4 @@
   background-color: gray;
   height: 5px;
   border-radius: 50%;
-}
-#description-text{
-font-size: 20px;
 }
