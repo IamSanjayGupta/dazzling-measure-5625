@@ -8,6 +8,7 @@ import {
   Input,
   Stack,
   Text,
+  useToast,
 } from "@chakra-ui/react";
 import { Link as ReachLink } from "react-router-dom";
 import styles from "./signup.module.css";
@@ -21,11 +22,21 @@ function Login() {
   const isAuthenticated = useSelector((store) => store.auth.data.token);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  console.log(isAuthenticated);
+  const toast = useToast();
+
   useEffect(() => {
     if (isAuthenticated) {
-      console.log(isAuthenticated);
-      navigate("/app");
+      toast({
+        position: "top-right",
+        title: `Login Successfull`,
+        description: "redirecting to app...",
+        status: "success",
+        isClosable: true,
+        duration: 2000,
+      });
+      setTimeout(() => {
+        navigate("/app");
+      }, 2000);
     }
   }, [isAuthenticated]);
   const hanldeChange = (e) => {
@@ -67,9 +78,7 @@ function Login() {
               size="md"
             />
           </Box>
-          <Checkbox mt={"15px"}>
-            <Text fontSize="16px">I accept Terms of Service</Text>
-          </Checkbox>
+
           <Button
             mt={5}
             bg={"rgb(48,112,240)"}

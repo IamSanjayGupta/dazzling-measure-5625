@@ -18,6 +18,7 @@ import {
   VStack,
   Divider,
   Link,
+  useToast,
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -28,10 +29,19 @@ function Userprofile({ setOption }) {
   let [token1, name, email, password] = token?.trim().split(":");
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const toast = useToast();
 
   const handlelogout = () => {
     dispatch(logoutAPI());
-    navigate("/");
+    toast({
+      position: "top-right",
+      title: `Logout Successfull`,
+      status: "success",
+      isClosable: true,
+    });
+    setTimeout(() => {
+      navigate("/");
+    }, 2000);
   };
   return (
     <Box>

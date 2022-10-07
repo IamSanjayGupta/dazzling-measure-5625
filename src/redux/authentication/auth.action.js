@@ -1,10 +1,5 @@
-import {
-  AUTH_LOG_IN_SUCCESS,
-  AUTH_LOG_IN_ERROR,
-  AUTH_LOG_OUT,
-} from "./auth.types";
+import { AUTH_LOG_IN_SUCCESS, AUTH_LOG_IN_ERROR, AUTH_LOG_OUT } from "./auth.types";
 import axios from "axios";
-
 
 export const loginAPI = (data) => async (dispatch) => {
   try {
