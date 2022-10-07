@@ -18,20 +18,20 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
-import { CgMail } from "react-icons/cg";
 import { FaEnvelope } from "react-icons/fa";
 import Fotter from "./Fotter";
 import { Showhide } from "./Showhide";
+import Navbar2 from "./Navbar2";
 
 function HomePage() {
   const [img, setimg] = useState("https://tmetric.com/media/e5enfaae/img-advantages.png");
   return (
     <div>
       <Navbar />
+      <Navbar2 />
 
-      <Box w="100%" bg="#fff0b8" height={"fit-content"} mt={"80px"}>
+      <Box w="100%" bg="#fff0b8" height={"fit-content"} mt={{ md: "50px" }}>
         <Flex
           direction={{ base: "column-reverse", md: "row" }}
           justifyContent={"space-around"}

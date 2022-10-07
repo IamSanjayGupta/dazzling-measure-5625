@@ -17,45 +17,43 @@
 }
 
 @media only screen and (min-width: 1001px) {
-
-  .blog-content-container>a:first-child {
+  .blog-content-container > a:first-child {
     grid-column: 1 / span 3;
     margin-top: 2rem;
-
   }
 
-  .blog-content-container>a:first-child>.blog-container {
+  .blog-content-container > a:first-child > .blog-container {
     display: flex;
     justify-content: space-between;
     margin-top: -2rem;
     padding: 1rem 0rem 0rem 0rem;
   }
 
-  .blog-content-container>a:first-child>.blog-container>.image-wrap-content {
+  .blog-content-container > a:first-child > .blog-container > .image-wrap-content {
     width: 66%;
   }
 
-  .blog-content-container>a:first-child>.blog-container>.image-wrap-content>img {
+  .blog-content-container > a:first-child > .blog-container > .image-wrap-content > img {
     width: 100%;
     height: 60vh;
     object-fit: fill;
   }
 
-  .blog-content-container>a:first-child>.blog-container>.text-wrap-content {
+  .blog-content-container > a:first-child > .blog-container > .text-wrap-content {
     width: 32%;
     padding: 2.5rem 0;
   }
 
-  .blog-content-container>a:first-child>.blog-container>.text-wrap-content>p {
+  .blog-content-container > a:first-child > .blog-container > .text-wrap-content > p {
     display: block;
   }
 
-  .blog-content-container>a:first-child>.blog-container>.text-wrap-content>p:nth-child(2) {
+  .blog-content-container > a:first-child > .blog-container > .text-wrap-content > p:nth-child(2) {
     font-size: 2rem;
     line-height: 2.3rem;
   }
 
-  .blog-content-container>a:first-child>.blog-container>.text-wrap-content>p:nth-child(3) {
+  .blog-content-container > a:first-child > .blog-container > .text-wrap-content > p:nth-child(3) {
     font-size: 1rem;
     line-height: 1.6rem;
   }
@@ -64,14 +62,12 @@
 @media only screen and (max-width: 1000px) {
   .blog-content-container {
     grid-template-columns: repeat(2, 1fr);
-    margin-top:2.5rem;
+    margin-top: 2.5rem;
   }
 
-  .blog-content-container>a:first-child {
+  .blog-content-container > a:first-child {
     grid-column: 1 / span 1;
-
   }
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -79,9 +75,8 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .blog-content-container>a:first-child {
+  .blog-content-container > a:first-child {
     grid-column: 1 / span 1;
-
   }
 }
 
@@ -141,14 +136,14 @@
 .blog-content-bottom {
   display: flex;
   align-items: center;
-  gap: 20px
+  gap: 20px;
 }
 
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px
+  gap: 5px;
 }
 
 .circle {
