@@ -16,6 +16,7 @@ import { FiPlay } from "react-icons/fi";
 import { BsCheckCircle } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
 import { TASK_SET_SELECTED_TASK } from "../../redux/task/task.types";
+import { FaPause } from "react-icons/fa";
 
 const TaskList = ({ onOpen, list }) => {
   const dispatch = useDispatch();
@@ -50,7 +51,13 @@ const TaskList = ({ onOpen, list }) => {
                       variant="outline"
                       rounded="xl"
                       border="none"
-                      icon={<BsCheckCircle />}
+                      icon={
+                        t.status === "Completed" ? (
+                          <BsCheckCircle fill="#17c22e" />
+                        ) : (
+                          <BsCheckCircle />
+                        )
+                      }
                     />
                     <Input
                       readOnly
@@ -69,7 +76,7 @@ const TaskList = ({ onOpen, list }) => {
                         variant="outline"
                         rounded="xl"
                         border="none"
-                        icon={<FiPlay />}
+                        icon={t.status === "Running" ? <FaPause fill="red" /> : <FiPlay />}
                       />
                     </HStack>
                   </HStack>
