@@ -84,7 +84,7 @@ function HomePage() {
         </Flex>
       </Box>
 
-      <Stack direction="row" justifyContent={"center"} gap={50} py={30} wrap="wrap">
+      <Stack direction="row" justifyContent={"center"} gap={50} px="4" py={30} wrap="wrap">
         <Image
           boxSize="120px"
           objectFit="cover"
@@ -194,7 +194,7 @@ function HomePage() {
 
       <Box bg="#f6f7f8" w="100%" p={10}>
         <Flex justify={"center"} direction={{ base: "column", md: "row" }}>
-          <Box w={{ base: "100%", md: "40%" }} h={450}>
+          <Box w={{ base: "100%", md: "40%" }}>
             <Text fontSize={48}>
               <b>Manage your team effectively</b>
             </Text>
@@ -220,7 +220,7 @@ function HomePage() {
               Start Free Trial
             </Button>
           </Box>
-          <Box w={{ base: "100%", md: "50%" }} h={450}>
+          <Box w={{ base: "100%", md: "50%" }}>
             <Image
               mt={70}
               src="https://tmetric.com/media/upkh02nn/img-activity-cases.svg"
@@ -232,14 +232,14 @@ function HomePage() {
 
       <Box bg="white" w="100%" p={10}>
         <Flex gap="10" justify={"space-around"} direction={{ base: "column-reverse", md: "row" }}>
-          <Box w={{ base: "100%", md: "50%" }} h={450}>
+          <Box w={{ base: "100%", md: "50%" }}>
             <Image
               src="https://tmetric.com/media/hx0j4hno/img-report-cases-svg.svg"
               alt="ManageImg"
               w="100%"
             />
           </Box>
-          <Box w={{ base: "100%", md: "40%" }} h={450}>
+          <Box w={{ base: "100%", md: "40%" }}>
             <Text fontSize={48}>
               <b>Ensure the profitability of your business</b>
             </Text>
@@ -268,7 +268,7 @@ function HomePage() {
 
       <Box bg="#f6f7f8" w="100%" p={10}>
         <Flex justify={"space-around"} direction={{ base: "column", md: "row" }}>
-          <Box w={{ base: "100%", md: "50%" }} h={450}>
+          <Box w={{ base: "100%", md: "40%" }}>
             <Text fontSize={48}>
               <b>Monitor attendance and time-off requests</b>
             </Text>
@@ -291,7 +291,7 @@ function HomePage() {
               Start Free Trial
             </Button>
           </Box>
-          <Box w={{ base: "100%", md: "50%" }} h={450}>
+          <Box w={{ base: "100%", md: "50%" }}>
             <Image
               w={800}
               height={500}

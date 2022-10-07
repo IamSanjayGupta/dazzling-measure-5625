@@ -15,19 +15,16 @@ import { FaFirefox, FaOpera, FaEdgeLegacy, FaSafari } from "react-icons/fa";
 function Fotter() {
   return (
     <div>
-      <Box p={20} bg={"#E2E7EB"} display={"flex"} justifyContent={"center"}>
-        {/* <HStack spacing='24px'> */}
-
-        <Box w="300px" p={5}>
+      <Box px="5" py={20} bg={"#E2E7EB"} display={"flex"} justifyContent={"space-evenly"}>
+        <Box>
           <Image
-            w="400px"
             height={65}
             src="https://tmetric.com/images/tmetric_logo_with_text.svg"
             alt="logo1"
           />
         </Box>
 
-        <Box w="250px">
+        <Box>
           <Text>
             <b>Applications</b>
           </Text>
@@ -45,7 +42,7 @@ function Fotter() {
           </Flex>
         </Box>
 
-        <Box w="250px">
+        <Box>
           <Text>
             <b>Browser Extensions</b>
           </Text>
@@ -71,7 +68,7 @@ function Fotter() {
           </Flex>
         </Box>
 
-        <Box w="250px">
+        <Box>
           <Text>
             <b>Resources</b>
           </Text>
@@ -92,7 +89,7 @@ function Fotter() {
           </Text>
         </Box>
 
-        <Box w="250px">
+        <Box>
           <Text>
             <b>About</b>
           </Text>
@@ -109,7 +106,6 @@ function Fotter() {
             Cookies Policy
           </Text>
         </Box>
-        {/* </HStack> */}
       </Box>
 
       <Box p={5} bg={"#E2E7EB"}>
