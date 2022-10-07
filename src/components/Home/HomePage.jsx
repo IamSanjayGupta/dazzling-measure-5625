@@ -231,7 +231,7 @@ function HomePage() {
       </Box>
 
       <Box bg="white" w="100%" p={10}>
-        <Flex gap="10" justify={"space-around"} direction={{ base: "column-reverse", md: "row" }}>
+        <Flex justify={"space-around"} direction={{ base: "column-reverse", md: "row" }}>
           <Box w={{ base: "100%", md: "50%" }}>
             <Image
               src="https://tmetric.com/media/hx0j4hno/img-report-cases-svg.svg"
@@ -267,7 +267,7 @@ function HomePage() {
       </Box>
 
       <Box bg="#f6f7f8" w="100%" p={10}>
-        <Flex justify={"space-around"} direction={{ base: "column", md: "row" }}>
+        <Flex justify={"center"} direction={{ base: "column", md: "row" }}>
           <Box w={{ base: "100%", md: "40%" }}>
             <Text fontSize={48}>
               <b>Monitor attendance and time-off requests</b>
