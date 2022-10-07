@@ -80,7 +80,7 @@ function Navbar() {
                         textAlign={'center'}
                         margin={'auto'}
                         padding={"1rem 1rem 1rem 1rem"}>
-                        Subscribe
+                       Subscribe
                     </Button>
                     <Modal
                         initialFocusRef={initialRef}
