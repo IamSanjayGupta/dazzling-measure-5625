@@ -22,7 +22,10 @@ function Signup() {
   const toast = useToast();
   async function signInAPI(data) {
     try {
-      let response = await axios.post("https://authenticator-ven.herokuapp.com/users/signup", data);
+      let response = await axios.post(
+        `${process.env.REACT_APP_TMETRIC_APP_API}/users/signup`,
+        data
+      );
       toast({
         position: "top-right",
         title: `Signup Successfull`,
@@ -30,9 +33,7 @@ function Signup() {
         status: "success",
         isClosable: true,
       });
-      setTimeout(() => {
-        navigate("/login");
-      }, 2000);
+      setTimeout(() => navigate("/login"), 2000);
     } catch (error) {
       toast({
         position: "top-right",

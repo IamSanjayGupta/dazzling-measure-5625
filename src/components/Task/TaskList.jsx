@@ -32,7 +32,7 @@ const TaskList = ({ onOpen, list }) => {
           <AccordionItem key={el[0]}>
             <AccordionButton>
               <AccordionIcon />
-              <Box ml="2">{el[0] == "" ? "No Project" : el[0]}</Box>
+              <Box ml="2">{el[0] == "" ? "Unknown" : el[0]}</Box>
             </AccordionButton>
             <AccordionPanel p="0">
               {el[1].map((t) => {
