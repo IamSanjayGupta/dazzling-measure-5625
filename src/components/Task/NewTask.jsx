@@ -163,6 +163,7 @@ const NewTask = ({ onClose }) => {
             onChange={handleInput}
           >
             <option value="Sanjay">Sanjay</option>
+            <option value="Sanjay">Vrushali</option>
             <option value="Vaibhav">Vaibhav</option>
             <option value="Summaiya">Summaiya</option>
             <option value="Venketesh">Venketesh</option>

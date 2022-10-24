@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const loginAPI = (data) => async (dispatch) => {
   try {
-    let response = await axios.post("https://authenticator-ven.herokuapp.com/users/login", data);
+    let response = await axios.post(`${process.env.REACT_APP_TMETRIC_APP_API}/users/login`, data);
     dispatch({
       type: AUTH_LOG_IN_SUCCESS,
       payload: response.data.token,
