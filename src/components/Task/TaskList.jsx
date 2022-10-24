@@ -21,7 +21,7 @@ import { FaPause } from "react-icons/fa";
 const TaskList = ({ onOpen, list }) => {
   const dispatch = useDispatch();
   const handleTaskClick = (task) => {
-    if (!task.id) return;
+    if (!task._id) return;
     dispatch({ type: TASK_SET_SELECTED_TASK, payload: task });
     onOpen();
   };

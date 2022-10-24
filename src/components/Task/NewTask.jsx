@@ -62,14 +62,14 @@ const NewTask = ({ onClose }) => {
   };
 
   const handleDelete = () => {
-    dispatch(deleteTaskAPI(newTask.id));
+    dispatch(deleteTaskAPI(newTask._id));
     onClose();
   };
 
   useEffect(() => {
     timerid && clearTimeout(timerid);
     timerid = setTimeout(() => {
-      dispatch(updateTaskAPI(newTask.id, newTask));
+      dispatch(updateTaskAPI(newTask._id, newTask));
     }, 1000);
   }, [newTask]);
 

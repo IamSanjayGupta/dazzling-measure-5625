@@ -17,14 +17,22 @@ import {
   UnorderedList,
   VStack,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import { FaEnvelope } from "react-icons/fa";
 import Fotter from "./Fotter";
 import { Showhide } from "./Showhide";
 import Navbar2 from "./Navbar2";
+import { useDispatch } from "react-redux";
+import { initEndPoint } from "../../redux/task/task.action";
 
 function HomePage() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(initEndPoint());
+  }, []);
+
   const [img, setimg] = useState("https://tmetric.com/media/e5enfaae/img-advantages.png");
   return (
     <div>

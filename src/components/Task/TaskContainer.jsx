@@ -17,7 +17,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addTaskAPI, getTasksAPI } from "../../redux/task/task.action";
 
 const initTask = {
-  id: "",
+  // id: "",
   title: "",
   status: "InComplete",
   project: "",
@@ -76,7 +76,7 @@ const TaskContainer = () => {
   }, []);
 
   useEffect(() => {
-    if (!tasks.length) return;
+    // if (!tasks.length) return;
     let newTaskList = {};
     tasks?.forEach((el) => {
       !newTaskList[el[sortBy]]
@@ -88,7 +88,7 @@ const TaskContainer = () => {
 
   const handleChange = (e) => setSortBy(e);
 
-  const addTask = () => dispatch(addTaskAPI({ ...initTask, id: Date.now() }));
+  const addTask = () => dispatch(addTaskAPI({ ...initTask }));
 
   return (
     <Box width="100%" height="78vh" border="1px solid #C1C1C1" rounded="md" p="4">
