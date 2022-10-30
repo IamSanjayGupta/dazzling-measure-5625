@@ -45,3 +45,29 @@ https://tmetric-beta.vercel.app/
 - 👤 [Summaiya Begum](https://github.com/Summaiya-Begum)
 - 👤 [Vaibhav kaware](https://github.com/vkaware)
 
+## Screenshots  📸
+
+
+#### Homepage
+
+<img src="https://raw.githubusercontent.com/IamSanjayGupta/IamSanjayGupta.github.io/main/src/assets/tmetric/1.png" alt="homepage" />
+
+
+#### Blog
+
+<img src="https://raw.githubusercontent.com/IamSanjayGupta/IamSanjayGupta.github.io/main/src/assets/tmetric/2.png" alt="blogs" />
+
+
+#### Signup/Login
+
+<img src="https://raw.githubusercontent.com/IamSanjayGupta/IamSanjayGupta.github.io/main/src/assets/tmetric/3.png" alt="signup" />
+
+
+#### task 
+
+<img src="https://raw.githubusercontent.com/IamSanjayGupta/IamSanjayGupta.github.io/main/src/assets/tmetric/4.png" alt="task1" />
+
+<img src="https://raw.githubusercontent.com/IamSanjayGupta/IamSanjayGupta.github.io/main/src/assets/tmetric/5.png" alt="task2" />
+
+
+
