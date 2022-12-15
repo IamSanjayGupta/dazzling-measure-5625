@@ -16,7 +16,7 @@ function BlogHome() {
     <div className="blog-content-container">
       {content.map((el) => (
         <Link to={`/blog/${el.id}`} style={{ textDecoration: "none" }}>
-          <div className="blog-container" key={el.id}>
+          <div className="blog-container" key={el.id} style={{padding:'1rem'}}>
 
             <div className="image-wrap-content">
               <img src={el.imgUrl} alt="img" />
