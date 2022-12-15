@@ -1,27 +1,29 @@
 
 #  [Tmetric CLONE](https://tmetric-beta.vercel.app/) (dazzling-measure-5625)
  
- ## Description
-  TMetric is time tracking software operated by TMetric team, that offers time tracking service for freelancers and small business owners who want to optimize their business processes and increase personal productivity
+ ## Description  📃
+  TMetric is time tracking software, that offers time tracking service for freelancers and small business owners who want to optimize their business processes and increase personal productivity
    
  ## Tools 💻
 - React,
 - Redux,
 - JavaScript
-- Chakra UI...
+- Chakra UI,
+- express,
+- mongodb...
 
 ## Features ✨
 
 - Authentication process with API.
-- Passwords are stored in encryted format with advance AES encrytion technology.
 - Cool Navigation bar and Footer.
-- Option to search the Job
-- Search by populer search tags
-- Option to apply filter on search job
-- Option to delete account from settings
+- Blog option
+- Create task and start tracking immediately
+- Delete and mark complete/incomplete task immediately
+- Option to apply sorting via many categories.
+- Track history of changes
 - Responsive website for mobile devices
 
-## Link 
+## Link  🔗
 https://tmetric-beta.vercel.app/
 
 ## How to run locally ?
@@ -38,4 +40,8 @@ https://tmetric-beta.vercel.app/
 ## Contributor  😇
 
 - 👤 [Sanjay Gupta](https://github.com/IamSanjayGupta)
+- 👤 [Venketesh Rushi](https://github.com/VenketeshRushi)
+- 👤 [Vrushali Kajave](https://github.com/vrushalikajave)
+- 👤 [Summaiya Begum](https://github.com/Summaiya-Begum)
+- 👤 [Vaibhav kaware](https://github.com/vkaware)
 

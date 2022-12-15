@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function GuestPost() {
-  return (
-    <div>
-      GuestPost
-    </div>
-  )
+  return <div>GuestPost</div>;
 }
 
-export default GuestPost
+export default GuestPost;

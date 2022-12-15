@@ -8,36 +8,31 @@ import newsData from "../new.json"
 import { v4 as uuid } from "uuid"
 import './search.css'
 function Search() {
-  const { articles } = newsData
-  // console.log(articles)
-  const [text, setText] = useState("")
+  const { articles } = newsData;
+  const [text, setText] = useState("");
   const [data, setData] = useState([]);
-  const [visibility, setVisibility] = useState(false)
+  const [visibility, setVisibility] = useState(false);
   const handleSearch = () => {
     let updatedData = [];
     let updatedText = text.toLowerCase().trim();
     for (let element of articles) {
-      if (updatedText !== "" &&
-        (
-          (element.author && element.author.toLowerCase().includes(updatedText)) ||
-          (element.source.name &&
-            element.source.name.toLowerCase().includes(updatedText)) ||
+      if (
+        updatedText !== "" &&
+        ((element.author && element.author.toLowerCase().includes(updatedText)) ||
+          (element.source.name && element.source.name.toLowerCase().includes(updatedText)) ||
           (element.title && element.title.toLowerCase().includes(updatedText)) ||
-          (element.description &&
-            element.description.toLowerCase().includes(updatedText)) ||
-          (element.content && element.content.toLowerCase().includes(updatedText))
-        )
+          (element.description && element.description.toLowerCase().includes(updatedText)) ||
+          (element.content && element.content.toLowerCase().includes(updatedText)))
       ) {
         updatedData = [...updatedData, element];
       }
     }
     setData(updatedData);
-    setVisibility(true)
+    setVisibility(true);
   };
   const SearchResult = () => {
     console.log(data);
     if (data.length !== 0) {
-
       return (
         <Box >
          <Heading className='news-results'>Results</Heading>
@@ -51,20 +46,16 @@ function Search() {
             )
           })}</Box>
         </Box>
-
-      )
+      );
     } else {
       return (
         <Box>
           <Heading>Result</Heading>
-          <Box>
-            No Result Found
-          </Box>
+          <Box>No Result Found</Box>
         </Box>
-      )
-
+      );
     }
-  }
+  };
   return (
     <div>
       <BlogSearchNav />
@@ -94,12 +85,12 @@ function Search() {
           <Box>
             <Box
               paddingBottom={20}
-              display={'flex'}
+              display={"flex"}
               gap={5}
-              margin={'auto'}
+              margin={"auto"}
               width="80%"
-              m='auto'
-              justifyContent={'center'}
+              m="auto"
+              justifyContent={"center"}
             >
               <input
                 value={text}
@@ -114,18 +105,14 @@ function Search() {
                 Search
               </button>
             </Box>
-            <Box>
-              {
-                visibility && <SearchResult />
-              }
-            </Box>
+            <Box>{visibility && <SearchResult />}</Box>
           </Box>
         </Box>
       </Box>
       <Footer />
       <ArrowUp />
     </div>
-  )
+  );
 }
 
-export default Search
+export default Search;
